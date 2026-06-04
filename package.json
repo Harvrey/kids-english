@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "e2e": "playwright test",
     "validate-content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.0",
     "@types/node": "^22.7.0",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
