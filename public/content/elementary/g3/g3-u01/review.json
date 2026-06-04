@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "g3-u01-review",
+  "unitId": "g3-u01",
+  "kind": "review",
+  "title": "微風星 · 單元複習",
+  "passThreshold": 0.7,
+  "items": [
+    {
+      "type": "mcq", "id": "r1", "skill": "reading", "phase": "check", "points": 10,
+      "prompt": "看到朋友時說？",
+      "options": [ { "id": "a", "text": "Hello" }, { "id": "b", "text": "Goodbye" } ], "answerId": "a"
+    },
+    {
+      "type": "listen-choose", "id": "r2", "skill": "listening", "phase": "check", "points": 10,
+      "audioText": "happy", "promptZh": "（聽英文選表情）",
+      "options": [ { "id": "a", "emoji": "😊" }, { "id": "b", "emoji": "😢" }, { "id": "c", "emoji": "😴" } ], "answerId": "a"
+    },
+    {
+      "type": "matching", "id": "r3", "skill": "reading", "phase": "check", "points": 15,
+      "promptZh": "配對",
+      "pairs": [
+        { "id": "p1", "left": { "text": "thank you" }, "right": { "text": "謝謝" } },
+        { "id": "p2", "left": { "text": "name" }, "right": { "text": "名字" } },
+        { "id": "p3", "left": { "text": "blue" }, "right": { "emoji": "🔵" } }
+      ]
+    },
+    {
+      "type": "ordering", "id": "r4", "skill": "reading", "phase": "check", "points": 15,
+      "promptZh": "排出：你叫什麼名字？", "tokens": ["What's", "your", "name"]
+    },
+    {
+      "type": "listen-choose", "id": "r5", "skill": "listening", "phase": "check", "points": 10,
+      "audioText": "five", "promptZh": "（聽英文選數字）",
+      "options": [ { "id": "a", "emoji": "3️⃣" }, { "id": "b", "emoji": "5️⃣" }, { "id": "c", "emoji": "1️⃣" } ], "answerId": "b"
+    },
+    {
+      "type": "mcq", "id": "r6", "skill": "reading", "phase": "check", "points": 10,
+      "prompt": "🟡 的英文是？",
+      "options": [ { "id": "a", "text": "red" }, { "id": "b", "text": "yellow" }, { "id": "c", "text": "green" } ], "answerId": "b"
+    },
+    {
+      "type": "spelling", "id": "r7", "skill": "writing", "phase": "check", "points": 15,
+      "word": "happy", "zh": "開心的", "emoji": "😊", "mode": "tiles"
+    },
+    {
+      "type": "fill-in", "id": "r8", "skill": "writing", "phase": "check", "points": 10,
+      "prompt": "___! I'm Tom.", "promptZh": "填招呼語", "acceptableAnswers": ["Hello", "Hi"], "wordBank": ["Hello", "Sorry", "Five"]
+    }
+  ]
+}

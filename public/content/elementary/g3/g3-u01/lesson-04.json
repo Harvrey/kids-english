@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "g3-u01-l04",
+  "unitId": "g3-u01",
+  "title": "數一數 Numbers",
+  "titleEn": "Numbers 1–10",
+  "grade": 3,
+  "stage": "階段Ⅱ",
+  "cefr": "A1",
+  "ageTier": "mid",
+  "estMinutes": 30,
+  "phonicsFocus": "letter sound: t /t/",
+  "softSkillFocus": "數量概念",
+  "curriculumCodes": ["1-Ⅱ-4", "2-Ⅱ-4", "Ac-Ⅱ-3"],
+  "objectives": ["能聽辨並說出 1–10", "能數出物品數量"],
+  "vocabulary": [
+    { "word": "one", "zh": "一", "kind": "productive", "emoji": "1️⃣" },
+    { "word": "two", "zh": "二", "kind": "productive", "emoji": "2️⃣" },
+    { "word": "three", "zh": "三", "kind": "productive", "emoji": "3️⃣" },
+    { "word": "four", "zh": "四", "kind": "productive", "emoji": "4️⃣" },
+    { "word": "five", "zh": "五", "kind": "productive", "emoji": "5️⃣" },
+    { "word": "ten", "zh": "十", "kind": "receptive", "emoji": "🔟" }
+  ],
+  "sentences": [
+    { "text": "How many?", "zh": "有幾個？" },
+    { "text": "I have three apples.", "zh": "我有三顆蘋果。" },
+    { "text": "One, two, three!", "zh": "一、二、三！" }
+  ],
+  "teaching": [
+    { "kind": "vocab", "vocab": { "word": "one", "zh": "一", "kind": "productive", "emoji": "1️⃣" } },
+    { "kind": "vocab", "vocab": { "word": "two", "zh": "二", "kind": "productive", "emoji": "2️⃣" } },
+    { "kind": "vocab", "vocab": { "word": "three", "zh": "三", "kind": "productive", "emoji": "3️⃣" } },
+    { "kind": "vocab", "vocab": { "word": "four", "zh": "四", "kind": "productive", "emoji": "4️⃣" } },
+    { "kind": "vocab", "vocab": { "word": "five", "zh": "五", "kind": "productive", "emoji": "5️⃣" } },
+    { "kind": "sentence", "sentence": { "text": "How many apples? Three!", "zh": "幾顆蘋果？三顆！" } },
+    { "kind": "phonics", "focus": "t /t/", "grapheme": "t", "sound": "/t/", "examples": ["two", "ten", "top", "ten"] }
+  ],
+  "exercises": [
+    {
+      "type": "listen-choose", "id": "l04-g1", "skill": "listening", "phase": "guided", "points": 10,
+      "hintLevel": "full", "audioText": "three", "promptZh": "聽 three，選對的數字",
+      "options": [ { "id": "a", "emoji": "2️⃣" }, { "id": "b", "emoji": "3️⃣" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "matching", "id": "l04-g2", "skill": "reading", "phase": "guided", "points": 15,
+      "hintLevel": "full", "promptZh": "把英文和數字配對",
+      "pairs": [
+        { "id": "p1", "left": { "text": "one", "audioText": "one" }, "right": { "emoji": "1️⃣" } },
+        { "id": "p2", "left": { "text": "four", "audioText": "four" }, "right": { "emoji": "4️⃣" } },
+        { "id": "p3", "left": { "text": "five", "audioText": "five" }, "right": { "emoji": "5️⃣" } }
+      ]
+    },
+    {
+      "type": "mcq", "id": "l04-i1", "skill": "reading", "phase": "independent", "points": 10,
+      "prompt": "5️⃣ 的英文是？",
+      "options": [ { "id": "a", "text": "four" }, { "id": "b", "text": "five" }, { "id": "c", "text": "nine" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "speak", "id": "l04-i2", "skill": "speaking", "phase": "independent", "points": 5,
+      "target": "One, two, three, four, five!", "zh": "一、二、三、四、五！", "mode": "repeat-required"
+    },
+    {
+      "type": "listen-choose", "id": "l04-c1", "skill": "listening", "phase": "check", "points": 10,
+      "audioText": "four", "promptZh": "（聽英文選數字）",
+      "options": [ { "id": "a", "emoji": "2️⃣" }, { "id": "b", "emoji": "4️⃣" }, { "id": "c", "emoji": "5️⃣" }, { "id": "d", "emoji": "1️⃣" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq", "id": "l04-c2", "skill": "reading", "phase": "check", "points": 10,
+      "prompt": "🔟 的英文是？",
+      "options": [ { "id": "a", "text": "ten" }, { "id": "b", "text": "two" }, { "id": "c", "text": "three" } ],
+      "answerId": "a"
+    },
+    {
+      "type": "spelling", "id": "l04-c3", "skill": "writing", "phase": "check", "points": 15,
+      "word": "five", "zh": "五", "emoji": "5️⃣", "mode": "tiles"
+    }
+  ]
+}

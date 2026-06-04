@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "g3-u01-l03",
+  "unitId": "g3-u01",
+  "title": "你好嗎？ Feelings",
+  "titleEn": "How are you?",
+  "grade": 3,
+  "stage": "階段Ⅱ",
+  "cefr": "A1",
+  "ageTier": "mid",
+  "estMinutes": 30,
+  "phonicsFocus": "letter sound: f /f/",
+  "softSkillFocus": "表達情緒",
+  "curriculumCodes": ["1-Ⅱ-3", "2-Ⅱ-3", "Ac-Ⅱ-2"],
+  "objectives": ["能聽辨情緒單字", "能用 I'm ... 表達心情"],
+  "vocabulary": [
+    { "word": "happy", "zh": "開心的", "kind": "productive", "emoji": "😊", "example": "I'm happy." },
+    { "word": "sad", "zh": "難過的", "kind": "productive", "emoji": "😢", "example": "He is sad." },
+    { "word": "fine", "zh": "很好", "kind": "productive", "emoji": "🙂", "example": "I'm fine, thank you." },
+    { "word": "tired", "zh": "累的", "kind": "receptive", "emoji": "😴", "example": "I'm tired." },
+    { "word": "angry", "zh": "生氣的", "kind": "receptive", "emoji": "😠", "example": "Don't be angry." }
+  ],
+  "sentences": [
+    { "text": "How are you?", "zh": "你好嗎？" },
+    { "text": "I'm fine, thank you.", "zh": "我很好，謝謝。" },
+    { "text": "I'm happy!", "zh": "我很開心！" }
+  ],
+  "teaching": [
+    { "kind": "vocab", "vocab": { "word": "happy", "zh": "開心的", "kind": "productive", "emoji": "😊" } },
+    { "kind": "vocab", "vocab": { "word": "sad", "zh": "難過的", "kind": "productive", "emoji": "😢" } },
+    { "kind": "vocab", "vocab": { "word": "fine", "zh": "很好", "kind": "productive", "emoji": "🙂" } },
+    { "kind": "vocab", "vocab": { "word": "tired", "zh": "累的", "kind": "receptive", "emoji": "😴" } },
+    { "kind": "sentence", "sentence": { "text": "How are you? I'm happy!", "zh": "你好嗎？我很開心！" } },
+    { "kind": "phonics", "focus": "f /f/", "grapheme": "f", "sound": "/f/", "examples": ["fine", "fish", "fun", "five"] }
+  ],
+  "exercises": [
+    {
+      "type": "listen-choose", "id": "l03-g1", "skill": "listening", "phase": "guided", "points": 10,
+      "hintLevel": "full", "audioText": "happy", "promptZh": "聽 happy，選出對的表情",
+      "options": [ { "id": "a", "emoji": "😊" }, { "id": "b", "emoji": "😢" } ],
+      "answerId": "a"
+    },
+    {
+      "type": "matching", "id": "l03-g2", "skill": "reading", "phase": "guided", "points": 15,
+      "hintLevel": "full", "promptZh": "把單字和表情配對",
+      "pairs": [
+        { "id": "p1", "left": { "text": "happy", "audioText": "happy" }, "right": { "emoji": "😊" } },
+        { "id": "p2", "left": { "text": "sad", "audioText": "sad" }, "right": { "emoji": "😢" } },
+        { "id": "p3", "left": { "text": "tired", "audioText": "tired" }, "right": { "emoji": "😴" } }
+      ]
+    },
+    {
+      "type": "listen-choose", "id": "l03-i1", "skill": "listening", "phase": "independent", "points": 10,
+      "audioText": "sad", "promptZh": "聽 sad，選出對的表情",
+      "options": [ { "id": "a", "emoji": "😊" }, { "id": "b", "emoji": "😢" }, { "id": "c", "emoji": "😠" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "speak", "id": "l03-i2", "skill": "speaking", "phase": "independent", "points": 5,
+      "target": "How are you? I'm fine, thank you!", "zh": "你好嗎？我很好，謝謝！", "mode": "repeat-required"
+    },
+    {
+      "type": "listen-choose", "id": "l03-c1", "skill": "listening", "phase": "check", "points": 10,
+      "audioText": "tired", "promptZh": "（聽英文選表情）",
+      "options": [ { "id": "a", "emoji": "😊" }, { "id": "b", "emoji": "😴" }, { "id": "c", "emoji": "😢" }, { "id": "d", "emoji": "😠" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq", "id": "l03-c2", "skill": "reading", "phase": "check", "points": 10,
+      "prompt": "😊 的英文是？",
+      "options": [ { "id": "a", "text": "sad" }, { "id": "b", "text": "happy" }, { "id": "c", "text": "tired" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "spelling", "id": "l03-c3", "skill": "writing", "phase": "check", "points": 15,
+      "word": "happy", "zh": "開心的", "emoji": "😊", "mode": "tiles"
+    }
+  ]
+}

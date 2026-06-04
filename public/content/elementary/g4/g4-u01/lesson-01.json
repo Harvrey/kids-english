@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "g4-u01-l01",
+  "unitId": "g4-u01",
+  "title": "我的一天 My Day（示範）",
+  "titleEn": "My Day",
+  "grade": 4,
+  "stage": "階段Ⅱ",
+  "cefr": "A1",
+  "ageTier": "mid",
+  "estMinutes": 30,
+  "phonicsFocus": "short a /æ/ (CVC)",
+  "softSkillFocus": "作息與時間",
+  "curriculumCodes": ["2-Ⅱ-6", "Ad-Ⅱ-1"],
+  "objectives": ["能說出每日作息動作", "能用 I ... every day 造句"],
+  "vocabulary": [
+    { "word": "eat", "zh": "吃", "kind": "productive", "emoji": "🍽️", "example": "I eat breakfast." },
+    { "word": "sleep", "zh": "睡覺", "kind": "productive", "emoji": "😴", "example": "I sleep at night." },
+    { "word": "play", "zh": "玩", "kind": "productive", "emoji": "⚽", "example": "I play with friends." }
+  ],
+  "sentences": [
+    { "text": "I eat breakfast.", "zh": "我吃早餐。" },
+    { "text": "I play every day.", "zh": "我每天玩。" }
+  ],
+  "teaching": [
+    { "kind": "vocab", "vocab": { "word": "eat", "zh": "吃", "kind": "productive", "emoji": "🍽️" } },
+    { "kind": "vocab", "vocab": { "word": "sleep", "zh": "睡覺", "kind": "productive", "emoji": "😴" } },
+    { "kind": "vocab", "vocab": { "word": "play", "zh": "玩", "kind": "productive", "emoji": "⚽" } }
+  ],
+  "exercises": [
+    {
+      "type": "listen-choose", "id": "g4l01-g1", "skill": "listening", "phase": "guided", "points": 10,
+      "hintLevel": "full", "audioText": "eat", "promptZh": "聽 eat，選對的圖",
+      "options": [ { "id": "a", "emoji": "🍽️" }, { "id": "b", "emoji": "😴" } ], "answerId": "a"
+    },
+    {
+      "type": "mcq", "id": "g4l01-c1", "skill": "reading", "phase": "check", "points": 10,
+      "prompt": "⚽ 的英文是？",
+      "options": [ { "id": "a", "text": "eat" }, { "id": "b", "text": "play" }, { "id": "c", "text": "sleep" } ], "answerId": "b"
+    },
+    {
+      "type": "spelling", "id": "g4l01-c2", "skill": "writing", "phase": "check", "points": 15,
+      "word": "eat", "zh": "吃", "emoji": "🍽️", "mode": "tiles"
+    }
+  ]
+}

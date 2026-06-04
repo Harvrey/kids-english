@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "g3-u01-l02",
+  "unitId": "g3-u01",
+  "title": "你叫什麼名字？ Names",
+  "titleEn": "What's your name?",
+  "grade": 3,
+  "stage": "階段Ⅱ",
+  "cefr": "A1",
+  "ageTier": "mid",
+  "estMinutes": 30,
+  "phonicsFocus": "letter sound: n /n/",
+  "softSkillFocus": "認識新朋友",
+  "curriculumCodes": ["2-Ⅱ-2", "3-Ⅱ-1", "Ac-Ⅱ-1"],
+  "objectives": ["能詢問與回答名字", "能用 Nice to meet you 回應"],
+  "vocabulary": [
+    { "word": "name", "zh": "名字", "kind": "productive", "emoji": "🏷️", "example": "My name is Amy." },
+    { "word": "friend", "zh": "朋友", "kind": "productive", "emoji": "🧑‍🤝‍🧑", "example": "He is my friend." },
+    { "word": "nice", "zh": "很好的", "kind": "receptive", "emoji": "😊", "example": "Nice to meet you." },
+    { "word": "my", "zh": "我的", "kind": "receptive", "emoji": "🙋", "example": "My name is Tom." },
+    { "word": "your", "zh": "你的", "kind": "receptive", "emoji": "👉", "example": "What's your name?" }
+  ],
+  "sentences": [
+    { "text": "What's your name?", "zh": "你叫什麼名字？" },
+    { "text": "I'm Tom. / My name is Tom.", "zh": "我是湯姆。" },
+    { "text": "Nice to meet you.", "zh": "很高興認識你。" }
+  ],
+  "teaching": [
+    { "kind": "vocab", "vocab": { "word": "name", "zh": "名字", "kind": "productive", "emoji": "🏷️" } },
+    { "kind": "vocab", "vocab": { "word": "friend", "zh": "朋友", "kind": "productive", "emoji": "🧑‍🤝‍🧑" } },
+    { "kind": "vocab", "vocab": { "word": "nice", "zh": "很好的", "kind": "receptive", "emoji": "😊" } },
+    { "kind": "dialogue", "lines": [
+      { "speaker": "Amy", "text": "Hello! What's your name?", "zh": "哈囉！你叫什麼名字？" },
+      { "speaker": "Tom", "text": "Hi! I'm Tom.", "zh": "嗨！我是湯姆。" },
+      { "speaker": "Amy", "text": "Nice to meet you, Tom!", "zh": "很高興認識你，湯姆！" }
+    ] },
+    { "kind": "phonics", "focus": "n /n/", "grapheme": "n", "sound": "/n/", "examples": ["name", "nice", "net", "nine"] }
+  ],
+  "exercises": [
+    {
+      "type": "mcq", "id": "l02-g1", "skill": "reading", "phase": "guided", "points": 10,
+      "hintLevel": "full", "prompt": "What's your ___?", "promptZh": "問名字的句子",
+      "options": [ { "id": "a", "text": "name 🏷️" }, { "id": "b", "text": "friend 🧑‍🤝‍🧑" } ],
+      "answerId": "a"
+    },
+    {
+      "type": "fill-in", "id": "l02-g2", "skill": "writing", "phase": "guided", "points": 10,
+      "hintLevel": "full", "prompt": "I'm ___. (填你的名字或 Tom)", "promptZh": "回答你的名字",
+      "acceptableAnswers": ["Tom"], "wordBank": ["Tom", "name", "you"]
+    },
+    {
+      "type": "ordering", "id": "l02-i1", "skill": "reading", "phase": "independent", "points": 15,
+      "promptZh": "把句子排好：很高興認識你", "tokens": ["Nice", "to", "meet", "you"], "audioText": "Nice to meet you"
+    },
+    {
+      "type": "speak", "id": "l02-i2", "skill": "speaking", "phase": "independent", "points": 5,
+      "target": "Hello! I'm a star traveler. Nice to meet you!", "zh": "哈囉！我是星航員。很高興認識你！", "mode": "repeat-required"
+    },
+    {
+      "type": "mcq", "id": "l02-c1", "skill": "listening", "phase": "check", "points": 10,
+      "prompt": "聽聽看，對方在問什麼？", "audioText": "What's your name?", "promptZh": "（聽英文選答案）",
+      "options": [ { "id": "a", "text": "你幾歲？" }, { "id": "b", "text": "你叫什麼名字？" }, { "id": "c", "text": "你好嗎？" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "ordering", "id": "l02-c2", "skill": "reading", "phase": "check", "points": 15,
+      "promptZh": "排出：你叫什麼名字？", "tokens": ["What's", "your", "name"]
+    },
+    {
+      "type": "spelling", "id": "l02-c3", "skill": "writing", "phase": "check", "points": 15,
+      "word": "name", "zh": "名字", "emoji": "🏷️", "mode": "tiles"
+    }
+  ]
+}

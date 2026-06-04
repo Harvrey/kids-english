@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "g3-u01-l05",
+  "unitId": "g3-u01",
+  "title": "繽紛顏色 Colors",
+  "titleEn": "Colors",
+  "grade": 3,
+  "stage": "階段Ⅱ",
+  "cefr": "A1",
+  "ageTier": "mid",
+  "estMinutes": 30,
+  "phonicsFocus": "letter sound: b /b/",
+  "softSkillFocus": "表達喜好",
+  "curriculumCodes": ["1-Ⅱ-5", "2-Ⅱ-5", "Ac-Ⅱ-4"],
+  "objectives": ["能聽辨並說出常見顏色", "能用 I like ... 表達喜好"],
+  "vocabulary": [
+    { "word": "red", "zh": "紅色", "kind": "productive", "emoji": "🔴" },
+    { "word": "blue", "zh": "藍色", "kind": "productive", "emoji": "🔵" },
+    { "word": "yellow", "zh": "黃色", "kind": "productive", "emoji": "🟡" },
+    { "word": "green", "zh": "綠色", "kind": "productive", "emoji": "🟢" },
+    { "word": "purple", "zh": "紫色", "kind": "receptive", "emoji": "🟣" }
+  ],
+  "sentences": [
+    { "text": "What color is it?", "zh": "這是什麼顏色？" },
+    { "text": "It's red.", "zh": "它是紅色的。" },
+    { "text": "I like blue.", "zh": "我喜歡藍色。" }
+  ],
+  "teaching": [
+    { "kind": "vocab", "vocab": { "word": "red", "zh": "紅色", "kind": "productive", "emoji": "🔴" } },
+    { "kind": "vocab", "vocab": { "word": "blue", "zh": "藍色", "kind": "productive", "emoji": "🔵" } },
+    { "kind": "vocab", "vocab": { "word": "yellow", "zh": "黃色", "kind": "productive", "emoji": "🟡" } },
+    { "kind": "vocab", "vocab": { "word": "green", "zh": "綠色", "kind": "productive", "emoji": "🟢" } },
+    { "kind": "sentence", "sentence": { "text": "What color is it? It's blue.", "zh": "這是什麼顏色？是藍色。" } },
+    { "kind": "phonics", "focus": "b /b/", "grapheme": "b", "sound": "/b/", "examples": ["blue", "bag", "ball", "bus"] }
+  ],
+  "exercises": [
+    {
+      "type": "listen-choose", "id": "l05-g1", "skill": "listening", "phase": "guided", "points": 10,
+      "hintLevel": "full", "audioText": "red", "promptZh": "聽 red，選對的顏色",
+      "options": [ { "id": "a", "emoji": "🔴" }, { "id": "b", "emoji": "🔵" } ],
+      "answerId": "a"
+    },
+    {
+      "type": "matching", "id": "l05-g2", "skill": "reading", "phase": "guided", "points": 15,
+      "hintLevel": "full", "promptZh": "把英文和顏色配對",
+      "pairs": [
+        { "id": "p1", "left": { "text": "blue", "audioText": "blue" }, "right": { "emoji": "🔵" } },
+        { "id": "p2", "left": { "text": "yellow", "audioText": "yellow" }, "right": { "emoji": "🟡" } },
+        { "id": "p3", "left": { "text": "green", "audioText": "green" }, "right": { "emoji": "🟢" } }
+      ]
+    },
+    {
+      "type": "mcq", "id": "l05-i1", "skill": "reading", "phase": "independent", "points": 10,
+      "prompt": "🔵 的英文是？",
+      "options": [ { "id": "a", "text": "red" }, { "id": "b", "text": "blue" }, { "id": "c", "text": "green" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "speak", "id": "l05-i2", "skill": "speaking", "phase": "independent", "points": 5,
+      "target": "I like red and blue!", "zh": "我喜歡紅色和藍色！", "mode": "repeat-required"
+    },
+    {
+      "type": "listen-choose", "id": "l05-c1", "skill": "listening", "phase": "check", "points": 10,
+      "audioText": "yellow", "promptZh": "（聽英文選顏色）",
+      "options": [ { "id": "a", "emoji": "🔴" }, { "id": "b", "emoji": "🟡" }, { "id": "c", "emoji": "🟢" }, { "id": "d", "emoji": "🔵" } ],
+      "answerId": "b"
+    },
+    {
+      "type": "reading", "id": "l05-c2", "skill": "reading", "phase": "check", "points": 15,
+      "promptZh": "讀短文，回答問題",
+      "passage": "I like red. I like blue. I don't like green.",
+      "passageZh": "我喜歡紅色。我喜歡藍色。我不喜歡綠色。",
+      "questions": [
+        {
+          "id": "q1", "prompt": "Which color does the writer NOT like? 作者不喜歡哪個顏色？",
+          "options": [ { "id": "a", "text": "red 🔴" }, { "id": "b", "text": "blue 🔵" }, { "id": "c", "text": "green 🟢" } ],
+          "answerId": "c"
+        }
+      ]
+    },
+    {
+      "type": "spelling", "id": "l05-c3", "skill": "writing", "phase": "check", "points": 15,
+      "word": "blue", "zh": "藍色", "emoji": "🔵", "mode": "tiles"
+    }
+  ]
+}
