@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u02-l01",
+  "unitId": "g4-u02",
+  "title": "去哪裡 Places",
+  "titleEn": "Places",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long e (ee) /iː/",
+  "softSkillFocus": "說出自己常去的地方",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出與認讀六個常見地點的英文單字",
+    "能用 I go to the ___. 句型說出自己要去的地方"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "school",
+      "zh": "學校",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "🏫",
+      "example": "I go to school."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "park",
+      "zh": "公園",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🏞️",
+      "example": "I play in the park."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "store",
+      "zh": "商店",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🏪",
+      "example": "This is a store."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "home",
+      "zh": "家",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🏠",
+      "example": "I go home."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "zoo",
+      "zh": "動物園",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🦓",
+      "example": "I see a zoo."
+    },
+    {
+      "word": "hospital",
+      "zh": "醫院",
+      "kind": "receptive",
+      "emoji": "🏥",
+      "example": "This is a hospital."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I go to school.",
+      "zh": "我去學校。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "This is my home.",
+      "zh": "這是我的家。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I play in the park.",
+      "zh": "我在公園玩。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "school",
+        "zh": "學校",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "🏫"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "park",
+        "zh": "公園",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🏞️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "store",
+        "zh": "商店",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🏪"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "home",
+        "zh": "家",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🏠"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "zoo",
+        "zh": "動物園",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🦓"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "hospital",
+        "zh": "醫院",
+        "kind": "receptive",
+        "emoji": "🏥"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I go to school.",
+        "zh": "我去學校。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "This is my home.",
+        "zh": "這是我的家。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I play in the park.",
+        "zh": "我在公園玩。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long e (ee) /iː/",
+      "grapheme": "ee",
+      "sound": "/iː/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "tree",
+        "see",
+        "green"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u02-l01-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "school",
+      "promptZh": "聽 school，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "🏫"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🏞️"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u02-l01-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "school",
+            "audioText": "school"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "🏫"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "park",
+            "audioText": "park"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🏞️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "store",
+            "audioText": "store"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🏪"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u02-l01-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🏠 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "home"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "park"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u02-l01-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "park",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🏫"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🏞️"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🏪"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u02-l01-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I go to ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "school"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "school",
+        "park",
+        "store"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u02-l01-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
         "I",
-        "can",
-        "count",
+        "go",
         "to",
-        "ten"
+        "school"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u02-l01-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "store",
+      "zh": "商店",
+      "emoji": "🏪",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u02-l01-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I go to school and the park.",
+      "zh": "我去學校和公園。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u02-l01-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "store",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🏫"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🏪"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🏞️"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🏠"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u02-l01-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🏞️ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "home"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "park"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "store"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u02-l01-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "home",
+      "zh": "家",
+      "emoji": "🏠",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u02-l01-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "school"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🏫"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "park"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🏞️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "home"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🏠"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I go to school. I can see a park. I like the zoo too. My home is here, and the store is there. I like my school a lot.",
+    "passageZh": "我去學校。我可以看到一座公園。我也喜歡動物園。我的家在這裡，商店在那裡。我很喜歡我的學校。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "Where do I go?",
+        "promptZh": "我去哪裡？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "school"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "hospital"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "zoo"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "What can I see?",
+        "promptZh": "我可以看到什麼？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "a store"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "a park"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "a home"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about a place you like.",
+    "promptZh": "用簡單的英文說一個你喜歡的地點。",
+    "example": "I like the park. I go to the park a lot.",
+    "canDo": "能用簡單句說出自己喜歡的地點。"
   }
 }

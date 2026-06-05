@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u02-l05",
+  "unitId": "g4-u02",
+  "title": "大自然 Nature",
+  "titleEn": "Nature",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "r-controlled or /ɔːr/",
+  "softSkillFocus": "觀察與描述身邊的大自然",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能聽說讀寫六個大自然主題單字",
+    "能用 A1 簡單句描述看到的大自然事物"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "sun",
+      "zh": "太陽",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "☀️",
+      "example": "I see the sun."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "moon",
+      "zh": "月亮",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🌙",
+      "example": "The moon is big."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "star",
+      "zh": "星星",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "⭐",
+      "example": "I see a star."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "tree",
+      "zh": "樹",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🌳",
+      "example": "This is a tree."
     },
     {
-      "word": "five",
-      "zh": "五",
+      "word": "flower",
+      "zh": "花",
       "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
+      "emoji": "🌸",
+      "example": "I have a flower."
     },
     {
-      "word": "ten",
-      "zh": "十",
+      "word": "river",
+      "zh": "河",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🏞️",
+      "example": "The river is long."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I see the sun and the moon.",
+      "zh": "我看到太陽和月亮。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "This is a big tree.",
+      "zh": "這是一棵大樹。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I see a star and a flower.",
+      "zh": "我看到一顆星星和一朵花。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "sun",
+        "zh": "太陽",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "☀️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "moon",
+        "zh": "月亮",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🌙"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "star",
+        "zh": "星星",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "⭐"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "tree",
+        "zh": "樹",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🌳"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
+        "word": "flower",
+        "zh": "花",
         "kind": "productive",
-        "emoji": "5️⃣"
+        "emoji": "🌸"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "river",
+        "zh": "河",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🏞️"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I see the sun and the moon.",
+        "zh": "我看到太陽和月亮。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "This is a big tree.",
+        "zh": "這是一棵大樹。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I see a star and a flower.",
+        "zh": "我看到一顆星星和一朵花。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "r-controlled or /ɔːr/",
+      "grapheme": "or",
+      "sound": "/ɔːr/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "fork",
+        "corn",
+        "storm"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u02-l05-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "sun",
+      "promptZh": "聽 sun，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "☀️"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🌙"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u02-l05-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,197 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "sun",
+            "audioText": "sun"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "☀️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "moon",
+            "audioText": "moon"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🌙"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "tree",
+            "audioText": "tree"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🌳"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u02-l05-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "⭐ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "star"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "flower"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u02-l05-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "flower",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🌳"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🌸"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "⭐"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u02-l05-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "This is a ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "tree"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "tree",
+        "sun",
+        "star"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u02-l05-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "a",
+        "big",
+        "tree"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u02-l05-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "moon",
+      "zh": "月亮",
+      "emoji": "🌙",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u02-l05-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I see the sun and the moon.",
+      "zh": "我看到太陽和月亮。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u02-l05-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "star",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🌙"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "⭐"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "☀️"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🌸"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u02-l05-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🌸 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "tree"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "flower"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "river"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u02-l05-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "sun",
+      "zh": "太陽",
+      "emoji": "☀️",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u02-l05-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +398,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "sun"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "☀️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "moon"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🌙"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "flower"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🌸"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I look at the sun. The sun is very big. I see a tree and a flower. The flower is on the tree. I like the river too.",
+    "passageZh": "我看著太陽。太陽很大。我看到一棵樹和一朵花。花在樹上。我也喜歡這條河。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What is very big?",
+        "promptZh": "什麼東西很大？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "The sun"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "The flower"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "The river"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "Where is the flower?",
+        "promptZh": "花在哪裡？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "In the river"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "On the tree"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "On the moon"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about nature. What can you see?",
+    "promptZh": "說說大自然。你可以看到什麼？用本課的單字說一說。",
+    "example": "I see the sun and the moon. I like the tree and the flower.",
+    "canDo": "能用簡單句說出自己看到的大自然事物。"
   }
 }

@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
+  "id": "g3-u02-l03",
+  "unitId": "g3-u02",
+  "title": "動物朋友 Animals",
+  "titleEn": "Animals",
   "grade": 3,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "digraph sh /ʃ/",
+  "softSkillFocus": "分享自己喜歡的動物",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能聽懂並說出六種常見動物的英文名稱",
+    "能用簡單句型介紹自己有的動物"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "dog",
+      "zh": "狗",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "🐶",
+      "example": "I have a dog."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "cat",
+      "zh": "貓",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🐱",
+      "example": "This is my cat."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "bird",
+      "zh": "鳥",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🐦",
+      "example": "I see a bird."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "fish",
+      "zh": "魚",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🐟",
+      "example": "I have a fish."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "rabbit",
+      "zh": "兔子",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🐰",
+      "example": "The rabbit is small."
+    },
+    {
+      "word": "lion",
+      "zh": "獅子",
+      "kind": "receptive",
+      "emoji": "🦁",
+      "example": "The lion is big."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "This is my dog.",
+      "zh": "這是我的狗。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "I have a cat and a fish.",
+      "zh": "我有一隻貓和一條魚。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I like the bird.",
+      "zh": "我喜歡這隻鳥。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "dog",
+        "zh": "狗",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "🐶"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "cat",
+        "zh": "貓",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🐱"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "bird",
+        "zh": "鳥",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🐦"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "fish",
+        "zh": "魚",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🐟"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "rabbit",
+        "zh": "兔子",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🐰"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "lion",
+        "zh": "獅子",
+        "kind": "receptive",
+        "emoji": "🦁"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "This is my dog.",
+        "zh": "這是我的狗。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "I have a cat and a fish.",
+        "zh": "我有一隻貓和一條魚。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I like the bird.",
+        "zh": "我喜歡這隻鳥。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "digraph sh /ʃ/",
+      "grapheme": "sh",
+      "sound": "/ʃ/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "ship",
+        "fish",
+        "shop"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g3-u02-l03-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "dog",
+      "promptZh": "聽 dog，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "🐶"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🐱"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g3-u02-l03-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "dog",
+            "audioText": "dog"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "🐶"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "cat",
+            "audioText": "cat"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🐱"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "fish",
+            "audioText": "fish"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🐟"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g3-u02-l03-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🐦 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "bird"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "fish"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g3-u02-l03-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "cat",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🐶"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🐱"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🐟"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g3-u02-l03-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I have a ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "fish"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "dog",
+        "cat",
+        "fish"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g3-u02-l03-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "my",
+        "dog"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g3-u02-l03-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "cat",
+      "zh": "貓",
+      "emoji": "🐱",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g3-u02-l03-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I have a dog and a cat.",
+      "zh": "我有一隻狗和一隻貓。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g3-u02-l03-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "fish",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🐶"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🐟"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🐱"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🐰"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g3-u02-l03-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🐱 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "dog"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "cat"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "fish"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g3-u02-l03-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "bird",
+      "zh": "鳥",
+      "emoji": "🐦",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g3-u02-l03-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "bird"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🐦"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "rabbit"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🐰"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "lion"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🦁"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I have a dog and a cat. My dog is big. My cat is small. I like my dog and my cat. I can see a bird and a fish here too.",
+    "passageZh": "我有一隻狗和一隻貓。我的狗很大。我的貓很小。我喜歡我的狗和我的貓。我在這裡也能看到一隻鳥和一隻魚。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "How many pets does the speaker have at home (dog and cat)?",
+        "promptZh": "說話的人有狗和貓嗎？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "A dog and a cat"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "A lion and a rabbit"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "A bird and a fish"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "Is the cat big or small?",
+        "promptZh": "貓是大的還是小的？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "Big"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "Small"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "Very big"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about an animal you like.",
+    "promptZh": "用英文說說你喜歡的一種動物（可以說牠的名字、大小，或你喜歡牠）。",
+    "example": "I like my rabbit. It is small. I can see my fish too.",
+    "canDo": "能用簡單句說出自己喜歡的動物並描述牠。"
   }
 }

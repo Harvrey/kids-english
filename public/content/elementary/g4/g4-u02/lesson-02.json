@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u02-l02",
+  "unitId": "g4-u02",
+  "title": "搭什麼車 Transportation",
+  "titleEn": "Transportation",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long e (ea) /iː/",
+  "softSkillFocus": "說出自己搭乘的交通工具",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能聽辨並說出六種交通工具的英文",
+    "能用 I go to school by ___ 說出自己的交通方式"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "bus",
+      "zh": "公車",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "🚌",
+      "example": "I go to school by bus."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "car",
+      "zh": "汽車",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🚗",
+      "example": "This is my car."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "bike",
+      "zh": "腳踏車",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🚲",
+      "example": "I have a new bike."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "train",
+      "zh": "火車",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🚆",
+      "example": "The train is fast."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "plane",
+      "zh": "飛機",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "✈️",
+      "example": "I can see a plane."
+    },
+    {
+      "word": "boat",
+      "zh": "船",
+      "kind": "receptive",
+      "emoji": "⛵",
+      "example": "This is a small boat."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I go to school by bus.",
+      "zh": "我搭公車上學。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "This is my new bike.",
+      "zh": "這是我的新腳踏車。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "The train is very fast.",
+      "zh": "火車很快。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "bus",
+        "zh": "公車",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "🚌"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "car",
+        "zh": "汽車",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🚗"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "bike",
+        "zh": "腳踏車",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🚲"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "train",
+        "zh": "火車",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🚆"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "plane",
+        "zh": "飛機",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "✈️"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "boat",
+        "zh": "船",
+        "kind": "receptive",
+        "emoji": "⛵"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I go to school by bus.",
+        "zh": "我搭公車上學。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "This is my new bike.",
+        "zh": "這是我的新腳踏車。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "The train is very fast.",
+        "zh": "火車很快。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long e (ea) /iː/",
+      "grapheme": "ea",
+      "sound": "/iː/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "eat",
+        "read",
+        "sea"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u02-l02-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "bus",
+      "promptZh": "聽 bus，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "🚌"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🚗"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u02-l02-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,197 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "bus",
+            "audioText": "bus"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "🚌"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "car",
+            "audioText": "car"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🚗"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "bike",
+            "audioText": "bike"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🚲"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u02-l02-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🚆 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "train"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "boat"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u02-l02-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "car",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🚌"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🚗"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🚲"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u02-l02-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I go to school by ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "bus"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "bus",
+        "car",
+        "bike"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u02-l02-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "my",
+        "new",
+        "bike"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u02-l02-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "car",
+      "zh": "汽車",
+      "emoji": "🚗",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u02-l02-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I go to school by bus.",
+      "zh": "我搭公車上學。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u02-l02-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "train",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🚆"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🚗"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "✈️"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "⛵"
         }
       ],
-      "answerId": "b"
+      "answerId": "a"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u02-l02-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🚲 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "bus"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "bike"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "boat"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u02-l02-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "bus",
+      "zh": "公車",
+      "emoji": "🚌",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u02-l02-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +398,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "train"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🚆"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "plane"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "✈️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "boat"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "⛵"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I can see a bus and a car. My dad has a car. I have a bike. I like the train, too. The plane is very fast. I can see a boat here.",
+    "passageZh": "我可以看到一台公車和一台汽車。我爸爸有一台汽車。我有一台腳踏車。我也喜歡火車。飛機非常快。我在這裡可以看到一艘船。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What does dad have?",
+        "promptZh": "爸爸有什麼？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "a car"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "a bike"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "a boat"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "What is very fast?",
+        "promptZh": "什麼非常快？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "the bus"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "the plane"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "the train"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me how you go to school.",
+    "promptZh": "用英文說說看你怎麼去上學（用本課的交通工具單字）。",
+    "example": "I go to school by bus. I can see a car and a bike, too.",
+    "canDo": "能用簡單句說出自己使用的交通工具。"
   }
 }

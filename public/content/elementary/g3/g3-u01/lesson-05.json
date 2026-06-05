@@ -5,82 +5,477 @@
   "title": "繽紛顏色 Colors",
   "titleEn": "Colors",
   "grade": 3,
-  "stage": "階段Ⅱ",
+  "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "letter sound: b /b/",
-  "softSkillFocus": "表達喜好",
-  "curriculumCodes": ["1-Ⅱ-5", "2-Ⅱ-5", "Ac-Ⅱ-4"],
-  "objectives": ["能聽辨並說出常見顏色", "能用 I like ... 表達喜好"],
+  "phonicsFocus": "blend st /st/",
+  "softSkillFocus": "說出自己喜歡的顏色",
+  "curriculumCodes": [
+    "2-Ⅱ-1",
+    "Ac-Ⅱ-2"
+  ],
+  "objectives": [
+    "能聽懂並說出六種常見顏色的英文單字",
+    "能用 I like... 句型表達自己喜歡的顏色"
+  ],
   "vocabulary": [
-    { "word": "red", "zh": "紅色", "kind": "productive", "emoji": "🔴" },
-    { "word": "blue", "zh": "藍色", "kind": "productive", "emoji": "🔵" },
-    { "word": "yellow", "zh": "黃色", "kind": "productive", "emoji": "🟡" },
-    { "word": "green", "zh": "綠色", "kind": "productive", "emoji": "🟢" },
-    { "word": "purple", "zh": "紫色", "kind": "receptive", "emoji": "🟣" }
+    {
+      "word": "red",
+      "zh": "紅色",
+      "kind": "productive",
+      "emoji": "🔴",
+      "example": "I like red."
+    },
+    {
+      "word": "blue",
+      "zh": "藍色",
+      "kind": "productive",
+      "emoji": "🔵",
+      "example": "The sky is blue."
+    },
+    {
+      "word": "yellow",
+      "zh": "黃色",
+      "kind": "productive",
+      "emoji": "🟡",
+      "example": "The sun is yellow."
+    },
+    {
+      "word": "green",
+      "zh": "綠色",
+      "kind": "productive",
+      "emoji": "🟢",
+      "example": "I have a green pen."
+    },
+    {
+      "word": "purple",
+      "zh": "紫色",
+      "kind": "receptive",
+      "emoji": "🟣",
+      "example": "It is purple."
+    },
+    {
+      "word": "pink",
+      "zh": "粉紅色",
+      "kind": "receptive",
+      "emoji": "🩷",
+      "example": "I like pink."
+    }
   ],
   "sentences": [
-    { "text": "What color is it?", "zh": "這是什麼顏色？" },
-    { "text": "It's red.", "zh": "它是紅色的。" },
-    { "text": "I like blue.", "zh": "我喜歡藍色。" }
+    {
+      "text": "I like red and blue.",
+      "zh": "我喜歡紅色和藍色。"
+    },
+    {
+      "text": "The sun is yellow.",
+      "zh": "太陽是黃色的。"
+    },
+    {
+      "text": "My pen is green.",
+      "zh": "我的筆是綠色的。"
+    }
   ],
   "teaching": [
-    { "kind": "vocab", "vocab": { "word": "red", "zh": "紅色", "kind": "productive", "emoji": "🔴" } },
-    { "kind": "vocab", "vocab": { "word": "blue", "zh": "藍色", "kind": "productive", "emoji": "🔵" } },
-    { "kind": "vocab", "vocab": { "word": "yellow", "zh": "黃色", "kind": "productive", "emoji": "🟡" } },
-    { "kind": "vocab", "vocab": { "word": "green", "zh": "綠色", "kind": "productive", "emoji": "🟢" } },
-    { "kind": "sentence", "sentence": { "text": "What color is it? It's blue.", "zh": "這是什麼顏色？是藍色。" } },
-    { "kind": "phonics", "focus": "b /b/", "grapheme": "b", "sound": "/b/", "examples": ["blue", "bag", "ball", "bus"] }
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "red",
+        "zh": "紅色",
+        "kind": "productive",
+        "emoji": "🔴"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "blue",
+        "zh": "藍色",
+        "kind": "productive",
+        "emoji": "🔵"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "yellow",
+        "zh": "黃色",
+        "kind": "productive",
+        "emoji": "🟡"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "green",
+        "zh": "綠色",
+        "kind": "productive",
+        "emoji": "🟢"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "purple",
+        "zh": "紫色",
+        "kind": "receptive",
+        "emoji": "🟣"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "pink",
+        "zh": "粉紅色",
+        "kind": "receptive",
+        "emoji": "🩷"
+      }
+    },
+    {
+      "kind": "sentence",
+      "sentence": {
+        "text": "I like red and blue.",
+        "zh": "我喜歡紅色和藍色。"
+      }
+    },
+    {
+      "kind": "sentence",
+      "sentence": {
+        "text": "The sun is yellow.",
+        "zh": "太陽是黃色的。"
+      }
+    },
+    {
+      "kind": "sentence",
+      "sentence": {
+        "text": "My pen is green.",
+        "zh": "我的筆是綠色的。"
+      }
+    },
+    {
+      "kind": "phonics",
+      "focus": "blend st /st/",
+      "grapheme": "st",
+      "sound": "/st/",
+      "examples": [
+        "stop",
+        "star",
+        "stand"
+      ]
+    }
   ],
   "exercises": [
     {
-      "type": "listen-choose", "id": "l05-g1", "skill": "listening", "phase": "guided", "points": 10,
-      "hintLevel": "full", "audioText": "red", "promptZh": "聽 red，選對的顏色",
-      "options": [ { "id": "a", "emoji": "🔴" }, { "id": "b", "emoji": "🔵" } ],
+      "type": "listen-choose",
+      "id": "g3-u01-l05-g1",
+      "skill": "listening",
+      "phase": "guided",
+      "points": 10,
+      "hintLevel": "full",
+      "audioText": "red",
+      "promptZh": "聽 red，選對的圖",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "🔴"
+        },
+        {
+          "id": "b",
+          "emoji": "🔵"
+        }
+      ],
       "answerId": "a"
     },
     {
-      "type": "matching", "id": "l05-g2", "skill": "reading", "phase": "guided", "points": 15,
-      "hintLevel": "full", "promptZh": "把英文和顏色配對",
+      "type": "matching",
+      "id": "g3-u01-l05-g2",
+      "skill": "reading",
+      "phase": "guided",
+      "points": 15,
+      "hintLevel": "full",
+      "promptZh": "把單字和顏色配對",
       "pairs": [
-        { "id": "p1", "left": { "text": "blue", "audioText": "blue" }, "right": { "emoji": "🔵" } },
-        { "id": "p2", "left": { "text": "yellow", "audioText": "yellow" }, "right": { "emoji": "🟡" } },
-        { "id": "p3", "left": { "text": "green", "audioText": "green" }, "right": { "emoji": "🟢" } }
-      ]
-    },
-    {
-      "type": "mcq", "id": "l05-i1", "skill": "reading", "phase": "independent", "points": 10,
-      "prompt": "🔵 的英文是？",
-      "options": [ { "id": "a", "text": "red" }, { "id": "b", "text": "blue" }, { "id": "c", "text": "green" } ],
-      "answerId": "b"
-    },
-    {
-      "type": "speak", "id": "l05-i2", "skill": "speaking", "phase": "independent", "points": 5,
-      "target": "I like red and blue!", "zh": "我喜歡紅色和藍色！", "mode": "repeat-required"
-    },
-    {
-      "type": "listen-choose", "id": "l05-c1", "skill": "listening", "phase": "check", "points": 10,
-      "audioText": "yellow", "promptZh": "（聽英文選顏色）",
-      "options": [ { "id": "a", "emoji": "🔴" }, { "id": "b", "emoji": "🟡" }, { "id": "c", "emoji": "🟢" }, { "id": "d", "emoji": "🔵" } ],
-      "answerId": "b"
-    },
-    {
-      "type": "reading", "id": "l05-c2", "skill": "reading", "phase": "check", "points": 15,
-      "promptZh": "讀短文，回答問題",
-      "passage": "I like red. I like blue. I don't like green.",
-      "passageZh": "我喜歡紅色。我喜歡藍色。我不喜歡綠色。",
-      "questions": [
         {
-          "id": "q1", "prompt": "Which color does the writer NOT like? 作者不喜歡哪個顏色？",
-          "options": [ { "id": "a", "text": "red 🔴" }, { "id": "b", "text": "blue 🔵" }, { "id": "c", "text": "green 🟢" } ],
-          "answerId": "c"
+          "id": "p1",
+          "left": {
+            "text": "red",
+            "audioText": "red"
+          },
+          "right": {
+            "emoji": "🔴"
+          }
+        },
+        {
+          "id": "p2",
+          "left": {
+            "text": "blue",
+            "audioText": "blue"
+          },
+          "right": {
+            "emoji": "🔵"
+          }
+        },
+        {
+          "id": "p3",
+          "left": {
+            "text": "yellow",
+            "audioText": "yellow"
+          },
+          "right": {
+            "emoji": "🟡"
+          }
         }
       ]
     },
     {
-      "type": "spelling", "id": "l05-c3", "skill": "writing", "phase": "check", "points": 15,
-      "word": "blue", "zh": "藍色", "emoji": "🔵", "mode": "tiles"
+      "type": "mcq",
+      "id": "g3-u01-l05-g3",
+      "skill": "reading",
+      "phase": "guided",
+      "points": 10,
+      "hintLevel": "full",
+      "prompt": "🟢 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "green"
+        },
+        {
+          "id": "b",
+          "text": "yellow"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "type": "listen-choose",
+      "id": "g3-u01-l05-i1",
+      "skill": "listening",
+      "phase": "independent",
+      "points": 10,
+      "audioText": "blue",
+      "promptZh": "聽英文選圖",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "🔴"
+        },
+        {
+          "id": "b",
+          "emoji": "🔵"
+        },
+        {
+          "id": "c",
+          "emoji": "🟡"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "fill-in",
+      "id": "g3-u01-l05-i2",
+      "skill": "writing",
+      "phase": "independent",
+      "points": 10,
+      "prompt": "The sun is ___.",
+      "promptZh": "填入單字",
+      "acceptableAnswers": [
+        "yellow"
+      ],
+      "wordBank": [
+        "yellow",
+        "blue",
+        "green"
+      ]
+    },
+    {
+      "type": "ordering",
+      "id": "g3-u01-l05-i3",
+      "skill": "reading",
+      "phase": "independent",
+      "points": 15,
+      "promptZh": "排出句子",
+      "tokens": [
+        "I",
+        "like",
+        "red",
+        "and",
+        "blue"
+      ]
+    },
+    {
+      "type": "spelling",
+      "id": "g3-u01-l05-i4",
+      "skill": "writing",
+      "phase": "independent",
+      "points": 15,
+      "word": "green",
+      "zh": "綠色",
+      "emoji": "🟢",
+      "mode": "tiles"
+    },
+    {
+      "type": "speak",
+      "id": "g3-u01-l05-i5",
+      "skill": "speaking",
+      "phase": "independent",
+      "points": 5,
+      "target": "I like red and green.",
+      "zh": "我喜歡紅色和綠色。",
+      "mode": "repeat-required"
+    },
+    {
+      "type": "listen-choose",
+      "id": "g3-u01-l05-c1",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "yellow",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "🔴"
+        },
+        {
+          "id": "b",
+          "emoji": "🟡"
+        },
+        {
+          "id": "c",
+          "emoji": "🔵"
+        },
+        {
+          "id": "d",
+          "emoji": "🟢"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq",
+      "id": "g3-u01-l05-c2",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "🔵 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "red"
+        },
+        {
+          "id": "b",
+          "text": "blue"
+        },
+        {
+          "id": "c",
+          "text": "green"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "spelling",
+      "id": "g3-u01-l05-c3",
+      "skill": "writing",
+      "phase": "check",
+      "points": 15,
+      "word": "red",
+      "zh": "紅色",
+      "emoji": "🔴",
+      "mode": "tiles"
+    },
+    {
+      "type": "matching",
+      "id": "g3-u01-l05-c4",
+      "skill": "reading",
+      "phase": "check",
+      "points": 15,
+      "promptZh": "配對",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": {
+            "text": "green"
+          },
+          "right": {
+            "emoji": "🟢"
+          }
+        },
+        {
+          "id": "p2",
+          "left": {
+            "text": "yellow"
+          },
+          "right": {
+            "emoji": "🟡"
+          }
+        },
+        {
+          "id": "p3",
+          "left": {
+            "text": "blue"
+          },
+          "right": {
+            "emoji": "🔵"
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "input": {
+    "passage": "I like colors. I like red and blue. This is a red apple. That is a blue car. Green and yellow are nice too. I like pink and purple a lot.",
+    "passageZh": "我喜歡顏色。我喜歡紅色和藍色。這是一個紅蘋果。那是一輛藍色的車。綠色和黃色也很好。我很喜歡粉紅色和紫色。",
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "What color is the apple? 蘋果是什麼顏色？",
+        "promptZh": "蘋果是什麼顏色？",
+        "options": [
+          {
+            "id": "a",
+            "text": "red"
+          },
+          {
+            "id": "b",
+            "text": "blue"
+          },
+          {
+            "id": "c",
+            "text": "green"
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "What color is the car?",
+        "promptZh": "車子是什麼顏色？",
+        "options": [
+          {
+            "id": "a",
+            "text": "yellow"
+          },
+          {
+            "id": "b",
+            "text": "blue"
+          },
+          {
+            "id": "c",
+            "text": "pink"
+          }
+        ],
+        "answerId": "b"
+      }
+    ]
+  },
+  "production": {
+    "mode": "speak",
+    "prompt": "Tell me about the colors you like.",
+    "promptZh": "用英文說出你喜歡的顏色。",
+    "example": "I like red and green. I like pink too.",
+    "canDo": "能用簡單句說出自己喜歡的顏色。"
+  }
 }

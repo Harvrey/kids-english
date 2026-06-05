@@ -170,6 +170,23 @@ export type ExerciseType = Exercise['type']
 // 課 / 單元 / manifest
 // ---------------------------------------------------------------------------
 
+/** 第④段 Input：分級/可解碼閱讀短文（閱讀階梯引擎），只用已學過的字，i+1、可懂約 90% */
+export interface ReadingInput {
+  passage: string
+  passageZh?: string
+  audio?: string
+  questions?: { id: string; prompt: string; promptZh?: string; options: OptionItem[]; answerId: string }[]
+}
+
+/** 第⑤段 Production：用目標語言完成的開放產出任務（口說或書寫），對應一條 can-do */
+export interface ProductionTask {
+  mode: 'speak' | 'write'
+  prompt: string
+  promptZh?: string
+  example?: string
+  canDo?: string
+}
+
 export interface Lesson {
   schemaVersion: number
   id: string
@@ -177,6 +194,7 @@ export interface Lesson {
   title: string
   titleEn?: string
   grade: number
+  /** 規格階段 S1–S5 */
   stage: string
   cefr: CEFR
   ageTier: AgeTier
@@ -184,11 +202,18 @@ export interface Lesson {
   phonicsFocus?: string
   softSkillFocus?: string
   curriculumCodes: string[]
+  /** can-do 學習目標（對應規格 §7） */
   objectives: string[]
   vocabulary: VocabItem[]
   sentences: SentenceItem[]
+  /** 第② Presentation：教學卡 */
   teaching: TeachingCard[]
+  /** 第③ Controlled Practice：guided + independent 題；第⑥ Review/Check：check 題 */
   exercises: Exercise[]
+  /** 第④ Input：分級閱讀短文（可選） */
+  input?: ReadingInput
+  /** 第⑤ Production：開放產出任務（可選） */
+  production?: ProductionTask
 }
 
 /** 測驗（單元複習 review / 晉級守門 promotion） */

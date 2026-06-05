@@ -4,26 +4,27 @@ import { Screen, Card, Button, StarRow, AudioButton } from '../components/ui'
 import { SrsReview } from '../components/SrsReview'
 import { ExerciseView } from '../components/ExerciseView'
 import { loadLesson, loadManifest } from '../content/contentLoader'
-import type { Lesson as LessonT, Exercise, TeachingCard } from '../types/content'
+import type { Lesson as LessonT, Exercise, TeachingCard, McqExercise, ReadingInput, ProductionTask } from '../types/content'
 import type { SrsCard } from '../types/profile'
-import { getDueCards } from '../data/srsRepository'
-import { saveCard } from '../data/srsRepository'
+import { getDueCards, saveCard } from '../data/srsRepository'
 import { reviewCard, type Recall } from '../game/srs'
 import { finishLesson, type LessonSummary } from '../game/sessionFlow'
 import { XP_RULES } from '../config/levels'
 import { encourageComplete } from '../config/encourage'
 import { badgeDef } from '../config/badges'
 import { play } from '../audio/tts'
+import { useRecorder } from '../hooks/useRecorder'
 
-type Stage = 'loading' | 'warmup' | 'learn' | 'exercise' | 'saving' | 'reward'
-const PHASE_RANK = { guided: 0, independent: 1, check: 2 } as const
+// 六段式：warmup → learn(Presentation) → practice(Controlled) → input → production → check(Review) → reward
+type Stage = 'loading' | 'warmup' | 'learn' | 'practice' | 'input' | 'production' | 'check' | 'saving' | 'reward'
 
 export function Lesson({ unitId, lessonFile }: { unitId: string; lessonFile: string }) {
   const { activeChild, showZh, navigate, refreshActive } = useApp()
   const [stage, setStage] = useState<Stage>('loading')
   const [lesson, setLesson] = useState<LessonT | null>(null)
   const [dueCards, setDueCards] = useState<SrsCard[]>([])
-  const [exIdx, setExIdx] = useState(0)
+  const [pIdx, setPIdx] = useState(0)
+  const [cIdx, setCIdx] = useState(0)
   const [summary, setSummary] = useState<LessonSummary | null>(null)
   const [nextFile, setNextFile] = useState<string | null>(null)
   const [err, setErr] = useState<string | null>(null)
@@ -40,9 +41,7 @@ export function Lesson({ unitId, lessonFile }: { unitId: string; lessonFile: str
         const idx = unit?.lessonFiles.indexOf(lessonFile) ?? -1
         const next = unit && idx >= 0 && idx + 1 < unit.lessonFiles.length ? unit.lessonFiles[idx + 1] : null
         if (!alive) return
-        setLesson(l)
-        setDueCards(due)
-        setNextFile(next)
+        setLesson(l); setDueCards(due); setNextFile(next)
         setStage(due.length ? 'warmup' : 'learn')
       } catch (e) {
         if (alive) setErr(e instanceof Error ? e.message : '載入失敗')
@@ -54,39 +53,49 @@ export function Lesson({ unitId, lessonFile }: { unitId: string; lessonFile: str
   if (err) return <Screen><Card className="p-6 text-center text-quasar">⚠️ {err}<div className="mt-4"><Button onClick={() => navigate({ name: 'dashboard' })}>回地圖</Button></div></Card></Screen>
   if (!lesson || !activeChild) return <Screen><div className="mt-20 text-center text-white/60">載入中…</div></Screen>
 
-  const exercises: Exercise[] = [...lesson.exercises].sort((a, b) => PHASE_RANK[a.phase] - PHASE_RANK[b.phase])
+  const practice: Exercise[] = lesson.exercises.filter((e) => e.phase === 'guided' || e.phase === 'independent')
+    .sort((a, b) => (a.phase === 'guided' ? 0 : 1) - (b.phase === 'guided' ? 0 : 1))
+  const check: Exercise[] = lesson.exercises.filter((e) => e.phase === 'check')
 
-  const onExerciseDone = async (idx: number, correct: boolean, isSpeak: boolean, response: unknown) => {
-    const ex = exercises[idx]
-    acc.current.responses[ex.id] = response
+  const afterPractice = () => setStage(lesson.input ? 'input' : lesson.production ? 'production' : 'check')
+  const afterInput = () => setStage(lesson.production ? 'production' : 'check')
+
+  const award = (correct: boolean, isSpeak: boolean, id: string, response: unknown) => {
+    acc.current.responses[id] = response
     acc.current.xp += XP_RULES.attempt + (correct ? XP_RULES.correct : 0)
     if (isSpeak) { acc.current.speak += 1; acc.current.xp += XP_RULES.speakBonus }
-    if (idx + 1 < exercises.length) {
-      setExIdx(idx + 1)
-    } else {
-      setStage('saving')
-      const s = await finishLesson({
-        child: activeChild, lesson,
-        checkResponses: acc.current.responses, xpFromExercises: acc.current.xp, speakDone: acc.current.speak,
-      })
-      await refreshActive()
-      setSummary(s)
-      setStage('reward')
-    }
   }
 
-  const onSrsReview = (card: SrsCard, recall: Recall) => {
-    void saveCard(reviewCard(card, recall))
+  const onPracticeDone = (correct: boolean, isSpeak: boolean, id: string, response: unknown) => {
+    award(correct, isSpeak, id, response)
+    if (pIdx + 1 < practice.length) setPIdx(pIdx + 1)
+    else afterPractice()
   }
+
+  const onCheckDone = async (correct: boolean, isSpeak: boolean, id: string, response: unknown) => {
+    award(correct, isSpeak, id, response)
+    if (cIdx + 1 < check.length) { setCIdx(cIdx + 1); return }
+    setStage('saving')
+    const s = await finishLesson({
+      child: activeChild, lesson,
+      checkResponses: acc.current.responses, xpFromExercises: acc.current.xp, speakDone: acc.current.speak,
+    })
+    await refreshActive()
+    setSummary(s)
+    setStage('reward')
+  }
+
+  const onSrsReview = (card: SrsCard, recall: Recall) => { void saveCard(reviewCard(card, recall)) }
 
   const restart = () => {
     acc.current = { xp: 0, speak: 0, responses: {} }
-    setExIdx(0); setSummary(null); setStage('learn')
+    setPIdx(0); setCIdx(0); setSummary(null)
+    setStage('learn')
   }
 
   return (
     <Screen>
-      <LessonHeader title={lesson.title} stage={stage} step={exIdx + 1} total={exercises.length}
+      <LessonHeader title={lesson.title} stage={stage} pStep={pIdx + 1} pTotal={practice.length} cStep={cIdx + 1} cTotal={check.length}
         onExit={() => navigate({ name: 'dashboard' })} />
 
       {stage === 'warmup' && (
@@ -97,29 +106,45 @@ export function Lesson({ unitId, lessonFile }: { unitId: string; lessonFile: str
         </div>
       )}
 
-      {stage === 'learn' && <LearnPhase lesson={lesson} showZh={showZh} onDone={() => setStage('exercise')} />}
+      {stage === 'learn' && <LearnPhase lesson={lesson} showZh={showZh} onDone={() => setStage('practice')} />}
 
-      {stage === 'exercise' && (
-        <ExerciseView key={exercises[exIdx].id} exercise={exercises[exIdx]} ageTier={lesson.ageTier} showZh={showZh} seed={exIdx}
-          onDone={(result, response) => onExerciseDone(exIdx, result.correct, exercises[exIdx].type === 'speak', response)} />
+      {stage === 'practice' && practice[pIdx] && (
+        <ExerciseView key={practice[pIdx].id} exercise={practice[pIdx]} ageTier={lesson.ageTier} showZh={showZh} seed={pIdx}
+          onDone={(r, resp) => onPracticeDone(r.correct, practice[pIdx].type === 'speak', practice[pIdx].id, resp)} />
+      )}
+
+      {stage === 'input' && lesson.input && (
+        <InputPhase lesson={lesson} input={lesson.input} ageTier={lesson.ageTier} showZh={showZh}
+          onQuestion={(correct, id, resp) => award(correct, false, id, resp)} onDone={afterInput} />
+      )}
+
+      {stage === 'production' && lesson.production && (
+        <ProductionPhase task={lesson.production} showZh={showZh}
+          onDone={(isSpeak) => { award(true, isSpeak, `${lesson.id}-prod`, { done: true }); setStage('check') }} />
+      )}
+
+      {stage === 'check' && check[cIdx] && (
+        <ExerciseView key={check[cIdx].id} exercise={check[cIdx]} ageTier={lesson.ageTier} showZh={showZh} seed={100 + cIdx}
+          onDone={(r, resp) => onCheckDone(r.correct, false, check[cIdx].id, resp)} />
       )}
 
       {stage === 'saving' && <div className="mt-20 text-center text-white/60">結算中… ✨</div>}
 
       {stage === 'reward' && summary && (
-        <RewardPhase summary={summary} title={lesson.title} ageTier={lesson.ageTier}
-          hasNext={!!nextFile}
-          onMap={() => navigate({ name: 'dashboard' })}
-          onRetry={restart}
+        <RewardPhase summary={summary} title={lesson.title} ageTier={lesson.ageTier} hasNext={!!nextFile}
+          onMap={() => navigate({ name: 'dashboard' })} onRetry={restart}
           onNext={() => { if (nextFile) { restart(); navigate({ name: 'lesson', unitId, lessonFile: nextFile }) } }} />
       )}
     </Screen>
   )
 }
 
-function LessonHeader({ title, stage, step, total, onExit }: { title: string; stage: Stage; step: number; total: number; onExit: () => void }) {
+function LessonHeader({ title, stage, pStep, pTotal, cStep, cTotal, onExit }: {
+  title: string; stage: Stage; pStep: number; pTotal: number; cStep: number; cTotal: number; onExit: () => void
+}) {
   const label: Record<Stage, string> = {
-    loading: '載入中', warmup: '暖身', learn: '學習新內容', exercise: `練習 ${step}/${total}`, saving: '結算', reward: '完成！',
+    loading: '載入中', warmup: '暖身 Warm-up', learn: '學習新內容', practice: `練習 ${pStep}/${pTotal}`,
+    input: '閱讀時間 Reading', production: '開口/動手做', check: `檢核 ${cStep}/${cTotal}`, saving: '結算', reward: '完成！',
   }
   return (
     <div className="mb-4 flex items-center gap-3">
@@ -132,19 +157,95 @@ function LessonHeader({ title, stage, step, total, onExit }: { title: string; st
   )
 }
 
-// ---- 學習階段 ----
+// ---- ④ Input：分級閱讀短文 + 理解題 ----
+function InputPhase({ lesson, input, ageTier, showZh, onQuestion, onDone }: {
+  lesson: LessonT; input: ReadingInput; ageTier: 'low' | 'mid' | 'teen'; showZh: boolean
+  onQuestion: (correct: boolean, id: string, resp: unknown) => void; onDone: () => void
+}) {
+  const [qIdx, setQIdx] = useState(-1) // -1 = 還在讀短文
+  const questions = input.questions ?? []
+
+  if (qIdx < 0) {
+    return (
+      <div className="animate-pop-in">
+        <Card className="p-5">
+          <div className="mb-2 flex items-center justify-between">
+            <span className="text-sm font-bold text-drift">📖 讀讀看</span>
+            <AudioButton text={input.passage} label="朗讀" />
+          </div>
+          <p className="text-lg leading-relaxed">{input.passage}</p>
+          {showZh && input.passageZh && <p className="mt-2 text-sm text-white/50">{input.passageZh}</p>}
+        </Card>
+        <div className="mt-4 flex justify-center">
+          <Button variant="success" onClick={() => (questions.length ? setQIdx(0) : onDone())}>
+            {questions.length ? '讀完了，回答問題 →' : '讀完了 →'}
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
+  const q = questions[qIdx]
+  const ex: McqExercise = {
+    type: 'mcq', id: `${lesson.id}-in-${q.id}`, skill: 'reading', phase: 'independent', points: 10,
+    prompt: q.prompt, promptZh: q.promptZh, options: q.options, answerId: q.answerId,
+  }
+  return (
+    <div>
+      <Card className="mb-3 p-3 text-sm text-white/70"><span className="text-drift">📖 </span>{input.passage}</Card>
+      <ExerciseView key={ex.id} exercise={ex} ageTier={ageTier} showZh={showZh} seed={50 + qIdx}
+        onDone={(r, resp) => { onQuestion(r.correct, ex.id, resp); if (qIdx + 1 < questions.length) setQIdx(qIdx + 1); else onDone() }} />
+    </div>
+  )
+}
+
+// ---- ⑤ Production：開放產出任務 ----
+function ProductionPhase({ task, showZh, onDone }: {
+  task: ProductionTask; showZh: boolean; onDone: (isSpeak: boolean) => void
+}) {
+  const rec = useRecorder()
+  const [text, setText] = useState('')
+  const isSpeak = task.mode === 'speak'
+  return (
+    <div className="animate-pop-in">
+      <Card className="p-5 text-center">
+        <div className="mb-1 text-sm text-quasar">{isSpeak ? '🎤 換你開口說' : '✍️ 換你寫寫看'}</div>
+        <div className="text-xl font-bold">{task.prompt}</div>
+        {showZh && task.promptZh && <div className="mt-1 text-sm text-white/60">{task.promptZh}</div>}
+        {task.example && (
+          <div className="mt-3 rounded-2xl bg-white/5 p-3 text-left text-sm">
+            <span className="text-white/40">範例：</span> {task.example}
+            {isSpeak && <span className="ml-2 inline-block align-middle"><AudioButton text={task.example} /></span>}
+          </div>
+        )}
+
+        {isSpeak ? (
+          <div className="mt-4 flex flex-wrap justify-center gap-2">
+            {rec.supported && !rec.recording && <Button variant="ghost" onClick={() => rec.start()}>🎙️ 開始錄音</Button>}
+            {rec.supported && rec.recording && <Button variant="danger" onClick={() => rec.stop()}>⏹️ 停止</Button>}
+            {rec.audioUrl && <Button variant="ghost" onClick={() => new Audio(rec.audioUrl!).play()}>▶️ 播放</Button>}
+          </div>
+        ) : (
+          <textarea value={text} onChange={(e) => setText(e.target.value)} rows={3} placeholder="在這裡寫英文句子…"
+            className="mt-4 w-full rounded-xl bg-white/10 px-4 py-3 text-lg outline-none ring-2 ring-white/10 focus:ring-drift" />
+        )}
+      </Card>
+      <div className="mt-4 flex justify-center">
+        <Button variant="success" disabled={!isSpeak && text.trim().length === 0} onClick={() => onDone(isSpeak)}>
+          ✅ 完成
+        </Button>
+      </div>
+    </div>
+  )
+}
+
+// ---- ② Presentation：教學卡 ----
 function LearnPhase({ lesson, showZh, onDone }: { lesson: LessonT; showZh: boolean; onDone: () => void }) {
   const [i, setI] = useState(0)
   const cards = lesson.teaching
   const card = cards[i]
   const last = i === cards.length - 1
-
-  // 自動播放當前卡的英文
-  useEffect(() => {
-    const text = cardAudioText(card)
-    if (text) play({ text })
-  }, [i]) // eslint-disable-line react-hooks/exhaustive-deps
-
+  useEffect(() => { const t = cardAudioText(card); if (t) play({ text: t }) }, [i]) // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div>
       <div className="mb-2 text-center text-xs text-white/40">{i + 1} / {cards.length}</div>
@@ -230,7 +331,7 @@ function TeachingCardView({ card, showZh }: { card: TeachingCard; showZh: boolea
   }
 }
 
-// ---- 結算 ----
+// ---- ⑥ 結算 ----
 function RewardPhase({ summary, title, ageTier, hasNext, onMap, onRetry, onNext }: {
   summary: LessonSummary; title: string; ageTier: 'low' | 'mid' | 'teen'; hasNext: boolean
   onMap: () => void; onRetry: () => void; onNext: () => void
@@ -245,18 +346,14 @@ function RewardPhase({ summary, title, ageTier, hasNext, onMap, onRetry, onNext 
         <div><div className="text-2xl font-bold text-star">+{summary.coins}</div><div className="text-xs text-white/50">金幣</div></div>
         <div><div className="text-2xl font-bold text-nova">{(summary.score * 100) | 0}%</div><div className="text-xs text-white/50">正確率</div></div>
       </div>
-
       {summary.newBadges.length > 0 && (
         <div className="mt-4 rounded-2xl bg-star/10 p-3 ring-2 ring-star/40">
           <div className="text-sm font-bold text-star">🎉 獲得新徽章！</div>
           <div className="mt-1 flex flex-wrap justify-center gap-2">
-            {summary.newBadges.map((id) => (
-              <span key={id} className="text-2xl">{badgeDef(id)?.emoji} <span className="text-sm">{badgeDef(id)?.name}</span></span>
-            ))}
+            {summary.newBadges.map((id) => (<span key={id} className="text-2xl">{badgeDef(id)?.emoji} <span className="text-sm">{badgeDef(id)?.name}</span></span>))}
           </div>
         </div>
       )}
-
       <div className="mt-6 flex flex-col gap-2">
         {hasNext && <Button variant="success" onClick={onNext}>下一課 →</Button>}
         <div className="flex gap-2">

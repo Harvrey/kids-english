@@ -3,59 +3,265 @@
   "id": "g3-u01-promotion",
   "unitId": "g3-u01",
   "kind": "promotion",
-  "title": "🛸 晉級測驗：飛向 Drift 星系",
+  "title": "🛸 晉級測驗：Hello, Friends! 哈囉，朋友！",
   "passThreshold": 0.8,
-  "skillFloors": { "listening": 0.7, "reading": 0.7, "writing": 0.6 },
   "items": [
     {
-      "type": "listen-choose", "id": "p1", "skill": "listening", "phase": "check", "points": 10,
-      "audioText": "sad", "promptZh": "（聽英文選表情）",
-      "options": [ { "id": "a", "emoji": "😊" }, { "id": "b", "emoji": "😢" }, { "id": "c", "emoji": "😠" } ], "answerId": "b"
+      "type": "mcq",
+      "id": "g3-u01-pro-1",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "prompt": "聽聽看，這是哪一句？",
+      "audioText": "goodbye",
+      "promptZh": "（聽英文選答案）",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hello 👋"
+        },
+        {
+          "id": "b",
+          "text": "Goodbye 🤚"
+        },
+        {
+          "id": "c",
+          "text": "Thank you 🙏"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "listen-choose", "id": "p2", "skill": "listening", "phase": "check", "points": 10,
-      "audioText": "four", "promptZh": "（聽英文選數字）",
-      "options": [ { "id": "a", "emoji": "4️⃣" }, { "id": "b", "emoji": "2️⃣" }, { "id": "c", "emoji": "5️⃣" } ], "answerId": "a"
+      "type": "listen-choose",
+      "id": "g3-u01-pro-2",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "girl",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "👦"
+        },
+        {
+          "id": "b",
+          "emoji": "👧"
+        },
+        {
+          "id": "c",
+          "emoji": "👩‍🏫"
+        },
+        {
+          "id": "d",
+          "emoji": "🧑‍🤝‍🧑"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "listen-choose", "id": "p3", "skill": "listening", "phase": "check", "points": 10,
-      "audioText": "green", "promptZh": "（聽英文選顏色）",
-      "options": [ { "id": "a", "emoji": "🔵" }, { "id": "b", "emoji": "🟢" }, { "id": "c", "emoji": "🔴" } ], "answerId": "b"
+      "type": "listen-choose",
+      "id": "g3-u01-pro-3",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "angry",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "😊"
+        },
+        {
+          "id": "b",
+          "emoji": "😠"
+        },
+        {
+          "id": "c",
+          "emoji": "😴"
+        },
+        {
+          "id": "d",
+          "emoji": "🍔"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "mcq", "id": "p4", "skill": "reading", "phase": "check", "points": 10,
-      "prompt": "離開時說？",
-      "options": [ { "id": "a", "text": "Hello" }, { "id": "b", "text": "Goodbye" }, { "id": "c", "text": "Thank you" } ], "answerId": "b"
+      "type": "listen-choose",
+      "id": "g3-u01-pro-4",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "one",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "2️⃣"
+        },
+        {
+          "id": "b",
+          "emoji": "1️⃣"
+        },
+        {
+          "id": "c",
+          "emoji": "4️⃣"
+        },
+        {
+          "id": "d",
+          "emoji": "5️⃣"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "mcq", "id": "p5", "skill": "reading", "phase": "check", "points": 10,
-      "prompt": "😊 的英文是？",
-      "options": [ { "id": "a", "text": "sad" }, { "id": "b", "text": "tired" }, { "id": "c", "text": "happy" } ], "answerId": "c"
+      "type": "listen-choose",
+      "id": "g3-u01-pro-5",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "yellow",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "🔴"
+        },
+        {
+          "id": "b",
+          "emoji": "🟡"
+        },
+        {
+          "id": "c",
+          "emoji": "🔵"
+        },
+        {
+          "id": "d",
+          "emoji": "🟢"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "ordering", "id": "p6", "skill": "reading", "phase": "check", "points": 15,
-      "promptZh": "排出：很高興認識你", "tokens": ["Nice", "to", "meet", "you"]
+      "type": "mcq",
+      "id": "g3-u01-pro-6",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "「謝謝」的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sorry"
+        },
+        {
+          "id": "b",
+          "text": "Please"
+        },
+        {
+          "id": "c",
+          "text": "Thank you"
+        }
+      ],
+      "answerId": "c"
     },
     {
-      "type": "matching", "id": "p7", "skill": "reading", "phase": "check", "points": 15,
-      "promptZh": "配對",
-      "pairs": [
-        { "id": "p1", "left": { "text": "one" }, "right": { "emoji": "1️⃣" } },
-        { "id": "p2", "left": { "text": "red" }, "right": { "emoji": "🔴" } },
-        { "id": "p3", "left": { "text": "friend" }, "right": { "text": "朋友" } }
-      ]
+      "type": "mcq",
+      "id": "g3-u01-pro-7",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "👦 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "girl"
+        },
+        {
+          "id": "b",
+          "text": "boy"
+        },
+        {
+          "id": "c",
+          "text": "friend"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "spelling", "id": "p8", "skill": "writing", "phase": "check", "points": 15,
-      "word": "blue", "zh": "藍色", "emoji": "🔵", "mode": "tiles"
+      "type": "mcq",
+      "id": "g3-u01-pro-8",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "🙂 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "fine"
+        },
+        {
+          "id": "b",
+          "text": "sad"
+        },
+        {
+          "id": "c",
+          "text": "tired"
+        }
+      ],
+      "answerId": "a"
     },
     {
-      "type": "fill-in", "id": "p9", "skill": "writing", "phase": "check", "points": 10,
-      "prompt": "I'm ___. (開心)", "promptZh": "填心情", "acceptableAnswers": ["happy"], "wordBank": ["happy", "sad", "blue"]
+      "type": "mcq",
+      "id": "g3-u01-pro-9",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "3️⃣ 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "two"
+        },
+        {
+          "id": "b",
+          "text": "three"
+        },
+        {
+          "id": "c",
+          "text": "five"
+        }
+      ],
+      "answerId": "b"
     },
     {
-      "type": "spelling", "id": "p10", "skill": "writing", "phase": "check", "points": 15,
-      "word": "name", "zh": "名字", "emoji": "🏷️", "mode": "tiles"
+      "type": "mcq",
+      "id": "g3-u01-pro-10",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "🔵 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "red"
+        },
+        {
+          "id": "b",
+          "text": "blue"
+        },
+        {
+          "id": "c",
+          "text": "green"
+        }
+      ],
+      "answerId": "b"
     }
-  ]
+  ],
+  "skillFloors": {
+    "listening": 0.7,
+    "reading": 0.7,
+    "writing": 0.6
+  }
 }

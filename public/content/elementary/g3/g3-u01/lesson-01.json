@@ -5,87 +5,453 @@
   "title": "打招呼 Greetings",
   "titleEn": "Hello & Goodbye",
   "grade": 3,
-  "stage": "階段Ⅱ",
+  "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "letter sound: h /h/",
+  "phonicsFocus": "short a /æ/",
   "softSkillFocus": "禮貌用語（文化理解）",
-  "curriculumCodes": ["2-Ⅱ-1", "5-Ⅱ-1", "Ab-Ⅱ-1"],
-  "objectives": ["能聽懂並說出常見招呼語", "能用 thank you / sorry 表達禮貌"],
+  "curriculumCodes": [
+    "2-Ⅱ-1",
+    "5-Ⅱ-1",
+    "Ab-Ⅱ-1"
+  ],
+  "objectives": [
+    "能聽懂並說出常見招呼語",
+    "能用 thank you / sorry 表達禮貌"
+  ],
   "vocabulary": [
-    { "word": "hello", "zh": "你好", "kind": "productive", "emoji": "👋", "example": "Hello! I'm Tom." },
-    { "word": "goodbye", "zh": "再見", "kind": "productive", "emoji": "🤚", "example": "Goodbye! See you." },
-    { "word": "thank you", "zh": "謝謝", "kind": "productive", "emoji": "🙏", "example": "Thank you very much." },
-    { "word": "sorry", "zh": "對不起", "kind": "receptive", "emoji": "😟", "example": "I'm sorry." },
-    { "word": "please", "zh": "請", "kind": "receptive", "emoji": "🥺", "example": "Sit down, please." }
+    {
+      "word": "hello",
+      "zh": "你好",
+      "kind": "productive",
+      "emoji": "👋",
+      "example": "Hello! I'm Tom."
+    },
+    {
+      "word": "goodbye",
+      "zh": "再見",
+      "kind": "productive",
+      "emoji": "🤚",
+      "example": "Goodbye! See you."
+    },
+    {
+      "word": "thank you",
+      "zh": "謝謝",
+      "kind": "productive",
+      "emoji": "🙏",
+      "example": "Thank you very much."
+    },
+    {
+      "word": "sorry",
+      "zh": "對不起",
+      "kind": "receptive",
+      "emoji": "😟",
+      "example": "I'm sorry."
+    },
+    {
+      "word": "please",
+      "zh": "請",
+      "kind": "receptive",
+      "emoji": "🥺",
+      "example": "Sit down, please."
+    }
   ],
   "sentences": [
-    { "text": "Hello! Hi!", "zh": "哈囉！嗨！" },
-    { "text": "Goodbye! Bye!", "zh": "再見！掰掰！" },
-    { "text": "Thank you!", "zh": "謝謝你！" }
+    {
+      "text": "Hello! Hi!",
+      "zh": "哈囉！嗨！"
+    },
+    {
+      "text": "Goodbye! Bye!",
+      "zh": "再見！掰掰！"
+    },
+    {
+      "text": "Thank you!",
+      "zh": "謝謝你！"
+    }
   ],
   "teaching": [
-    { "kind": "vocab", "vocab": { "word": "hello", "zh": "你好", "kind": "productive", "emoji": "👋" } },
-    { "kind": "vocab", "vocab": { "word": "goodbye", "zh": "再見", "kind": "productive", "emoji": "🤚" } },
-    { "kind": "vocab", "vocab": { "word": "thank you", "zh": "謝謝", "kind": "productive", "emoji": "🙏" } },
-    { "kind": "vocab", "vocab": { "word": "sorry", "zh": "對不起", "kind": "receptive", "emoji": "😟" } },
-    { "kind": "sentence", "sentence": { "text": "Hello! How are you?", "zh": "你好！你好嗎？" } },
-    { "kind": "phonics", "focus": "h /h/", "grapheme": "h", "sound": "/h/", "examples": ["hello", "hi", "hat", "hand"] },
-    { "kind": "culture", "title": "禮貌小星球", "emoji": "🌟", "text": "在說英文的國家，常常會把 thank you 和 please 掛在嘴邊喔！" }
-  ],
-  "exercises": [
     {
-      "type": "matching", "id": "l01-g1", "skill": "reading", "phase": "guided", "points": 15,
-      "hintLevel": "full", "promptZh": "把英文和中文連起來",
-      "pairs": [
-        { "id": "p1", "left": { "text": "hello", "audioText": "hello" }, "right": { "text": "你好" } },
-        { "id": "p2", "left": { "text": "goodbye", "audioText": "goodbye" }, "right": { "text": "再見" } },
-        { "id": "p3", "left": { "text": "thank you", "audioText": "thank you" }, "right": { "text": "謝謝" } }
+      "kind": "vocab",
+      "vocab": {
+        "word": "hello",
+        "zh": "你好",
+        "kind": "productive",
+        "emoji": "👋"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "goodbye",
+        "zh": "再見",
+        "kind": "productive",
+        "emoji": "🤚"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "thank you",
+        "zh": "謝謝",
+        "kind": "productive",
+        "emoji": "🙏"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "sorry",
+        "zh": "對不起",
+        "kind": "receptive",
+        "emoji": "😟"
+      }
+    },
+    {
+      "kind": "sentence",
+      "sentence": {
+        "text": "Hello! How are you?",
+        "zh": "你好！你好嗎？"
+      }
+    },
+    {
+      "kind": "phonics",
+      "focus": "short a /æ/",
+      "grapheme": "a",
+      "sound": "/æ/",
+      "examples": [
+        "cat",
+        "hat",
+        "map"
       ]
     },
     {
-      "type": "mcq", "id": "l01-g2", "skill": "reading", "phase": "guided", "points": 10,
-      "hintLevel": "full", "prompt": "看到朋友時，我們說……", "promptZh": "選出正確的招呼語",
+      "kind": "culture",
+      "title": "禮貌小星球",
+      "emoji": "🌟",
+      "text": "在說英文的國家，常常會把 thank you 和 please 掛在嘴邊喔！"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "id": "l01-g1",
+      "skill": "reading",
+      "phase": "guided",
+      "points": 15,
+      "hintLevel": "full",
+      "promptZh": "把英文和中文連起來",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": {
+            "text": "hello",
+            "audioText": "hello"
+          },
+          "right": {
+            "text": "你好"
+          }
+        },
+        {
+          "id": "p2",
+          "left": {
+            "text": "goodbye",
+            "audioText": "goodbye"
+          },
+          "right": {
+            "text": "再見"
+          }
+        },
+        {
+          "id": "p3",
+          "left": {
+            "text": "thank you",
+            "audioText": "thank you"
+          },
+          "right": {
+            "text": "謝謝"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "id": "l01-g2",
+      "skill": "reading",
+      "phase": "guided",
+      "points": 10,
+      "hintLevel": "full",
+      "prompt": "看到朋友時，我們說……",
+      "promptZh": "選出正確的招呼語",
       "audioText": "hello",
       "options": [
-        { "id": "a", "text": "Hello 👋" },
-        { "id": "b", "text": "Goodbye 🤚" }
+        {
+          "id": "a",
+          "text": "Hello 👋"
+        },
+        {
+          "id": "b",
+          "text": "Goodbye 🤚"
+        }
       ],
-      "answerId": "a", "explain": "看到人說 Hello，離開才說 Goodbye。"
+      "answerId": "a",
+      "explain": "看到人說 Hello，離開才說 Goodbye。"
     },
     {
-      "type": "fill-in", "id": "l01-i1", "skill": "writing", "phase": "independent", "points": 10,
-      "prompt": "___! I'm Tom.", "promptZh": "填入正確的招呼語", "acceptableAnswers": ["Hello", "Hi"],
-      "wordBank": ["Hello", "Goodbye", "Sorry"]
+      "type": "fill-in",
+      "id": "l01-i1",
+      "skill": "writing",
+      "phase": "independent",
+      "points": 10,
+      "prompt": "___! I'm Tom.",
+      "promptZh": "填入正確的招呼語",
+      "acceptableAnswers": [
+        "Hello",
+        "Hi"
+      ],
+      "wordBank": [
+        "Hello",
+        "Goodbye",
+        "Sorry"
+      ]
     },
     {
-      "type": "speak", "id": "l01-i2", "skill": "speaking", "phase": "independent", "points": 5,
-      "target": "Hello! Thank you!", "zh": "你好！謝謝！", "mode": "repeat-required"
+      "type": "speak",
+      "id": "l01-i2",
+      "skill": "speaking",
+      "phase": "independent",
+      "points": 5,
+      "target": "Hello! Thank you!",
+      "zh": "你好！謝謝！",
+      "mode": "repeat-required"
     },
     {
-      "type": "mcq", "id": "l01-c1", "skill": "listening", "phase": "check", "points": 10,
-      "prompt": "聽聽看，這是哪一句？", "audioText": "goodbye", "promptZh": "（聽英文選答案）",
+      "type": "mcq",
+      "id": "l01-c1",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "prompt": "聽聽看，這是哪一句？",
+      "audioText": "goodbye",
+      "promptZh": "（聽英文選答案）",
       "options": [
-        { "id": "a", "text": "Hello 👋" },
-        { "id": "b", "text": "Goodbye 🤚" },
-        { "id": "c", "text": "Thank you 🙏" }
+        {
+          "id": "a",
+          "text": "Hello 👋"
+        },
+        {
+          "id": "b",
+          "text": "Goodbye 🤚"
+        },
+        {
+          "id": "c",
+          "text": "Thank you 🙏"
+        }
       ],
       "answerId": "b"
     },
     {
-      "type": "mcq", "id": "l01-c2", "skill": "reading", "phase": "check", "points": 10,
+      "type": "mcq",
+      "id": "l01-c2",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
       "prompt": "「謝謝」的英文是？",
       "options": [
-        { "id": "a", "text": "Sorry" },
-        { "id": "b", "text": "Please" },
-        { "id": "c", "text": "Thank you" }
+        {
+          "id": "a",
+          "text": "Sorry"
+        },
+        {
+          "id": "b",
+          "text": "Please"
+        },
+        {
+          "id": "c",
+          "text": "Thank you"
+        }
       ],
       "answerId": "c"
     },
     {
-      "type": "spelling", "id": "l01-c3", "skill": "writing", "phase": "check", "points": 15,
-      "word": "hello", "zh": "你好", "emoji": "👋", "mode": "tiles"
+      "type": "spelling",
+      "id": "l01-c3",
+      "skill": "writing",
+      "phase": "check",
+      "points": 15,
+      "word": "hello",
+      "zh": "你好",
+      "emoji": "👋",
+      "mode": "tiles"
+    },
+    {
+      "type": "listen-choose",
+      "id": "l01-i3",
+      "skill": "listening",
+      "phase": "independent",
+      "points": 10,
+      "audioText": "thank you",
+      "promptZh": "聽英文選圖",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "🙏"
+        },
+        {
+          "id": "b",
+          "emoji": "👋"
+        },
+        {
+          "id": "c",
+          "emoji": "🤚"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "type": "ordering",
+      "id": "l01-i4",
+      "skill": "reading",
+      "phase": "independent",
+      "points": 15,
+      "promptZh": "排出句子：你好，我是 Tom",
+      "tokens": [
+        "Hello",
+        "I",
+        "am",
+        "Tom"
+      ],
+      "audioText": "Hello, I am Tom"
+    },
+    {
+      "type": "spelling",
+      "id": "l01-i5",
+      "skill": "writing",
+      "phase": "independent",
+      "points": 15,
+      "word": "sorry",
+      "zh": "對不起",
+      "emoji": "😟",
+      "mode": "tiles"
+    },
+    {
+      "type": "listen-choose",
+      "id": "l01-c4",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "hello",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "👋"
+        },
+        {
+          "id": "b",
+          "emoji": "🤚"
+        },
+        {
+          "id": "c",
+          "emoji": "🙏"
+        },
+        {
+          "id": "d",
+          "emoji": "😟"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "type": "matching",
+      "id": "l01-c5",
+      "skill": "reading",
+      "phase": "check",
+      "points": 15,
+      "promptZh": "配對",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": {
+            "text": "hello"
+          },
+          "right": {
+            "text": "你好"
+          }
+        },
+        {
+          "id": "p2",
+          "left": {
+            "text": "goodbye"
+          },
+          "right": {
+            "text": "再見"
+          }
+        },
+        {
+          "id": "p3",
+          "left": {
+            "text": "thank you"
+          },
+          "right": {
+            "text": "謝謝"
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "input": {
+    "passage": "Hello! I am Tom. I can say hello and goodbye. I say please and thank you. I am sorry too.",
+    "passageZh": "你好！我是湯姆。我會說你好和再見。我會說請和謝謝。我也會說對不起。",
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "What is the boy's name?",
+        "promptZh": "這個男孩叫什麼名字？",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tom"
+          },
+          {
+            "id": "b",
+            "text": "Sam"
+          },
+          {
+            "id": "c",
+            "text": "Ben"
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "What does Tom say? 湯姆會說什麼？",
+        "promptZh": "湯姆會說哪些話？",
+        "options": [
+          {
+            "id": "a",
+            "text": "Only hello"
+          },
+          {
+            "id": "b",
+            "text": "Hello, goodbye, please, thank you, and sorry"
+          },
+          {
+            "id": "c",
+            "text": "Nothing"
+          }
+        ],
+        "answerId": "b"
+      }
+    ]
+  },
+  "production": {
+    "mode": "speak",
+    "prompt": "Say hello, please, thank you, sorry, and goodbye to me.",
+    "promptZh": "請用英文對老師說出你好、請、謝謝、對不起和再見這幾句禮貌用語。",
+    "example": "Hello! Please. Thank you. Sorry. Goodbye!",
+    "canDo": "能用簡單的禮貌用語打招呼、道謝、道歉與道別。"
+  }
 }

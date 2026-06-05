@@ -11,10 +11,11 @@ export default {
           700: '#1e2752',
           600: '#2c3a73',
         },
-        nova: '#34d399',   // 綠星系
-        drift: '#38bdf8',  // 藍星系
-        pulse: '#a78bfa',  // 紫星系
-        quasar: '#fb923c', // 橘星系
+        nova: '#34d399',   // S1 綠星系
+        drift: '#38bdf8',  // S2 藍星系
+        pulse: '#a78bfa',  // S3 紫星系
+        quasar: '#fb923c', // S4 橘星系
+        nebula: '#f472b6', // S5 粉紅星系
         star: '#fde047',   // 星星金
       },
       fontFamily: {

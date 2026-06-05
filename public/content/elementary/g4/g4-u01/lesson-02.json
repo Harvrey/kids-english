@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u01-l02",
+  "unitId": "g4-u01",
+  "title": "我的一天 My Routine",
+  "titleEn": "My Routine",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long a (a_e) /eɪ/",
+  "softSkillFocus": "描述自己的一天作息",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出一天中早上、中午、晚上等時段的英文",
+    "能用簡單句子描述自己上學與回家的日常作息"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "morning",
+      "zh": "早上",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "🌅",
+      "example": "I go to school in the morning."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "noon",
+      "zh": "中午",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🌞",
+      "example": "I eat lunch at noon."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "night",
+      "zh": "晚上",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🌙",
+      "example": "I sleep at night."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "school",
+      "zh": "學校",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🏫",
+      "example": "I go to school."
     },
     {
-      "word": "five",
-      "zh": "五",
+      "word": "home",
+      "zh": "家",
       "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
+      "emoji": "🏠",
+      "example": "I go home at noon."
     },
     {
-      "word": "ten",
-      "zh": "十",
+      "word": "breakfast",
+      "zh": "早餐",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🥞",
+      "example": "I eat breakfast in the morning."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I go to school in the morning.",
+      "zh": "我早上去學校。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "I eat breakfast in the morning.",
+      "zh": "我早上吃早餐。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I go home at night.",
+      "zh": "我晚上回家。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "morning",
+        "zh": "早上",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "🌅"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "noon",
+        "zh": "中午",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🌞"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "night",
+        "zh": "晚上",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🌙"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "school",
+        "zh": "學校",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🏫"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
+        "word": "home",
+        "zh": "家",
         "kind": "productive",
-        "emoji": "5️⃣"
+        "emoji": "🏠"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "breakfast",
+        "zh": "早餐",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🥞"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I go to school in the morning.",
+        "zh": "我早上去學校。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "I eat breakfast in the morning.",
+        "zh": "我早上吃早餐。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I go home at night.",
+        "zh": "我晚上回家。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long a (a_e) /eɪ/",
+      "grapheme": "a_e",
+      "sound": "/eɪ/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "cake",
+        "name",
+        "game"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u01-l02-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "morning",
+      "promptZh": "聽 morning，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "🌅"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🌙"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u01-l02-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,197 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "morning",
+            "audioText": "morning"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "🌅"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "noon",
+            "audioText": "noon"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🌞"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "night",
+            "audioText": "night"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🌙"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u01-l02-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🏫 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "school"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "home"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u01-l02-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "home",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🏫"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🏠"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🌙"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u01-l02-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I go to ___ in the morning.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "school"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "school",
+        "home",
+        "night"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u01-l02-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
         "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "go",
+        "home",
+        "at",
+        "night"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u01-l02-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "noon",
+      "zh": "中午",
+      "emoji": "🌞",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u01-l02-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I go to school in the morning.",
+      "zh": "我早上去學校。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u01-l02-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "night",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🌅"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🌞"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🌙"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🏠"
         }
       ],
-      "answerId": "b"
+      "answerId": "c"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u01-l02-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🏠 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "school"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "home"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "noon"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u01-l02-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "morning",
+      "zh": "早上",
+      "emoji": "🌅",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u01-l02-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +398,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "school"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🏫"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "home"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🏠"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "noon"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🌞"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I go to school in the morning. I have breakfast at home. At noon I am at school too. I go home at night. I like my school a lot.",
+    "passageZh": "我早上去學校。我在家吃早餐。中午我也在學校。我晚上回家。我很喜歡我的學校。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "When does the child have breakfast?",
+        "promptZh": "這個小孩什麼時候吃早餐？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "in the morning"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "at noon"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "at night"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "Where is the child at noon?",
+        "promptZh": "中午時這個小孩在哪裡？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "at home"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "at school"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "at night"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about your day. When do you go to school and go home?",
+    "promptZh": "用英文說說你的一天，什麼時候去學校、什麼時候回家。",
+    "example": "I go to school in the morning. I have breakfast at home. I go home at night.",
+    "canDo": "能用簡單句說出自己一天的作息與時間（早上、中午、晚上）。"
   }
 }

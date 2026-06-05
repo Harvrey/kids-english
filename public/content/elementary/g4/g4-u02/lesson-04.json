@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u02-l04",
+  "unitId": "g4-u02",
+  "title": "長大想做什麼 Jobs",
+  "titleEn": "Jobs",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "r-controlled ar /ɑːr/",
+  "softSkillFocus": "分享自己長大想做的工作",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出六種常見職業的英文單字",
+    "能用 I want to be a... 句型表達長大想做的工作"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "teacher",
+      "zh": "老師",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "👩‍🏫",
+      "example": "My mom is a teacher."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "doctor",
+      "zh": "醫生",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "👨‍⚕️",
+      "example": "I want to be a doctor."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "cook",
+      "zh": "廚師",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "👨‍🍳",
+      "example": "He is a good cook."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "farmer",
+      "zh": "農夫",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "👨‍🌾",
+      "example": "The farmer has a big farm."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "police",
+      "zh": "警察",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "👮",
+      "example": "The police can help us."
+    },
+    {
+      "word": "nurse",
+      "zh": "護理師",
+      "kind": "receptive",
+      "emoji": "👩‍⚕️",
+      "example": "The nurse is kind."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I want to be a teacher.",
+      "zh": "我想當老師。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "My dad is a doctor.",
+      "zh": "我爸爸是醫生。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "She is a good cook.",
+      "zh": "她是很棒的廚師。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "teacher",
+        "zh": "老師",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "👩‍🏫"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "doctor",
+        "zh": "醫生",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "👨‍⚕️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "cook",
+        "zh": "廚師",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "👨‍🍳"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "farmer",
+        "zh": "農夫",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "👨‍🌾"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "police",
+        "zh": "警察",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "👮"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "nurse",
+        "zh": "護理師",
+        "kind": "receptive",
+        "emoji": "👩‍⚕️"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I want to be a teacher.",
+        "zh": "我想當老師。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "My dad is a doctor.",
+        "zh": "我爸爸是醫生。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "She is a good cook.",
+        "zh": "她是很棒的廚師。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "r-controlled ar /ɑːr/",
+      "grapheme": "ar",
+      "sound": "/ɑːr/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "car",
+        "star",
+        "park"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u02-l04-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "teacher",
+      "promptZh": "聽 teacher，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "👩‍🏫"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "👨‍⚕️"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u02-l04-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,198 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "teacher",
+            "audioText": "teacher"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "👩‍🏫"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "doctor",
+            "audioText": "doctor"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👨‍⚕️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "cook",
+            "audioText": "cook"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "👨‍🍳"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u02-l04-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "👨‍🌾 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "farmer"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "doctor"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u02-l04-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "doctor",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "👩‍🏫"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "👨‍⚕️"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "👨‍🍳"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u02-l04-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I want to be a ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "teacher"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "teacher",
+        "doctor",
+        "cook"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u02-l04-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
         "I",
-        "can",
-        "count",
+        "want",
         "to",
-        "ten"
+        "be",
+        "a",
+        "doctor"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u02-l04-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "cook",
+      "zh": "廚師",
+      "emoji": "👨‍🍳",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u02-l04-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I want to be a teacher.",
+      "zh": "我想當老師。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u02-l04-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "farmer",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "👩‍🏫"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "👨‍🌾"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "👨‍⚕️"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "👮"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u02-l04-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "👨‍⚕️ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "teacher"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "doctor"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "farmer"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u02-l04-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "farmer",
+      "zh": "農夫",
+      "emoji": "👨‍🌾",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u02-l04-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +399,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "teacher"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👩‍🏫"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "cook"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "👨‍🍳"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "farmer"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "👨‍🌾"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I have a big family. My mom is a teacher. My dad is a doctor. My uncle is a cook and he can cook a lot. I like my family very much.",
+    "passageZh": "我有一個大家庭。我的媽媽是老師。我的爸爸是醫生。我的叔叔是廚師，他很會做菜。我非常喜歡我的家人。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What is my mom?",
+        "promptZh": "我的媽媽是做什麼的？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "a teacher"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "a doctor"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "a cook"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "Who can cook a lot?",
+        "promptZh": "誰很會做菜？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "my dad"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "my uncle"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "my mom"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about the jobs in your family.",
+    "promptZh": "用簡單英文說說你家人的職業。",
+    "example": "My mom is a nurse. My dad is a farmer. I like them very much.",
+    "canDo": "能用簡單句說出家人的職業。"
   }
 }

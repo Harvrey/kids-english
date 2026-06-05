@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u01-l05",
+  "unitId": "g4-u01",
+  "title": "運動時間 Sports",
+  "titleEn": "Sports",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long u (u_e) /juː/",
+  "softSkillFocus": "表達自己喜歡的運動",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能聽說讀寫六種常見運動的英文單字",
+    "能用簡單句說出自己會做或喜歡的運動"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "soccer",
+      "zh": "足球",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "⚽",
+      "example": "I like soccer."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "basketball",
+      "zh": "籃球",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🏀",
+      "example": "I play basketball."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "swim",
+      "zh": "游泳",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🏊",
+      "example": "I can swim."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "bike",
+      "zh": "騎腳踏車",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🚴",
+      "example": "I ride a bike."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "baseball",
+      "zh": "棒球",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "⚾",
+      "example": "I like baseball."
+    },
+    {
+      "word": "tennis",
+      "zh": "網球",
+      "kind": "receptive",
+      "emoji": "🎾",
+      "example": "I play tennis."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I like soccer.",
+      "zh": "我喜歡足球。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "I can swim.",
+      "zh": "我會游泳。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I play basketball.",
+      "zh": "我打籃球。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "soccer",
+        "zh": "足球",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "⚽"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "basketball",
+        "zh": "籃球",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🏀"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "swim",
+        "zh": "游泳",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🏊"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "bike",
+        "zh": "騎腳踏車",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🚴"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "baseball",
+        "zh": "棒球",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "⚾"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "tennis",
+        "zh": "網球",
+        "kind": "receptive",
+        "emoji": "🎾"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I like soccer.",
+        "zh": "我喜歡足球。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "I can swim.",
+        "zh": "我會游泳。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I play basketball.",
+        "zh": "我打籃球。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long u (u_e) /juː/",
+      "grapheme": "u_e",
+      "sound": "/juː/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "cute",
+        "cube",
+        "tube"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u01-l05-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "soccer",
+      "promptZh": "聽 soccer，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "⚽"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🏀"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u01-l05-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,195 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "soccer",
+            "audioText": "soccer"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "⚽"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "basketball",
+            "audioText": "basketball"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🏀"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "swim",
+            "audioText": "swim"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🏊"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u01-l05-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🚴 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "bike"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "swim"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u01-l05-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "basketball",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "⚽"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🏀"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🏊"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u01-l05-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I like ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "soccer"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "soccer",
+        "basketball",
+        "swim"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u01-l05-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
         "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "play",
+        "basketball"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u01-l05-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "swim",
+      "zh": "游泳",
+      "emoji": "🏊",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u01-l05-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I like soccer and basketball.",
+      "zh": "我喜歡足球和籃球。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u01-l05-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "swim",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "⚽"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🏊"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🚴"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🎾"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u01-l05-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "⚾ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "tennis"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "baseball"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "soccer"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u01-l05-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "bike",
+      "zh": "騎腳踏車",
+      "emoji": "🚴",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u01-l05-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +396,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "baseball"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "⚾"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "tennis"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🎾"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "bike"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🚴"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I like soccer. I can swim and bike too. My brother likes basketball and baseball. We like tennis a lot. Sports are very fun!",
+    "passageZh": "我喜歡足球。我也會游泳和騎車。我哥哥喜歡籃球和棒球。我們很喜歡網球。運動非常有趣！",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What does the brother like?",
+        "promptZh": "哥哥喜歡什麼？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "soccer and tennis"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "basketball and baseball"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "swim and bike"
           }
         ],
         "answerId": "b"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "What can I do?",
+        "promptZh": "我會做什麼？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "swim and bike"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "play baseball"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "play tennis"
           }
         ],
-        "answerId": "c"
+        "answerId": "a"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about the sports you like.",
+    "promptZh": "說說你喜歡的運動，用簡單的英文句子介紹。",
+    "example": "I like soccer and basketball. I can swim too.",
+    "canDo": "能用簡單句說出自己喜歡的運動和會做的運動。"
   }
 }

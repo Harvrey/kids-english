@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u01-l03",
+  "unitId": "g4-u01",
+  "title": "今天天氣 Weather",
+  "titleEn": "Weather",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long i (i_e) /aɪ/",
+  "softSkillFocus": "描述今天的天氣",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出常見的天氣單字",
+    "能用簡單句子描述今天的天氣"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "sunny",
+      "zh": "晴天",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "☀️",
+      "example": "It is sunny today."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "rainy",
+      "zh": "雨天",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🌧️",
+      "example": "It is rainy today."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "cloudy",
+      "zh": "陰天",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "☁️",
+      "example": "It is cloudy today."
     },
     {
-      "word": "four",
-      "zh": "四",
-      "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
-    },
-    {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "windy",
+      "zh": "颳風",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "💨",
+      "example": "It is windy today."
+    },
+    {
+      "word": "snowy",
+      "zh": "下雪",
+      "kind": "receptive",
+      "emoji": "❄️",
+      "example": "It is snowy today."
+    },
+    {
+      "word": "hot",
+      "zh": "熱",
+      "kind": "receptive",
+      "emoji": "🥵",
+      "example": "It is hot today."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "It is sunny today.",
+      "zh": "今天是晴天。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "It is rainy and cloudy.",
+      "zh": "是雨天又是陰天。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "It is hot and windy.",
+      "zh": "很熱又颳風。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "sunny",
+        "zh": "晴天",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "☀️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "rainy",
+        "zh": "雨天",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🌧️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "cloudy",
+        "zh": "陰天",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "☁️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
-        "kind": "productive",
-        "emoji": "4️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "windy",
+        "zh": "颳風",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "💨"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "snowy",
+        "zh": "下雪",
+        "kind": "receptive",
+        "emoji": "❄️"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "hot",
+        "zh": "熱",
+        "kind": "receptive",
+        "emoji": "🥵"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "It is sunny today.",
+        "zh": "今天是晴天。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "It is rainy and cloudy.",
+        "zh": "是雨天又是陰天。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "It is hot and windy.",
+        "zh": "很熱又颳風。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long i (i_e) /aɪ/",
+      "grapheme": "i_e",
+      "sound": "/aɪ/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "bike",
+        "kite",
+        "nine"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u01-l03-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "sunny",
+      "promptZh": "聽 sunny，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "☀️"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🌧️"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u01-l03-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "sunny",
+            "audioText": "sunny"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "☀️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "rainy",
+            "audioText": "rainy"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🌧️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "cloudy",
+            "audioText": "cloudy"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "☁️"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u01-l03-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "☁️ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "cloudy"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "rainy"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u01-l03-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "rainy",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "☀️"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🌧️"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "☁️"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u01-l03-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "It is ___ today.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "sunny"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "sunny",
+        "rainy",
+        "cloudy"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u01-l03-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "It",
+        "is",
+        "sunny",
+        "today"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u01-l03-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "rainy",
+      "zh": "雨天",
+      "emoji": "🌧️",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u01-l03-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "It is sunny and hot today.",
+      "zh": "今天晴天又很熱。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u01-l03-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "cloudy",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "☀️"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🌧️"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "☁️"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "❄️"
         }
       ],
-      "answerId": "b"
+      "answerId": "c"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u01-l03-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🌧️ 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "sunny"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "rainy"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "windy"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u01-l03-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "cloudy",
+      "zh": "陰天",
+      "emoji": "☁️",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u01-l03-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "sunny"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "☀️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "rainy"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🌧️"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "snowy"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "❄️"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "Today is sunny and hot. I like sunny days a lot. Look! It is windy too. It is not rainy. It is not snowy.",
+    "passageZh": "今天是晴天而且很熱。我很喜歡晴天。看！也有風。今天沒有下雨。今天沒有下雪。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "How is the weather today? 今天天氣如何？",
+        "promptZh": "今天天氣如何？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "sunny and hot"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "rainy and cold"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "snowy"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "Is it rainy today?",
+        "promptZh": "今天有下雨嗎？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "Yes, it is rainy."
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "No, it is not rainy."
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "It is snowy."
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about the weather today.",
+    "promptZh": "用英文說說看今天的天氣（用本課的天氣單字）。",
+    "example": "Today is cloudy and windy. It is not hot.",
+    "canDo": "能用簡單句說出今天的天氣。"
   }
 }

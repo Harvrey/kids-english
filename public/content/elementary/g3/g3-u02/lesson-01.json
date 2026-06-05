@@ -1,115 +1,106 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l02",
-  "unitId": "g3-u01",
-  "title": "你叫什麼名字？ Names",
-  "titleEn": "What's your name?",
+  "id": "g3-u02-l01",
+  "unitId": "g3-u02",
+  "title": "我的家人 Family",
+  "titleEn": "My Family",
   "grade": 3,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short e /e/",
-  "softSkillFocus": "自我介紹與結交朋友",
+  "phonicsFocus": "blend bl /bl/",
+  "softSkillFocus": "介紹自己的家人",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能說出並認讀名字、朋友、男孩、女孩等自我介紹相關單字",
-    "能用 A1 簡單句介紹自己與朋友"
+    "能聽說讀寫六個家人單字",
+    "能用 This is my ___. 介紹家人"
   ],
   "vocabulary": [
     {
-      "word": "name",
-      "zh": "名字",
+      "word": "father",
+      "zh": "爸爸",
       "kind": "productive",
-      "emoji": "🏷️",
-      "example": "My name is Sam."
+      "emoji": "👨",
+      "example": "This is my father."
     },
     {
-      "word": "friend",
-      "zh": "朋友",
+      "word": "mother",
+      "zh": "媽媽",
       "kind": "productive",
-      "emoji": "🧑‍🤝‍🧑",
-      "example": "She is my friend."
+      "emoji": "👩",
+      "example": "This is my mother."
     },
     {
-      "word": "nice",
-      "zh": "友善的",
-      "kind": "receptive",
-      "emoji": "😊",
-      "example": "You are nice."
-    },
-    {
-      "word": "boy",
-      "zh": "男孩",
+      "word": "brother",
+      "zh": "哥哥/弟弟",
       "kind": "productive",
       "emoji": "👦",
-      "example": "He is a boy."
+      "example": "I have a brother."
     },
     {
-      "word": "girl",
-      "zh": "女孩",
+      "word": "sister",
+      "zh": "姐姐/妹妹",
       "kind": "productive",
       "emoji": "👧",
-      "example": "She is a girl."
+      "example": "I have a sister."
     },
     {
-      "word": "teacher",
-      "zh": "老師",
+      "word": "baby",
+      "zh": "寶寶",
       "kind": "receptive",
-      "emoji": "👩‍🏫",
-      "example": "She is my teacher."
+      "emoji": "👶",
+      "example": "The baby is cute."
+    },
+    {
+      "word": "grandma",
+      "zh": "奶奶",
+      "kind": "receptive",
+      "emoji": "👵",
+      "example": "I love my grandma."
     }
   ],
   "sentences": [
     {
-      "text": "My name is Sam.",
-      "zh": "我的名字是山姆。"
+      "text": "This is my father.",
+      "zh": "這是我的爸爸。"
     },
     {
-      "text": "He is my friend.",
-      "zh": "他是我的朋友。"
+      "text": "This is my mother.",
+      "zh": "這是我的媽媽。"
     },
     {
-      "text": "She is a nice girl.",
-      "zh": "她是一個友善的女孩。"
+      "text": "I have a brother and a sister.",
+      "zh": "我有一個哥哥和一個姐姐。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "name",
-        "zh": "名字",
+        "word": "father",
+        "zh": "爸爸",
         "kind": "productive",
-        "emoji": "🏷️"
+        "emoji": "👨"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "friend",
-        "zh": "朋友",
+        "word": "mother",
+        "zh": "媽媽",
         "kind": "productive",
-        "emoji": "🧑‍🤝‍🧑"
+        "emoji": "👩"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "nice",
-        "zh": "友善的",
-        "kind": "receptive",
-        "emoji": "😊"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "boy",
-        "zh": "男孩",
+        "word": "brother",
+        "zh": "哥哥/弟弟",
         "kind": "productive",
         "emoji": "👦"
       }
@@ -117,8 +108,8 @@
     {
       "kind": "vocab",
       "vocab": {
-        "word": "girl",
-        "zh": "女孩",
+        "word": "sister",
+        "zh": "姐姐/妹妹",
         "kind": "productive",
         "emoji": "👧"
       }
@@ -126,70 +117,79 @@
     {
       "kind": "vocab",
       "vocab": {
-        "word": "teacher",
-        "zh": "老師",
+        "word": "baby",
+        "zh": "寶寶",
         "kind": "receptive",
-        "emoji": "👩‍🏫"
+        "emoji": "👶"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "grandma",
+        "zh": "奶奶",
+        "kind": "receptive",
+        "emoji": "👵"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "My name is Sam.",
-        "zh": "我的名字是山姆。"
+        "text": "This is my father.",
+        "zh": "這是我的爸爸。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "He is my friend.",
-        "zh": "他是我的朋友。"
+        "text": "This is my mother.",
+        "zh": "這是我的媽媽。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "She is a nice girl.",
-        "zh": "她是一個友善的女孩。"
+        "text": "I have a brother and a sister.",
+        "zh": "我有一個哥哥和一個姐姐。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short e /e/",
-      "grapheme": "e",
-      "sound": "/e/",
+      "focus": "blend bl /bl/",
+      "grapheme": "bl",
+      "sound": "/bl/",
       "examples": [
-        "pen",
-        "ten",
-        "bed"
+        "blue",
+        "black",
+        "blow"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l02-g1",
+      "id": "g3-u02-l01-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "boy",
-      "promptZh": "聽 boy，選對的圖",
+      "audioText": "father",
+      "promptZh": "聽 father，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "👦"
+          "emoji": "👨"
         },
         {
           "id": "b",
-          "emoji": "👧"
+          "emoji": "👩"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l02-g2",
+      "id": "g3-u02-l01-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,28 +199,28 @@
         {
           "id": "p1",
           "left": {
-            "text": "friend",
-            "audioText": "friend"
+            "text": "father",
+            "audioText": "father"
           },
           "right": {
-            "emoji": "🧑‍🤝‍🧑"
+            "emoji": "👨"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "boy",
-            "audioText": "boy"
+            "text": "mother",
+            "audioText": "mother"
           },
           "right": {
-            "emoji": "👦"
+            "emoji": "👩"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "girl",
-            "audioText": "girl"
+            "text": "sister",
+            "audioText": "sister"
           },
           "right": {
             "emoji": "👧"
@@ -230,31 +230,31 @@
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l02-g3",
+      "id": "g3-u02-l01-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "👧 的英文是？",
+      "prompt": "👩 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "girl"
+          "text": "father"
         },
         {
           "id": "b",
-          "text": "boy"
+          "text": "mother"
         }
       ],
-      "answerId": "a"
+      "answerId": "b"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l02-i1",
+      "id": "g3-u02-l01-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "teacher",
+      "audioText": "brother",
       "promptZh": "聽英文選圖",
       "options": [
         {
@@ -263,98 +263,98 @@
         },
         {
           "id": "b",
-          "emoji": "👩‍🏫"
+          "emoji": "👧"
         },
         {
           "id": "c",
-          "emoji": "👧"
+          "emoji": "👶"
         }
       ],
-      "answerId": "b"
+      "answerId": "a"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l02-i2",
+      "id": "g3-u02-l01-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "He is my ___.",
-      "promptZh": "填入單字",
+      "prompt": "This is my ___.",
+      "promptZh": "填入單字（媽媽）",
       "acceptableAnswers": [
-        "friend"
+        "mother"
       ],
       "wordBank": [
-        "friend",
-        "name",
-        "girl"
+        "father",
+        "mother",
+        "sister"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l02-i3",
+      "id": "g3-u02-l01-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "My",
-        "name",
+        "This",
         "is",
-        "Sam"
+        "my",
+        "father"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l02-i4",
+      "id": "g3-u02-l01-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "boy",
-      "zh": "男孩",
-      "emoji": "👦",
+      "word": "sister",
+      "zh": "姐姐/妹妹",
+      "emoji": "👧",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l02-i5",
+      "id": "g3-u02-l01-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "My name is Sam. He is my friend.",
-      "zh": "我的名字是山姆。他是我的朋友。",
+      "target": "This is my father and my mother.",
+      "zh": "這是我的爸爸和我的媽媽。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l02-c1",
+      "id": "g3-u02-l01-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "girl",
+      "audioText": "grandma",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "👦"
+          "emoji": "👵"
         },
         {
           "id": "b",
-          "emoji": "👧"
+          "emoji": "👩"
         },
         {
           "id": "c",
-          "emoji": "👩‍🏫"
+          "emoji": "👶"
         },
         {
           "id": "d",
-          "emoji": "🧑‍🤝‍🧑"
+          "emoji": "👧"
         }
       ],
-      "answerId": "b"
+      "answerId": "a"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l02-c2",
+      "id": "g3-u02-l01-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
@@ -362,33 +362,33 @@
       "options": [
         {
           "id": "a",
-          "text": "girl"
+          "text": "sister"
         },
         {
           "id": "b",
-          "text": "boy"
+          "text": "brother"
         },
         {
           "id": "c",
-          "text": "friend"
+          "text": "baby"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l02-c3",
+      "id": "g3-u02-l01-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "girl",
-      "zh": "女孩",
-      "emoji": "👧",
+      "word": "mother",
+      "zh": "媽媽",
+      "emoji": "👩",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l02-c4",
+      "id": "g3-u02-l01-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -397,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "boy"
+            "text": "father"
+          },
+          "right": {
+            "emoji": "👨"
+          }
+        },
+        {
+          "id": "p2",
+          "left": {
+            "text": "brother"
           },
           "right": {
             "emoji": "👦"
           }
         },
         {
-          "id": "p2",
-          "left": {
-            "text": "girl"
-          },
-          "right": {
-            "emoji": "👧"
-          }
-        },
-        {
           "id": "p3",
           "left": {
-            "text": "teacher"
+            "text": "baby"
           },
           "right": {
-            "emoji": "👩‍🏫"
+            "emoji": "👶"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I am a boy. My name is Sam. I have a friend. Her name is Mia. She is a nice girl. We like our teacher.",
-    "passageZh": "我是一個男孩。我的名字是山姆。我有一個朋友。她的名字是米雅。她是一個友善的女孩。我們喜歡我們的老師。",
+    "passage": "This is my family. I have a father and a mother. I have a brother and a sister too. My sister is a baby. My grandma is here. I like my family a lot.",
+    "passageZh": "這是我的家人。我有一個爸爸和一個媽媽。我也有一個兄弟和一個姊妹。我的姊妹是個寶寶。我的奶奶在這裡。我很喜歡我的家人。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What is the boy's name?",
-        "promptZh": "這個男孩的名字是什麼？",
+        "prompt": "Who is a baby? 誰是寶寶？",
+        "promptZh": "哪一位是寶寶？",
         "options": [
           {
             "id": "a",
-            "text": "Sam"
+            "text": "my brother"
           },
           {
             "id": "b",
-            "text": "Mia"
+            "text": "my sister"
           },
           {
             "id": "c",
-            "text": "Teacher"
-          }
-        ],
-        "answerId": "a"
-      },
-      {
-        "id": "q2",
-        "prompt": "Mia is a nice ___.",
-        "promptZh": "米雅是一個友善的___。",
-        "options": [
-          {
-            "id": "a",
-            "text": "boy"
-          },
-          {
-            "id": "b",
-            "text": "girl"
-          },
-          {
-            "id": "c",
-            "text": "teacher"
+            "text": "my grandma"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q2",
+        "prompt": "How many people does the child have in the family? 文中提到幾位家人？",
+        "promptZh": "短文裡說到誰？",
+        "options": [
+          {
+            "id": "a",
+            "text": "father, mother, brother, sister, grandma"
+          },
+          {
+            "id": "b",
+            "text": "only father and mother"
+          },
+          {
+            "id": "c",
+            "text": "brother and baby only"
+          }
+        ],
+        "answerId": "a"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Tell me your name and your friend's name.",
-    "promptZh": "說出你的名字和你朋友的名字。",
-    "example": "My name is Lily. My friend is Tom. He is a nice boy.",
-    "canDo": "能用簡單句說出自己和朋友的名字，並做簡單的自我介紹。"
+    "prompt": "Tell me about your family. Use father, mother, brother, sister, baby, or grandma.",
+    "promptZh": "用本課單字介紹你的家人，說 3 到 4 句簡單英文。",
+    "example": "I have a father and a mother. I have a sister. My grandma is here. I like my family a lot.",
+    "canDo": "能用簡單句介紹自己的家人（爸爸、媽媽、兄弟姊妹、寶寶、奶奶）。"
   }
 }

@@ -1,174 +1,154 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-review",
-  "unitId": "g3-u01",
-  "kind": "review",
-  "title": "Hello, Friends! 哈囉，朋友！ · 單元複習",
-  "passThreshold": 0.7,
+  "id": "g3-u02-promotion",
+  "unitId": "g3-u02",
+  "kind": "promotion",
+  "title": "🛸 晉級測驗：My World 我的世界",
+  "passThreshold": 0.8,
   "items": [
     {
-      "type": "mcq",
-      "id": "g3-u01-rev-1",
-      "skill": "listening",
-      "phase": "check",
-      "points": 10,
-      "prompt": "聽聽看，這是哪一句？",
-      "audioText": "goodbye",
-      "promptZh": "（聽英文選答案）",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hello 👋"
-        },
-        {
-          "id": "b",
-          "text": "Goodbye 🤚"
-        },
-        {
-          "id": "c",
-          "text": "Thank you 🙏"
-        }
-      ],
-      "answerId": "b"
-    },
-    {
       "type": "listen-choose",
-      "id": "g3-u01-rev-2",
+      "id": "g3-u02-pro-1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "girl",
+      "audioText": "grandma",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "👦"
+          "emoji": "👵"
         },
         {
           "id": "b",
+          "emoji": "👩"
+        },
+        {
+          "id": "c",
+          "emoji": "👶"
+        },
+        {
+          "id": "d",
           "emoji": "👧"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "type": "listen-choose",
+      "id": "g3-u02-pro-2",
+      "skill": "listening",
+      "phase": "check",
+      "points": 10,
+      "audioText": "mouth",
+      "promptZh": "（聽英文選圖）",
+      "options": [
+        {
+          "id": "a",
+          "emoji": "✋"
+        },
+        {
+          "id": "b",
+          "emoji": "👄"
         },
         {
           "id": "c",
-          "emoji": "👩‍🏫"
+          "emoji": "👂"
         },
         {
           "id": "d",
-          "emoji": "🧑‍🤝‍🧑"
+          "emoji": "👃"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-rev-3",
+      "id": "g3-u02-pro-3",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "angry",
+      "audioText": "fish",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "😊"
+          "emoji": "🐶"
         },
         {
           "id": "b",
-          "emoji": "😠"
+          "emoji": "🐟"
         },
         {
           "id": "c",
-          "emoji": "😴"
+          "emoji": "🐱"
         },
         {
           "id": "d",
-          "emoji": "🍔"
+          "emoji": "🐰"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-rev-4",
+      "id": "g3-u02-pro-4",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "bread",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🍎"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🍞"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🥛"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🍌"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-rev-5",
+      "id": "g3-u02-pro-5",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "yellow",
+      "audioText": "bag",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "🔴"
+          "emoji": "📖"
         },
         {
           "id": "b",
-          "emoji": "🟡"
+          "emoji": "🎒"
         },
         {
           "id": "c",
-          "emoji": "🔵"
+          "emoji": "✏️"
         },
         {
           "id": "d",
-          "emoji": "🟢"
+          "emoji": "📏"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-rev-6",
-      "skill": "reading",
-      "phase": "check",
-      "points": 10,
-      "prompt": "「謝謝」的英文是？",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sorry"
-        },
-        {
-          "id": "b",
-          "text": "Please"
-        },
-        {
-          "id": "c",
-          "text": "Thank you"
-        }
-      ],
-      "answerId": "c"
-    },
-    {
-      "type": "mcq",
-      "id": "g3-u01-rev-7",
+      "id": "g3-u02-pro-6",
       "skill": "reading",
       "phase": "check",
       "points": 10,
@@ -176,41 +156,115 @@
       "options": [
         {
           "id": "a",
-          "text": "girl"
+          "text": "sister"
         },
         {
           "id": "b",
-          "text": "boy"
+          "text": "brother"
         },
         {
           "id": "c",
-          "text": "friend"
+          "text": "baby"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-rev-8",
+      "id": "g3-u02-pro-7",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "🙂 的英文是？",
+      "prompt": "👃 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "fine"
+          "text": "ear"
         },
         {
           "id": "b",
-          "text": "sad"
+          "text": "nose"
         },
         {
           "id": "c",
-          "text": "tired"
+          "text": "mouth"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq",
+      "id": "g3-u02-pro-8",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "🐱 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "dog"
+        },
+        {
+          "id": "b",
+          "text": "cat"
+        },
+        {
+          "id": "c",
+          "text": "fish"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq",
+      "id": "g3-u02-pro-9",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "🍌 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "apple"
+        },
+        {
+          "id": "b",
+          "text": "banana"
+        },
+        {
+          "id": "c",
+          "text": "milk"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "type": "mcq",
+      "id": "g3-u02-pro-10",
+      "skill": "reading",
+      "phase": "check",
+      "points": 10,
+      "prompt": "📖 的英文是？",
+      "options": [
+        {
+          "id": "a",
+          "text": "book"
+        },
+        {
+          "id": "b",
+          "text": "pen"
+        },
+        {
+          "id": "c",
+          "text": "bag"
         }
       ],
       "answerId": "a"
     }
-  ]
+  ],
+  "skillFloors": {
+    "listening": 0.7,
+    "reading": 0.7,
+    "writing": 0.6
+  }
 }

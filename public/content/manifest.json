@@ -18,12 +18,52 @@
       "promotionFile": "elementary/g3/g3-u01/promotion.json"
     },
     {
+      "id": "g3-u02",
+      "title": "My World 我的世界",
+      "grade": 3,
+      "cefr": "A1",
+      "planetEmoji": "🌍",
+      "lessonFiles": [
+        "elementary/g3/g3-u02/lesson-01.json",
+        "elementary/g3/g3-u02/lesson-02.json",
+        "elementary/g3/g3-u02/lesson-03.json",
+        "elementary/g3/g3-u02/lesson-04.json",
+        "elementary/g3/g3-u02/lesson-05.json"
+      ],
+      "reviewFile": "elementary/g3/g3-u02/review.json",
+      "promotionFile": "elementary/g3/g3-u02/promotion.json"
+    },
+    {
       "id": "g4-u01",
-      "title": "My Day 我的一天（骨架示範）",
+      "title": "My Day 我的一天",
       "grade": 4,
       "cefr": "A1",
       "planetEmoji": "🔥",
-      "lessonFiles": ["elementary/g4/g4-u01/lesson-01.json"]
+      "lessonFiles": [
+        "elementary/g4/g4-u01/lesson-01.json",
+        "elementary/g4/g4-u01/lesson-02.json",
+        "elementary/g4/g4-u01/lesson-03.json",
+        "elementary/g4/g4-u01/lesson-04.json",
+        "elementary/g4/g4-u01/lesson-05.json"
+      ],
+      "reviewFile": "elementary/g4/g4-u01/review.json",
+      "promotionFile": "elementary/g4/g4-u01/promotion.json"
+    },
+    {
+      "id": "g4-u02",
+      "title": "Around Town 城市生活",
+      "grade": 4,
+      "cefr": "A1",
+      "planetEmoji": "🏙️",
+      "lessonFiles": [
+        "elementary/g4/g4-u02/lesson-01.json",
+        "elementary/g4/g4-u02/lesson-02.json",
+        "elementary/g4/g4-u02/lesson-03.json",
+        "elementary/g4/g4-u02/lesson-04.json",
+        "elementary/g4/g4-u02/lesson-05.json"
+      ],
+      "reviewFile": "elementary/g4/g4-u02/review.json",
+      "promotionFile": "elementary/g4/g4-u02/promotion.json"
     }
   ]
 }

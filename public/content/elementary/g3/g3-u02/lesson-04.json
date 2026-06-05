@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
+  "id": "g3-u02-l04",
+  "unitId": "g3-u02",
+  "title": "好吃的食物 Food",
+  "titleEn": "Food & Fruit",
   "grade": 3,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "digraph ch /tʃ/",
+  "softSkillFocus": "表達自己喜歡吃的食物",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能聽說讀寫六個食物與飲料的英文單字",
+    "能用 I like 和 This is 簡單句表達喜歡的食物"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "apple",
+      "zh": "蘋果",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "🍎",
+      "example": "I like an apple."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "banana",
+      "zh": "香蕉",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "🍌",
+      "example": "This is a banana."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "milk",
+      "zh": "牛奶",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🥛",
+      "example": "I like milk."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "bread",
+      "zh": "麵包",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "🍞",
+      "example": "This is bread."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "egg",
+      "zh": "蛋",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🥚",
+      "example": "I have an egg."
+    },
+    {
+      "word": "water",
+      "zh": "水",
+      "kind": "receptive",
+      "emoji": "💧",
+      "example": "I like water."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "I like an apple.",
+      "zh": "我喜歡蘋果。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "This is my milk.",
+      "zh": "這是我的牛奶。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I like bread and milk.",
+      "zh": "我喜歡麵包和牛奶。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "apple",
+        "zh": "蘋果",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "🍎"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "banana",
+        "zh": "香蕉",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "🍌"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "milk",
+        "zh": "牛奶",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🥛"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "bread",
+        "zh": "麵包",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "🍞"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "egg",
+        "zh": "蛋",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🥚"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "water",
+        "zh": "水",
+        "kind": "receptive",
+        "emoji": "💧"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "I like an apple.",
+        "zh": "我喜歡蘋果。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "This is my milk.",
+        "zh": "這是我的牛奶。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I like bread and milk.",
+        "zh": "我喜歡麵包和牛奶。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "digraph ch /tʃ/",
+      "grapheme": "ch",
+      "sound": "/tʃ/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "chair",
+        "cheese",
+        "lunch"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g3-u02-l04-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "apple",
+      "promptZh": "聽 apple，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "🍎"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "🍌"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g3-u02-l04-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "apple",
+            "audioText": "apple"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "🍎"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "banana",
+            "audioText": "banana"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🍌"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "milk",
+            "audioText": "milk"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🥛"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g3-u02-l04-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "🍞 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "bread"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "milk"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g3-u02-l04-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "banana",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "🍎"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🍌"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "🥛"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g3-u02-l04-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "I like ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "milk"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "milk",
+        "bread",
+        "apple"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g3-u02-l04-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "my",
+        "milk"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g3-u02-l04-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "apple",
+      "zh": "蘋果",
+      "emoji": "🍎",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g3-u02-l04-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I like bread and milk.",
+      "zh": "我喜歡麵包和牛奶。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g3-u02-l04-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "bread",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "🍎"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "🍞"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🥛"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "🍌"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g3-u02-l04-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "🍌 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "apple"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "banana"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "milk"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g3-u02-l04-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "banana",
+      "zh": "香蕉",
+      "emoji": "🍌",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g3-u02-l04-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "apple"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "🍎"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "bread"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🍞"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "water"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "💧"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I like apple and banana. I have milk and bread too. Here is an egg. I can see water. I like water a lot.",
+    "passageZh": "我喜歡蘋果和香蕉。我也有牛奶和麵包。這裡有一顆蛋。我可以看到水。我很喜歡水。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What does the speaker like? 說話者喜歡什麼？",
+        "promptZh": "說話者喜歡什麼？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "apple and banana"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "egg and bread"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "milk and egg"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "What is here? 這裡有什麼？",
+        "promptZh": "這裡有什麼？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "a banana"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "an egg"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "bread"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me what food you like.",
+    "promptZh": "用英文說說你喜歡的食物，可以說一到兩個本課單字。",
+    "example": "I like apple and milk. I have bread too.",
+    "canDo": "能用簡單句說出自己喜歡的食物。"
   }
 }

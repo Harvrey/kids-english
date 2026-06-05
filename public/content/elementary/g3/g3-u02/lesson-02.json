@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
+  "id": "g3-u02-l02",
+  "unitId": "g3-u02",
+  "title": "我的身體 Body",
+  "titleEn": "My Body",
   "grade": 3,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "blend br /br/",
+  "softSkillFocus": "認識並指出自己的身體部位",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出六個身體部位的英文單字",
+    "能用簡單句子介紹自己的身體部位"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "hand",
+      "zh": "手",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "✋",
+      "example": "This is my hand."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "eye",
+      "zh": "眼睛",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "👁️",
+      "example": "I have two eyes."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "ear",
+      "zh": "耳朵",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "👂",
+      "example": "This is my ear."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "nose",
+      "zh": "鼻子",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "👃",
+      "example": "I have a nose."
     },
     {
-      "word": "five",
-      "zh": "五",
+      "word": "mouth",
+      "zh": "嘴巴",
       "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
+      "emoji": "👄",
+      "example": "This is my mouth."
     },
     {
-      "word": "ten",
-      "zh": "十",
+      "word": "foot",
+      "zh": "腳",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "🦶",
+      "example": "This is my foot."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "This is my hand.",
+      "zh": "這是我的手。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "I have two eyes.",
+      "zh": "我有兩隻眼睛。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I have a nose and a mouth.",
+      "zh": "我有一個鼻子和一張嘴巴。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "hand",
+        "zh": "手",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "✋"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "eye",
+        "zh": "眼睛",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "👁️"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "ear",
+        "zh": "耳朵",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "👂"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "nose",
+        "zh": "鼻子",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "👃"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
+        "word": "mouth",
+        "zh": "嘴巴",
         "kind": "productive",
-        "emoji": "5️⃣"
+        "emoji": "👄"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "foot",
+        "zh": "腳",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "🦶"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "This is my hand.",
+        "zh": "這是我的手。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "I have two eyes.",
+        "zh": "我有兩隻眼睛。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I have a nose and a mouth.",
+        "zh": "我有一個鼻子和一張嘴巴。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "blend br /br/",
+      "grapheme": "br",
+      "sound": "/br/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "brown",
+        "bread",
+        "bring"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g3-u02-l02-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "hand",
+      "promptZh": "聽 hand，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "✋"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "👂"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g3-u02-l02-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "eye",
+            "audioText": "eye"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "👁️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "ear",
+            "audioText": "ear"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👂"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "nose",
+            "audioText": "nose"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "👃"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g3-u02-l02-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "👄 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "mouth"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "nose"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g3-u02-l02-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "eye",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "👁️"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "👃"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "👄"
         }
       ],
-      "answerId": "b"
+      "answerId": "a"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g3-u02-l02-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "This is my ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "hand"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "hand",
+        "ear",
+        "nose"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g3-u02-l02-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "my",
+        "nose"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g3-u02-l02-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "ear",
+      "zh": "耳朵",
+      "emoji": "👂",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g3-u02-l02-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I have two eyes and a nose.",
+      "zh": "我有兩隻眼睛和一個鼻子。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g3-u02-l02-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "mouth",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "✋"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "👄"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "👂"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "👃"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g3-u02-l02-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "👃 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "ear"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "nose"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "mouth"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g3-u02-l02-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "hand",
+      "zh": "手",
+      "emoji": "✋",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g3-u02-l02-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "eye"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👁️"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "foot"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "🦶"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "mouth"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "👄"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "This is my face. I have two eyes and one nose. I have one mouth and two ears. I can see with my eyes. I can look at you and I like my face very much.",
+    "passageZh": "這是我的臉。我有兩隻眼睛和一個鼻子。我有一張嘴巴和兩隻耳朵。我可以用眼睛看東西。我可以看著你，我很喜歡我的臉。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "How many eyes do I have?",
+        "promptZh": "我有幾隻眼睛？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "One"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "Two"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "Three"
           }
         ],
         "answerId": "b"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "What can I see with?",
+        "promptZh": "我用什麼來看東西？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "My eyes"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "My ears"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "My foot"
           }
         ],
-        "answerId": "c"
+        "answerId": "a"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Point to your face and tell me your body parts.",
+    "promptZh": "指著自己的臉和身體，用英文說出這些身體部位（例如眼睛、鼻子、嘴巴、耳朵、手、腳）。",
+    "example": "This is my nose. These are my eyes. I have two hands and two feet.",
+    "canDo": "能用簡單句說出自己的身體部位。"
   }
 }

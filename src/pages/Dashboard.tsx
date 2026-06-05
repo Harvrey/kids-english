@@ -5,7 +5,7 @@ import { Hud } from '../components/Hud'
 import { loadManifest, loadLesson } from '../content/contentLoader'
 import type { ContentManifest, UnitRef } from '../types/content'
 import { getDueCards } from '../data/srsRepository'
-import { galaxyDef } from '../config/ladder'
+import { galaxyDef, galaxyForGrade } from '../config/ladder'
 import { BADGES, badgeDef } from '../config/badges'
 import { isInCooldown } from '../game/promotion'
 
@@ -117,10 +117,7 @@ function UnitCard({
   onReview: () => void
   onPromotion: () => void
 }) {
-  const g = galaxyDef(
-    // 由年級推星系顏色（簡化：用 ladder galaxy）
-    unit.grade <= 3 ? 'nova' : unit.grade <= 6 ? 'drift' : unit.grade <= 9 ? 'pulse' : 'quasar',
-  )
+  const g = galaxyDef(galaxyForGrade(unit.grade))
   const totalStars = uv.lessons.reduce((s, l) => s + (lessonProgress[l.id]?.stars ?? 0), 0)
   const maxStars = uv.lessons.length * 3
   const allDone = uv.lessons.length > 0 && uv.lessons.every((l) => lessonProgress[l.id]?.completed)

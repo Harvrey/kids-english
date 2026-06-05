@@ -1,195 +1,195 @@
 {
   "schemaVersion": 1,
-  "id": "g3-u01-l04",
-  "unitId": "g3-u01",
-  "title": "數一數 Numbers",
-  "titleEn": "Numbers 1–10",
-  "grade": 3,
+  "id": "g4-u01-l04",
+  "unitId": "g4-u01",
+  "title": "穿什麼 Clothes",
+  "titleEn": "Clothes",
+  "grade": 4,
   "stage": "S2 讀寫起步",
   "cefr": "A1",
   "ageTier": "mid",
   "estMinutes": 30,
-  "phonicsFocus": "short o /ɒ/",
-  "softSkillFocus": "用英文數數並說出數量",
+  "phonicsFocus": "long o (o_e) /oʊ/",
+  "softSkillFocus": "描述身上穿的衣物",
   "curriculumCodes": [
     "2-Ⅱ-1",
     "Ac-Ⅱ-2"
   ],
   "objectives": [
-    "能聽辨並說出數字 one 到 five 和 ten",
-    "能讀出並寫出數字單字並表達數量"
+    "能說出六種常見衣物的英文名稱",
+    "能用 This is my ... 和 I have ... 描述自己的衣物"
   ],
   "vocabulary": [
     {
-      "word": "one",
-      "zh": "一",
+      "word": "shirt",
+      "zh": "襯衫",
       "kind": "productive",
-      "emoji": "1️⃣",
-      "example": "I have one dog."
+      "emoji": "👕",
+      "example": "This is my shirt."
     },
     {
-      "word": "two",
-      "zh": "二",
+      "word": "pants",
+      "zh": "褲子",
       "kind": "productive",
-      "emoji": "2️⃣",
-      "example": "I see two cats."
+      "emoji": "👖",
+      "example": "I have blue pants."
     },
     {
-      "word": "three",
-      "zh": "三",
+      "word": "hat",
+      "zh": "帽子",
       "kind": "productive",
-      "emoji": "3️⃣",
-      "example": "I have three pens."
+      "emoji": "🧢",
+      "example": "This is my hat."
     },
     {
-      "word": "four",
-      "zh": "四",
+      "word": "shoes",
+      "zh": "鞋子",
       "kind": "productive",
-      "emoji": "4️⃣",
-      "example": "I see four birds."
+      "emoji": "👟",
+      "example": "I have new shoes."
     },
     {
-      "word": "five",
-      "zh": "五",
-      "kind": "productive",
-      "emoji": "5️⃣",
-      "example": "I have five books."
-    },
-    {
-      "word": "ten",
-      "zh": "十",
+      "word": "dress",
+      "zh": "洋裝",
       "kind": "receptive",
-      "emoji": "🔟",
-      "example": "I can count to ten."
+      "emoji": "👗",
+      "example": "This is a red dress."
+    },
+    {
+      "word": "socks",
+      "zh": "襪子",
+      "kind": "receptive",
+      "emoji": "🧦",
+      "example": "I have two socks."
     }
   ],
   "sentences": [
     {
-      "text": "I have two dogs.",
-      "zh": "我有兩隻狗。"
+      "text": "This is my shirt.",
+      "zh": "這是我的襯衫。"
     },
     {
-      "text": "I can count to ten.",
-      "zh": "我可以數到十。"
+      "text": "I have a hat and shoes.",
+      "zh": "我有一頂帽子和鞋子。"
     },
     {
-      "text": "I see five birds.",
-      "zh": "我看見五隻鳥。"
+      "text": "I like my new pants.",
+      "zh": "我喜歡我的新褲子。"
     }
   ],
   "teaching": [
     {
       "kind": "vocab",
       "vocab": {
-        "word": "one",
-        "zh": "一",
+        "word": "shirt",
+        "zh": "襯衫",
         "kind": "productive",
-        "emoji": "1️⃣"
+        "emoji": "👕"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "two",
-        "zh": "二",
+        "word": "pants",
+        "zh": "褲子",
         "kind": "productive",
-        "emoji": "2️⃣"
+        "emoji": "👖"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "three",
-        "zh": "三",
+        "word": "hat",
+        "zh": "帽子",
         "kind": "productive",
-        "emoji": "3️⃣"
+        "emoji": "🧢"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "four",
-        "zh": "四",
+        "word": "shoes",
+        "zh": "鞋子",
         "kind": "productive",
-        "emoji": "4️⃣"
+        "emoji": "👟"
       }
     },
     {
       "kind": "vocab",
       "vocab": {
-        "word": "five",
-        "zh": "五",
-        "kind": "productive",
-        "emoji": "5️⃣"
-      }
-    },
-    {
-      "kind": "vocab",
-      "vocab": {
-        "word": "ten",
-        "zh": "十",
+        "word": "dress",
+        "zh": "洋裝",
         "kind": "receptive",
-        "emoji": "🔟"
+        "emoji": "👗"
+      }
+    },
+    {
+      "kind": "vocab",
+      "vocab": {
+        "word": "socks",
+        "zh": "襪子",
+        "kind": "receptive",
+        "emoji": "🧦"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I have two dogs.",
-        "zh": "我有兩隻狗。"
+        "text": "This is my shirt.",
+        "zh": "這是我的襯衫。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I can count to ten.",
-        "zh": "我可以數到十。"
+        "text": "I have a hat and shoes.",
+        "zh": "我有一頂帽子和鞋子。"
       }
     },
     {
       "kind": "sentence",
       "sentence": {
-        "text": "I see five birds.",
-        "zh": "我看見五隻鳥。"
+        "text": "I like my new pants.",
+        "zh": "我喜歡我的新褲子。"
       }
     },
     {
       "kind": "phonics",
-      "focus": "short o /ɒ/",
-      "grapheme": "o",
-      "sound": "/ɒ/",
+      "focus": "long o (o_e) /oʊ/",
+      "grapheme": "o_e",
+      "sound": "/oʊ/",
       "examples": [
-        "dog",
-        "top",
-        "box"
+        "home",
+        "nose",
+        "rose"
       ]
     }
   ],
   "exercises": [
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-g1",
+      "id": "g4-u01-l04-g1",
       "skill": "listening",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "audioText": "three",
-      "promptZh": "聽 three，選對的圖",
+      "audioText": "shirt",
+      "promptZh": "聽 shirt，選對的圖",
       "options": [
         {
           "id": "a",
-          "emoji": "3️⃣"
+          "emoji": "👕"
         },
         {
           "id": "b",
-          "emoji": "2️⃣"
+          "emoji": "👖"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-g2",
+      "id": "g4-u01-l04-g2",
       "skill": "reading",
       "phase": "guided",
       "points": 15,
@@ -199,197 +199,196 @@
         {
           "id": "p1",
           "left": {
-            "text": "one",
-            "audioText": "one"
+            "text": "shirt",
+            "audioText": "shirt"
           },
           "right": {
-            "emoji": "1️⃣"
+            "emoji": "👕"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "two",
-            "audioText": "two"
+            "text": "pants",
+            "audioText": "pants"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👖"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "five",
-            "audioText": "five"
+            "text": "hat",
+            "audioText": "hat"
           },
           "right": {
-            "emoji": "5️⃣"
+            "emoji": "🧢"
           }
         }
       ]
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-g3",
+      "id": "g4-u01-l04-g3",
       "skill": "reading",
       "phase": "guided",
       "points": 10,
       "hintLevel": "full",
-      "prompt": "4️⃣ 的英文是？",
+      "prompt": "👟 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "four"
+          "text": "shoes"
         },
         {
           "id": "b",
-          "text": "five"
+          "text": "socks"
         }
       ],
       "answerId": "a"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-i1",
+      "id": "g4-u01-l04-i1",
       "skill": "listening",
       "phase": "independent",
       "points": 10,
-      "audioText": "five",
+      "audioText": "hat",
       "promptZh": "聽英文選圖",
       "options": [
         {
           "id": "a",
-          "emoji": "1️⃣"
+          "emoji": "👕"
         },
         {
           "id": "b",
-          "emoji": "5️⃣"
+          "emoji": "🧢"
         },
         {
           "id": "c",
-          "emoji": "3️⃣"
+          "emoji": "👟"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "fill-in",
-      "id": "g3-u01-l04-i2",
+      "id": "g4-u01-l04-i2",
       "skill": "writing",
       "phase": "independent",
       "points": 10,
-      "prompt": "I have ___ dogs.",
-      "promptZh": "填入單字（二）",
+      "prompt": "This is my ___.",
+      "promptZh": "填入單字",
       "acceptableAnswers": [
-        "two"
+        "shirt"
       ],
       "wordBank": [
-        "one",
-        "two",
-        "three"
+        "shirt",
+        "pants",
+        "hat"
       ]
     },
     {
       "type": "ordering",
-      "id": "g3-u01-l04-i3",
+      "id": "g4-u01-l04-i3",
       "skill": "reading",
       "phase": "independent",
       "points": 15,
       "promptZh": "排出句子",
       "tokens": [
-        "I",
-        "can",
-        "count",
-        "to",
-        "ten"
+        "This",
+        "is",
+        "my",
+        "hat"
       ]
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-i4",
+      "id": "g4-u01-l04-i4",
       "skill": "writing",
       "phase": "independent",
       "points": 15,
-      "word": "four",
-      "zh": "四",
-      "emoji": "4️⃣",
+      "word": "pants",
+      "zh": "褲子",
+      "emoji": "👖",
       "mode": "tiles"
     },
     {
       "type": "speak",
-      "id": "g3-u01-l04-i5",
+      "id": "g4-u01-l04-i5",
       "skill": "speaking",
       "phase": "independent",
       "points": 5,
-      "target": "I have two dogs and three cats.",
-      "zh": "我有兩隻狗和三隻貓。",
+      "target": "I have a hat and shoes.",
+      "zh": "我有一頂帽子和鞋子。",
       "mode": "repeat-required"
     },
     {
       "type": "listen-choose",
-      "id": "g3-u01-l04-c1",
+      "id": "g4-u01-l04-c1",
       "skill": "listening",
       "phase": "check",
       "points": 10,
-      "audioText": "one",
+      "audioText": "shoes",
       "promptZh": "（聽英文選圖）",
       "options": [
         {
           "id": "a",
-          "emoji": "2️⃣"
+          "emoji": "👕"
         },
         {
           "id": "b",
-          "emoji": "1️⃣"
+          "emoji": "👟"
         },
         {
           "id": "c",
-          "emoji": "4️⃣"
+          "emoji": "🧢"
         },
         {
           "id": "d",
-          "emoji": "5️⃣"
+          "emoji": "👖"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "mcq",
-      "id": "g3-u01-l04-c2",
+      "id": "g4-u01-l04-c2",
       "skill": "reading",
       "phase": "check",
       "points": 10,
-      "prompt": "3️⃣ 的英文是？",
+      "prompt": "👖 的英文是？",
       "options": [
         {
           "id": "a",
-          "text": "two"
+          "text": "shirt"
         },
         {
           "id": "b",
-          "text": "three"
+          "text": "pants"
         },
         {
           "id": "c",
-          "text": "five"
+          "text": "hat"
         }
       ],
       "answerId": "b"
     },
     {
       "type": "spelling",
-      "id": "g3-u01-l04-c3",
+      "id": "g4-u01-l04-c3",
       "skill": "writing",
       "phase": "check",
       "points": 15,
-      "word": "five",
-      "zh": "五",
-      "emoji": "5️⃣",
+      "word": "hat",
+      "zh": "帽子",
+      "emoji": "🧢",
       "mode": "tiles"
     },
     {
       "type": "matching",
-      "id": "g3-u01-l04-c4",
+      "id": "g4-u01-l04-c4",
       "skill": "reading",
       "phase": "check",
       "points": 15,
@@ -398,84 +397,84 @@
         {
           "id": "p1",
           "left": {
-            "text": "two"
+            "text": "shirt"
           },
           "right": {
-            "emoji": "2️⃣"
+            "emoji": "👕"
           }
         },
         {
           "id": "p2",
           "left": {
-            "text": "four"
+            "text": "dress"
           },
           "right": {
-            "emoji": "4️⃣"
+            "emoji": "👗"
           }
         },
         {
           "id": "p3",
           "left": {
-            "text": "ten"
+            "text": "socks"
           },
           "right": {
-            "emoji": "🔟"
+            "emoji": "🧦"
           }
         }
       ]
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I have a hat and a shirt. My shirt is here. I have pants and shoes too. I like my dress. My socks are very nice.",
+    "passageZh": "我有一頂帽子和一件襯衫。我的襯衫在這裡。我也有褲子和鞋子。我喜歡我的洋裝。我的襪子很好看。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "prompt": "What does the speaker like? 說話的人喜歡什麼？",
+        "promptZh": "說話的人喜歡什麼？",
         "options": [
           {
             "id": "a",
-            "text": "two"
+            "text": "the dress 洋裝"
           },
           {
             "id": "b",
-            "text": "three"
+            "text": "the hat 帽子"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "the shoes 鞋子"
           }
         ],
-        "answerId": "b"
+        "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "prompt": "How are the socks? 襪子怎麼樣？",
+        "promptZh": "襪子怎麼樣？",
         "options": [
           {
             "id": "a",
-            "text": "four"
+            "text": "old 舊的"
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "very nice 很好看"
           },
           {
             "id": "c",
-            "text": "ten"
+            "text": "big 很大"
           }
         ],
-        "answerId": "c"
+        "answerId": "b"
       }
     ]
   },
   "production": {
     "mode": "speak",
-    "prompt": "Count from one to five. Then say ten.",
-    "promptZh": "從一數到五，然後說出十。",
-    "example": "One, two, three, four, five. Ten.",
-    "canDo": "能用英文說出數字一到五和十"
+    "prompt": "Tell me about your clothes. What do you have?",
+    "promptZh": "說說你的衣物。用英文說出你有哪些衣服，例如襯衫、褲子、帽子、鞋子、洋裝、襪子。",
+    "example": "I have a shirt and pants. I have a hat and shoes too. I like my socks.",
+    "canDo": "能用簡單句說出自己擁有的衣物。"
   }
 }
