@@ -41,7 +41,7 @@ export function Dashboard() {
         let prevCleared: boolean = true // 第一個有內容的階級預設開放
         for (let i = 0; i < present.length; i++) {
           const s = present[i]
-          const unlocked = i === 0 || prevCleared
+          const unlocked: boolean = i === 0 || prevCleared
           const refs = byStage.get(s.key)!
           const units: UnitView[] = []
           for (const u of refs) {
