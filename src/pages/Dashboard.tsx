@@ -38,7 +38,7 @@ export function Dashboard() {
           (byStage.get(key) ?? []).every((u) => unitProgress[u.id]?.promotionPassed)
 
         const out: StageView[] = []
-        let prevCleared = true // 第一個有內容的階級預設開放
+        let prevCleared: boolean = true // 第一個有內容的階級預設開放
         for (let i = 0; i < present.length; i++) {
           const s = present[i]
           const unlocked = i === 0 || prevCleared
