@@ -5,17 +5,17 @@ import { Hud } from '../components/Hud'
 import { loadManifest, loadLesson } from '../content/contentLoader'
 import type { ContentManifest, UnitRef } from '../types/content'
 import { getDueCards } from '../data/srsRepository'
-import { galaxyDef, galaxyForGrade } from '../config/ladder'
+import { galaxyDef, galaxyForGrade, stageForGrade, STAGES, type StageDef } from '../config/ladder'
 import { BADGES, badgeDef } from '../config/badges'
 import { isInCooldown } from '../game/promotion'
 
 interface LessonMeta { file: string; id: string; title: string; titleEn?: string; minutes: number }
-interface UnitView { unit: UnitRef; lessons: LessonMeta[]; unlocked: boolean }
+interface UnitView { unit: UnitRef; lessons: LessonMeta[] }
+interface StageView { stage: StageDef; unlocked: boolean; units: UnitView[] }
 
 export function Dashboard() {
-  const app = useApp()
-  const { activeChild, points, lessonProgress, unitProgress, navigate, exitChild } = app
-  const [units, setUnits] = useState<UnitView[]>([])
+  const { activeChild, points, lessonProgress, unitProgress, navigate, exitChild } = useApp()
+  const [stages, setStages] = useState<StageView[]>([])
   const [dueCount, setDueCount] = useState(0)
   const [err, setErr] = useState<string | null>(null)
 
@@ -25,24 +25,41 @@ export function Dashboard() {
     ;(async () => {
       try {
         const manifest: ContentManifest = await loadManifest()
-        const out: UnitView[] = []
-        for (let i = 0; i < manifest.units.length; i++) {
-          const unit = manifest.units[i]
-          const prev = manifest.units[i - 1]
-          const unlocked = i === 0 || !!(prev && unitProgress[prev.id]?.promotionPassed)
-          let lessons: LessonMeta[] = []
-          if (unlocked) {
-            lessons = await Promise.all(
-              unit.lessonFiles.map(async (file) => {
+
+        // 依階級分組（同階級的課程一起解鎖、可任意選）
+        const byStage = new Map<string, UnitRef[]>()
+        for (const u of manifest.units) {
+          const key = stageForGrade(u.grade)
+          if (!byStage.has(key)) byStage.set(key, [])
+          byStage.get(key)!.push(u)
+        }
+        const present = STAGES.filter((s) => byStage.has(s.key))
+        const stageCleared = (key: string) =>
+          (byStage.get(key) ?? []).every((u) => unitProgress[u.id]?.promotionPassed)
+
+        const out: StageView[] = []
+        let prevCleared = true // 第一個有內容的階級預設開放
+        for (let i = 0; i < present.length; i++) {
+          const s = present[i]
+          const unlocked = i === 0 || prevCleared
+          const refs = byStage.get(s.key)!
+          const units: UnitView[] = []
+          for (const u of refs) {
+            let lessons: LessonMeta[] = []
+            if (unlocked) {
+              lessons = await Promise.all(u.lessonFiles.map(async (file) => {
                 const l = await loadLesson(file)
                 return { file, id: l.id, title: l.title, titleEn: l.titleEn, minutes: l.estMinutes }
-              }),
-            )
+              }))
+            }
+            units.push({ unit: u, lessons })
           }
-          out.push({ unit, lessons, unlocked })
+          out.push({ stage: s, unlocked, units })
+          prevCleared = unlocked && stageCleared(s.key) // 下一階級：本階級已解鎖且全部晉級才開
         }
+
         const due = await getDueCards(activeChild.id, 99)
-        if (alive) { setUnits(out); setDueCount(due.length) }
+        if (alive) { setStages(out); setDueCount(due.length) }
       } catch (e) {
         if (alive) setErr(e instanceof Error ? e.message : '載入失敗')
       }
@@ -76,16 +93,40 @@ export function Dashboard() {
       {err && <Card className="mb-4 p-4 text-center text-quasar">⚠️ {err}</Card>}
 
       <h2 className="mb-3 mt-2 text-lg font-bold">🗺️ 星河地圖</h2>
-      <div className="space-y-4">
-        {units.map((uv) => (
-          <UnitCard key={uv.unit.id} uv={uv} unit={uv.unit}
-            promotionPassed={!!unitProgress[uv.unit.id]?.promotionPassed}
-            cooldownUntil={unitProgress[uv.unit.id]?.cooldownUntil ?? 0}
-            onLesson={(file) => navigate({ name: 'lesson', unitId: uv.unit.id, lessonFile: file })}
-            onReview={() => uv.unit.reviewFile && navigate({ name: 'quiz', unitId: uv.unit.id, quizFile: uv.unit.reviewFile, kind: 'review' })}
-            onPromotion={() => uv.unit.promotionFile && navigate({ name: 'quiz', unitId: uv.unit.id, quizFile: uv.unit.promotionFile, kind: 'promotion' })}
-            lessonProgress={lessonProgress} />
-        ))}
+      <div className="space-y-6">
+        {stages.map((sv) => {
+          const g = galaxyDef(sv.stage.galaxy)
+          return (
+            <div key={sv.stage.key}>
+              <div className="mb-2 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">{g.emoji}</span>
+                  <div>
+                    <div className={`font-bold ${g.colorClass}`}>{sv.stage.name}</div>
+                    <div className="text-xs text-white/50">{sv.stage.grades} · CEFR {sv.stage.cefr}</div>
+                  </div>
+                </div>
+                {!sv.unlocked && <span className="text-sm text-white/40">🔒 鎖定中</span>}
+              </div>
+
+              {sv.unlocked ? (
+                <div className="space-y-4">
+                  {sv.units.map((uv) => (
+                    <UnitCard key={uv.unit.id} uv={uv} unit={uv.unit}
+                      promotionPassed={!!unitProgress[uv.unit.id]?.promotionPassed}
+                      cooldownUntil={unitProgress[uv.unit.id]?.cooldownUntil ?? 0}
+                      onLesson={(file) => navigate({ name: 'lesson', unitId: uv.unit.id, lessonFile: file })}
+                      onReview={() => uv.unit.reviewFile && navigate({ name: 'quiz', unitId: uv.unit.id, quizFile: uv.unit.reviewFile, kind: 'review' })}
+                      onPromotion={() => uv.unit.promotionFile && navigate({ name: 'quiz', unitId: uv.unit.id, quizFile: uv.unit.promotionFile, kind: 'promotion' })}
+                      lessonProgress={lessonProgress} />
+                  ))}
+                </div>
+              ) : (
+                <Card className="p-4 text-center text-white/50">🔒 通過「上一階級」的全部晉級測驗即可解鎖這個階級</Card>
+              )}
+            </div>
+          )
+        })}
       </div>
     </Screen>
   )
@@ -131,46 +172,40 @@ function UnitCard({
           <span className="text-4xl">{unit.planetEmoji}</span>
           <div>
             <div className="font-bold">{unit.title}</div>
-            <div className={`text-xs ${g.colorClass}`}>{g.name} · {unit.cefr}{promotionPassed && ' · ✅ 已晉級'}</div>
+            <div className={`text-xs ${g.colorClass}`}>{unit.cefr}{promotionPassed && ' · ✅ 已晉級'}</div>
           </div>
         </div>
-        {uv.unlocked && uv.lessons.length > 0 && (
+        {uv.lessons.length > 0 && (
           <div className="text-right text-sm text-star">⭐ {totalStars}/{maxStars}</div>
         )}
       </div>
 
-      {!uv.unlocked ? (
-        <div className="rounded-2xl bg-white/5 p-4 text-center text-white/50">🔒 通過上一個星系的晉級測驗即可解鎖</div>
-      ) : (
-        <>
-          <div className="flex flex-wrap gap-3">
-            {uv.lessons.map((l, idx) => {
-              const p = lessonProgress[l.id]
-              return (
-                <button key={l.id} onClick={() => onLesson(l.file)}
-                  className="no-select flex w-[88px] flex-col items-center gap-1 active:scale-95 transition">
-                  <span className={`grid h-16 w-16 place-items-center rounded-full text-2xl font-extrabold ring-4 ${p?.completed ? 'bg-nova/30 ring-nova' : 'bg-white/10 ring-white/15'}`}>
-                    {p?.completed ? '✓' : idx + 1}
-                  </span>
-                  <StarRow count={p?.stars ?? 0} size="text-xs" />
-                  <span className="text-center text-[11px] leading-tight text-white/70">{l.title}</span>
-                </button>
-              )
-            })}
-          </div>
+      <div className="flex flex-wrap gap-3">
+        {uv.lessons.map((l, idx) => {
+          const p = lessonProgress[l.id]
+          return (
+            <button key={l.id} onClick={() => onLesson(l.file)}
+              className="no-select flex w-[88px] flex-col items-center gap-1 active:scale-95 transition">
+              <span className={`grid h-16 w-16 place-items-center rounded-full text-2xl font-extrabold ring-4 ${p?.completed ? 'bg-nova/30 ring-nova' : 'bg-white/10 ring-white/15'}`}>
+                {p?.completed ? '✓' : idx + 1}
+              </span>
+              <StarRow count={p?.stars ?? 0} size="text-xs" />
+              <span className="text-center text-[11px] leading-tight text-white/70">{l.title}</span>
+            </button>
+          )
+        })}
+      </div>
 
-          <div className="mt-4 flex flex-wrap gap-2">
-            {unit.reviewFile && <Button variant="ghost" onClick={onReview} disabled={!anyDone} className="text-base">📚 單元複習</Button>}
-            {unit.promotionFile && (
-              <Button variant={allDone && !cooling ? 'star' : 'ghost'} onClick={onPromotion} disabled={!allDone || cooling} className="text-base">
-                🛸 晉級測驗 {promotionPassed ? '（已通過）' : ''}
-              </Button>
-            )}
-          </div>
-          {!allDone && unit.promotionFile && <p className="mt-2 text-xs text-white/40">完成全部課程後即可挑戰晉級測驗</p>}
-          {cooling && <p className="mt-2 text-xs text-quasar">晉級測驗冷卻中，先去複習一下再回來吧！</p>}
-        </>
-      )}
+      <div className="mt-4 flex flex-wrap gap-2">
+        {unit.reviewFile && <Button variant="ghost" onClick={onReview} disabled={!anyDone} className="text-base">📚 單元複習</Button>}
+        {unit.promotionFile && (
+          <Button variant={allDone && !cooling ? 'star' : 'ghost'} onClick={onPromotion} disabled={!allDone || cooling} className="text-base">
+            🛸 晉級測驗 {promotionPassed ? '（已通過）' : ''}
+          </Button>
+        )}
+      </div>
+      {!allDone && unit.promotionFile && <p className="mt-2 text-xs text-white/40">完成本單元全部課程後即可挑戰晉級測驗</p>}
+      {cooling && <p className="mt-2 text-xs text-quasar">晉級測驗冷卻中，先去複習一下再回來吧！</p>}
     </Card>
   )
 }
