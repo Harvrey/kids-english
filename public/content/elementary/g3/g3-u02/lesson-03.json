@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "I have a dog and a cat. My dog is big. My cat is small. I like my dog and my cat. I can see a bird and a fish here too.",
-    "passageZh": "我有一隻狗和一隻貓。我的狗很大。我的貓很小。我喜歡我的狗和我的貓。我在這裡也能看到一隻鳥和一隻魚。",
+    "passage": "I have a dog and a cat. My dog is big, and my cat is small. I have a bird too. The bird can see a fish. The fish is in here, and the bird is on the cat. I like my rabbit, and I see a big lion. I look at the lion every day. I like my dog, my cat, my bird, my fish, my rabbit, and the lion a lot.",
+    "passageZh": "我有一隻狗和一隻貓。我的狗很大,我的貓很小。我也有一隻鳥。這隻鳥可以看見一條魚。魚在這裡,鳥在貓身上。我喜歡我的兔子,我也看見一隻大獅子。我每天看著那隻獅子。我非常喜歡我的狗、我的貓、我的鳥、我的魚、我的兔子和那隻獅子。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How many pets does the speaker have at home (dog and cat)?",
-        "promptZh": "說話的人有狗和貓嗎？",
+        "prompt": "What can the bird see?",
+        "promptZh": "鳥可以看見什麼?",
         "options": [
           {
             "id": "a",
-            "text": "A dog and a cat"
+            "text": "a fish"
           },
           {
             "id": "b",
-            "text": "A lion and a rabbit"
+            "text": "a lion"
           },
           {
             "id": "c",
-            "text": "A bird and a fish"
+            "text": "a rabbit"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Is the cat big or small?",
-        "promptZh": "貓是大的還是小的？",
+        "prompt": "How is my dog?",
+        "promptZh": "我的狗怎麼樣?",
         "options": [
           {
             "id": "a",
-            "text": "Big"
+            "text": "small"
           },
           {
             "id": "b",
-            "text": "Small"
+            "text": "big"
           },
           {
             "id": "c",
-            "text": "Very big"
+            "text": "a fish"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What do I look at every day?",
+        "promptZh": "我每天看著什麼?",
+        "options": [
+          {
+            "id": "a",
+            "text": "the cat"
+          },
+          {
+            "id": "b",
+            "text": "the bird"
+          },
+          {
+            "id": "c",
+            "text": "the lion"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

@@ -425,13 +425,13 @@
     }
   ],
   "input": {
-    "passage": "I like apple and banana. I have milk and bread too. Here is an egg. I can see water. I like water a lot.",
-    "passageZh": "我喜歡蘋果和香蕉。我也有牛奶和麵包。這裡有一顆蛋。我可以看到水。我很喜歡水。",
+    "passage": "I like apple and banana. My apple is here. I have milk and bread too. I see an egg on the bread. My mom has water for me. I like milk a lot. We have bread and egg every day. This food is very good.",
+    "passageZh": "我喜歡蘋果和香蕉。我的蘋果在這裡。我也有牛奶和麵包。我看到麵包上有一顆蛋。我媽媽有水給我。我很喜歡牛奶。我們每天都有麵包和蛋。這個食物非常好。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does the speaker like? 說話者喜歡什麼？",
-        "promptZh": "說話者喜歡什麼？",
+        "prompt": "What does the speaker like?",
+        "promptZh": "說話的人喜歡什麼?",
         "options": [
           {
             "id": "a",
@@ -439,19 +439,19 @@
           },
           {
             "id": "b",
-            "text": "egg and bread"
+            "text": "egg and water"
           },
           {
             "id": "c",
-            "text": "milk and egg"
+            "text": "bread and milk"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "What is here? 這裡有什麼？",
-        "promptZh": "這裡有什麼？",
+        "prompt": "What is on the bread?",
+        "promptZh": "麵包上面有什麼?",
         "options": [
           {
             "id": "a",
@@ -463,10 +463,30 @@
           },
           {
             "id": "c",
-            "text": "bread"
+            "text": "milk"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "Who has water for the speaker?",
+        "promptZh": "誰有水給說話的人?",
+        "options": [
+          {
+            "id": "a",
+            "text": "his dad"
+          },
+          {
+            "id": "b",
+            "text": "the speaker"
+          },
+          {
+            "id": "c",
+            "text": "his mom"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

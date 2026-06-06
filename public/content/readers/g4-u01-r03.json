@@ -1,0 +1,102 @@
+{
+  "id": "g4-u01-r03",
+  "unitId": "g4-u01",
+  "stage": "S2",
+  "level": "L2",
+  "title": "Let us Play!",
+  "titleZh": "一起玩！",
+  "cover": "⚽",
+  "pages": [
+    {
+      "text": "I can play a lot.",
+      "zh": "我可以玩很多。"
+    },
+    {
+      "text": "I play soccer with my friends.",
+      "zh": "我和我的朋友踢足球。"
+    },
+    {
+      "text": "You can run and jump.",
+      "zh": "你可以跑和跳。"
+    },
+    {
+      "text": "We play basketball and baseball.",
+      "zh": "我們打籃球和棒球。"
+    },
+    {
+      "text": "I like to swim and bike.",
+      "zh": "我喜歡游泳和騎腳踏車。"
+    },
+    {
+      "text": "He can play tennis very well.",
+      "zh": "他網球打得很好。"
+    },
+    {
+      "text": "We play and run a lot. We are happy!",
+      "zh": "我們玩很多也跑很多。我們很開心！"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does I play with my friends?",
+      "promptZh": "我和朋友玩什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "soccer"
+        },
+        {
+          "id": "b",
+          "text": "tennis"
+        },
+        {
+          "id": "c",
+          "text": "swim"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "Who can play tennis very well?",
+      "promptZh": "誰網球打得很好？",
+      "options": [
+        {
+          "id": "a",
+          "text": "I"
+        },
+        {
+          "id": "b",
+          "text": "he"
+        },
+        {
+          "id": "c",
+          "text": "we"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "What can you do?",
+      "promptZh": "你可以做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "run and jump"
+        },
+        {
+          "id": "b",
+          "text": "swim and bike"
+        },
+        {
+          "id": "c",
+          "text": "play tennis"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

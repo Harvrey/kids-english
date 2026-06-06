@@ -1,0 +1,96 @@
+{
+  "id": "g3-u01-r01",
+  "unitId": "g3-u01",
+  "stage": "S2",
+  "level": "L1",
+  "title": "Hello, Friend!",
+  "titleZh": "哈囉，朋友！",
+  "cover": "👋",
+  "pages": [
+    {
+      "text": "Hi! I am a boy.",
+      "zh": "嗨！我是一個男孩。"
+    },
+    {
+      "text": "My name is Sam.",
+      "zh": "我的名字叫山姆。"
+    },
+    {
+      "text": "Hello! I am a girl.",
+      "zh": "哈囉！我是一個女孩。"
+    },
+    {
+      "text": "My name is Mia.",
+      "zh": "我的名字叫米雅。"
+    },
+    {
+      "text": "Nice to see you, Mia.",
+      "zh": "很高興見到你，米雅。"
+    },
+    {
+      "text": "We are friends!",
+      "zh": "我們是朋友了！"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Is Sam a boy or a girl?",
+      "promptZh": "山姆是男孩還是女孩？",
+      "options": [
+        {
+          "id": "a",
+          "text": "a boy"
+        },
+        {
+          "id": "b",
+          "text": "a girl"
+        },
+        {
+          "id": "c",
+          "text": "a friend"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the girl's name?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sam"
+        },
+        {
+          "id": "b",
+          "text": "Mia"
+        },
+        {
+          "id": "c",
+          "text": "Hi"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "What are Sam and Mia at the end?",
+      "options": [
+        {
+          "id": "a",
+          "text": "friends"
+        },
+        {
+          "id": "b",
+          "text": "boys"
+        },
+        {
+          "id": "c",
+          "text": "girls"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

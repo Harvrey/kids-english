@@ -42,6 +42,7 @@ export async function createChild(input: { name: string; grade: number; avatarEm
     badges: [],
     totalStars: 0,
     speakCount: 0,
+    booksRead: [],
     updatedAt: now,
   }
   await db.put('points', points)

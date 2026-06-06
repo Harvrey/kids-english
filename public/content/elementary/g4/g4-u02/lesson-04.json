@@ -427,48 +427,68 @@
     }
   ],
   "input": {
-    "passage": "I have a big family. My mom is a teacher. My dad is a doctor. My uncle is a cook and he can cook a lot. I like my family very much.",
-    "passageZh": "我有一個大家庭。我的媽媽是老師。我的爸爸是醫生。我的叔叔是廚師，他很會做菜。我非常喜歡我的家人。",
+    "passage": "My mom is a doctor. My dad is a cook. My sister is a nurse, and she can help the doctor. I have a teacher. She is very nice. I see a farmer and a police every day. The farmer and the police are my friends too. I like my teacher, and I like the doctor and the nurse a lot.",
+    "passageZh": "我的媽媽是醫生。我的爸爸是廚師。我的姊姊是護士,她可以幫助醫生。我有一位老師。她非常和善。我每天看到一位農夫和一位警察。那位農夫和那位警察也是我的朋友。我很喜歡我的老師,我也很喜歡那位醫生和護士。",
     "questions": [
       {
         "id": "q1",
         "prompt": "What is my mom?",
-        "promptZh": "我的媽媽是做什麼的？",
+        "promptZh": "我的媽媽是做什麼的?",
         "options": [
           {
             "id": "a",
-            "text": "a teacher"
+            "text": "A doctor"
           },
           {
             "id": "b",
-            "text": "a doctor"
+            "text": "A cook"
           },
           {
             "id": "c",
-            "text": "a cook"
+            "text": "A nurse"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Who can cook a lot?",
-        "promptZh": "誰很會做菜？",
+        "prompt": "Who can help the doctor?",
+        "promptZh": "誰可以幫助醫生?",
         "options": [
           {
             "id": "a",
-            "text": "my dad"
+            "text": "The farmer"
           },
           {
             "id": "b",
-            "text": "my uncle"
+            "text": "My sister, the nurse"
           },
           {
             "id": "c",
-            "text": "my mom"
+            "text": "The police"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "How is my teacher?",
+        "promptZh": "我的老師怎麼樣?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She is sad"
+          },
+          {
+            "id": "b",
+            "text": "She is a cook"
+          },
+          {
+            "id": "c",
+            "text": "She is very nice"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

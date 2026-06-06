@@ -1,0 +1,102 @@
+{
+  "id": "g4-u02-r03",
+  "unitId": "g4-u02",
+  "stage": "S2",
+  "level": "L2",
+  "title": "In Nature",
+  "titleZh": "在大自然",
+  "cover": "🌳",
+  "pages": [
+    {
+      "text": "We go to see nature.",
+      "zh": "我們去看大自然。"
+    },
+    {
+      "text": "Look! I can see the sun.",
+      "zh": "看！我可以看到太陽。"
+    },
+    {
+      "text": "I see a big tree and a flower.",
+      "zh": "我看到一棵大樹和一朵花。"
+    },
+    {
+      "text": "Look at the river. I see a bird.",
+      "zh": "看那條河。我看到一隔鳥。"
+    },
+    {
+      "text": "One bird, two birds, three birds!",
+      "zh": "一隻鳥、兩隻鳥、三隻鳥！"
+    },
+    {
+      "text": "Now I see the moon and a star.",
+      "zh": "現在我看到月亮和一顆星星。"
+    },
+    {
+      "text": "I like nature a lot. It is very nice.",
+      "zh": "我很喜歡大自然。它非常美好。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What can I see in the sky in the day?",
+      "promptZh": "白天我在天空看到什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "the sun"
+        },
+        {
+          "id": "b",
+          "text": "the moon"
+        },
+        {
+          "id": "c",
+          "text": "a river"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "How many birds do I see?",
+      "promptZh": "我看到幾隻鳥？",
+      "options": [
+        {
+          "id": "a",
+          "text": "one"
+        },
+        {
+          "id": "b",
+          "text": "two"
+        },
+        {
+          "id": "c",
+          "text": "three"
+        }
+      ],
+      "answerId": "c"
+    },
+    {
+      "id": "q3",
+      "prompt": "What do I see at night?",
+      "promptZh": "晚上我看到什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "the moon and a star"
+        },
+        {
+          "id": "b",
+          "text": "a tree and a flower"
+        },
+        {
+          "id": "c",
+          "text": "a river and a bird"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

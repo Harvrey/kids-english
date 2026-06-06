@@ -1,0 +1,104 @@
+{
+  "id": "g4-u01-r02",
+  "unitId": "g4-u01",
+  "stage": "S2",
+  "level": "L2",
+  "title": "What is the Weather?",
+  "titleZh": "今天天氣",
+  "cover": "☀️",
+  "pages": [
+    {
+      "text": "What is the weather?",
+      "zh": "天氣怎麼樣？"
+    },
+    {
+      "text": "It is sunny and hot.",
+      "zh": "天氣晴朗又炎熱。"
+    },
+    {
+      "text": "I have a hat.",
+      "zh": "我有一頂帽子。"
+    },
+    {
+      "text": "Look! It is rainy now.",
+      "zh": "看！現在下雨了。"
+    },
+    {
+      "text": "I have a coat and shoes.",
+      "zh": "我有一件外套和鞋子。"
+    },
+    {
+      "text": "It is windy and cold.",
+      "zh": "天氣有風又寒冷。"
+    },
+    {
+      "text": "My hat, coat, and shoes are here.",
+      "zh": "我的帽子、外套和鞋子都在這裡。"
+    },
+    {
+      "text": "I like the weather. I am happy!",
+      "zh": "我喜歡這個天氣。我很開心！"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "When it is sunny and hot, what do I have?",
+      "promptZh": "天氣晴朗又炎熱時，我有什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "a hat"
+        },
+        {
+          "id": "b",
+          "text": "a coat"
+        },
+        {
+          "id": "c",
+          "text": "shoes"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "When it is rainy, what do I have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a hat"
+        },
+        {
+          "id": "b",
+          "text": "a coat and shoes"
+        },
+        {
+          "id": "c",
+          "text": "one hat"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "How is the weather at the end?",
+      "options": [
+        {
+          "id": "a",
+          "text": "windy and cold"
+        },
+        {
+          "id": "b",
+          "text": "sunny and hot"
+        },
+        {
+          "id": "c",
+          "text": "rainy"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

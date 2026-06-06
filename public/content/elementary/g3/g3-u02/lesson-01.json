@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "This is my family. I have a father and a mother. I have a brother and a sister too. My sister is a baby. My grandma is here. I like my family a lot.",
-    "passageZh": "這是我的家人。我有一個爸爸和一個媽媽。我也有一個兄弟和一個姊妹。我的姊妹是個寶寶。我的奶奶在這裡。我很喜歡我的家人。",
+    "passage": "This is my family. I have a father and a mother. My father is tall and my mother is very kind. I have a brother and a sister too. My sister likes the baby a lot. We see grandma every day. I love my family very much.",
+    "passageZh": "這是我的家人。我有一個爸爸和一個媽媽。我的爸爸很高，我的媽媽很親切。我也有一個哥哥和一個姐姐。我的姐姐很喜歡那個寶寶。我們每天看到奶奶。我非常愛我的家人。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "Who is a baby? 誰是寶寶？",
-        "promptZh": "哪一位是寶寶？",
+        "prompt": "Who is tall?",
+        "promptZh": "誰很高？",
         "options": [
           {
             "id": "a",
-            "text": "my brother"
+            "text": "My father"
           },
           {
             "id": "b",
-            "text": "my sister"
+            "text": "My mother"
           },
           {
             "id": "c",
-            "text": "my grandma"
+            "text": "My sister"
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "Who likes the baby a lot?",
+        "promptZh": "誰很喜歡寶寶？",
+        "options": [
+          {
+            "id": "a",
+            "text": "My brother"
+          },
+          {
+            "id": "b",
+            "text": "My sister"
+          },
+          {
+            "id": "c",
+            "text": "Grandma"
           }
         ],
         "answerId": "b"
       },
       {
-        "id": "q2",
-        "prompt": "How many people does the child have in the family? 文中提到幾位家人？",
-        "promptZh": "短文裡說到誰？",
+        "id": "q3",
+        "prompt": "How often do they see grandma?",
+        "promptZh": "他們多常看到奶奶？",
         "options": [
           {
             "id": "a",
-            "text": "father, mother, brother, sister, grandma"
+            "text": "Never"
           },
           {
             "id": "b",
-            "text": "only father and mother"
+            "text": "On Sunday"
           },
           {
             "id": "c",
-            "text": "brother and baby only"
+            "text": "Every day"
           }
         ],
-        "answerId": "a"
+        "answerId": "c"
       }
     ]
   },

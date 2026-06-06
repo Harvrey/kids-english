@@ -426,17 +426,17 @@
     }
   ],
   "input": {
-    "passage": "I can see a bus and a car. My dad has a car. I have a bike. I like the train, too. The plane is very fast. I can see a boat here.",
-    "passageZh": "我可以看到一台公車和一台汽車。我爸爸有一台汽車。我有一台腳踏車。我也喜歡火車。飛機非常快。我在這裡可以看到一艘船。",
+    "passage": "I can see a bus and a car. My dad has a big car. I like the car a lot. My sister has a bike. She can go to school on the bike. We go on a train, too. The train is very fast. I look at a plane and a boat here.",
+    "passageZh": "我看得到一輛公車和一輛汽車。我爸爸有一輛大汽車。我很喜歡這輛汽車。我姐姐有一輛腳踏車。她可以騎腳踏車去學校。我們也搭火車。這火車很快。我在這裡看著一架飛機和一艘船。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does dad have?",
-        "promptZh": "爸爸有什麼？",
+        "prompt": "What does my dad have?",
+        "promptZh": "我爸爸有什麼?",
         "options": [
           {
             "id": "a",
-            "text": "a car"
+            "text": "a big car"
           },
           {
             "id": "b",
@@ -451,23 +451,43 @@
       },
       {
         "id": "q2",
-        "prompt": "What is very fast?",
-        "promptZh": "什麼非常快？",
+        "prompt": "How does my sister go to school?",
+        "promptZh": "我姐姐怎麼去學校?",
         "options": [
           {
             "id": "a",
-            "text": "the bus"
+            "text": "on a bus"
           },
           {
             "id": "b",
-            "text": "the plane"
+            "text": "on a bike"
           },
           {
             "id": "c",
-            "text": "the train"
+            "text": "on a plane"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "The train is _____.",
+        "promptZh": "這火車是_____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "big"
+          },
+          {
+            "id": "b",
+            "text": "small"
+          },
+          {
+            "id": "c",
+            "text": "very fast"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

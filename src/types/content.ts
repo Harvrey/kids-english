@@ -246,3 +246,36 @@ export interface ContentManifest {
   schemaVersion: number
   units: UnitRef[]
 }
+
+// ---------------------------------------------------------------------------
+// 閱讀樂園 Reading Library（分級小讀本）
+// ---------------------------------------------------------------------------
+
+export interface Reader {
+  schemaVersion?: number
+  id: string
+  unitId: string
+  stage: string
+  level: string // 'L1' | 'L2'
+  title: string
+  titleZh: string
+  cover: string
+  pages: { text: string; zh?: string }[]
+  questions: { id: string; prompt: string; promptZh?: string; options: OptionItem[]; answerId: string }[]
+}
+
+export interface ReaderRef {
+  id: string
+  unitId: string
+  stage: string
+  level: string
+  title: string
+  titleZh: string
+  cover: string
+  file: string
+}
+
+export interface ReadersManifest {
+  schemaVersion: number
+  readers: ReaderRef[]
+}

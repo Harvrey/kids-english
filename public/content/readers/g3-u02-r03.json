@@ -1,0 +1,100 @@
+{
+  "id": "g3-u02-r03",
+  "unitId": "g3-u02",
+  "stage": "S2",
+  "level": "L2",
+  "title": "Yummy Lunch",
+  "titleZh": "好吃的午餐",
+  "cover": "🍎",
+  "pages": [
+    {
+      "text": "I am very hungry.",
+      "zh": "我很餓。"
+    },
+    {
+      "text": "I look at my lunch.",
+      "zh": "我看著我的午餐。"
+    },
+    {
+      "text": "I see an apple and a banana.",
+      "zh": "我看到一個蘋果和一根香蕉。"
+    },
+    {
+      "text": "I have bread and an egg too.",
+      "zh": "我也有麵包和一顆蛋。"
+    },
+    {
+      "text": "I eat the apple. It is yummy!",
+      "zh": "我吃蘋果。好好吃！"
+    },
+    {
+      "text": "I drink my milk and water.",
+      "zh": "我喝我的牛奶和水。"
+    },
+    {
+      "text": "My lunch is very yummy. I am happy.",
+      "zh": "我的午餐很好吃。我很開心。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does the child eat first?",
+      "promptZh": "小孩先吃什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "The apple"
+        },
+        {
+          "id": "b",
+          "text": "The egg"
+        },
+        {
+          "id": "c",
+          "text": "The bread"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "What does the child drink?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tea and milk"
+        },
+        {
+          "id": "b",
+          "text": "Milk and water"
+        },
+        {
+          "id": "c",
+          "text": "Water and juice"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "How does the child feel about the lunch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is yummy"
+        },
+        {
+          "id": "b",
+          "text": "It is bad"
+        },
+        {
+          "id": "c",
+          "text": "It is small"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

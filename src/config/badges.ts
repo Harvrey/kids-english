@@ -19,6 +19,7 @@ export const BADGES: BadgeDef[] = [
   { id: 'promotion-pass', name: '跨星系', emoji: '🛸', desc: '通過一次晉級測驗' },
   { id: 'word-collector-20', name: '單字收藏家', emoji: '💎', desc: '熟練 20 個單字' },
   { id: 'speaker', name: '勇敢開口', emoji: '🎤', desc: '完成 10 次口說錄音' },
+  { id: 'bookworm', name: '小書蟲', emoji: '📚', desc: '讀完 5 本閱讀樂園小讀本' },
 ]
 
 export function badgeDef(id: string): BadgeDef | undefined {

@@ -426,40 +426,41 @@
     }
   ],
   "input": {
-    "passage": "I like to read and draw. My sister can sing and dance very well. We swim too. My mom can cook a lot. I like my family.",
-    "passageZh": "我喜歡閱讀和畫畫。我的姊姊很會唱歌和跳舞。我們也游泳。我的媽媽很會煮飯。我喜歡我的家人。",
+    "passage": "I can read and I can draw. My sister can sing and dance very well. We swim every day in the summer. My brother likes to cook a lot. He can cook and I can read here. Look! She can dance and he can swim too. We read, draw, and sing every day.",
+    "passageZh": "我會閱讀，也會畫畫。我的姊姊很會唱歌和跳舞。我們每天夏天都游泳。我的哥哥很喜歡煮飯。他會煮飯，我會在這裡閱讀。看！她會跳舞，他也會游泳。我們每天閱讀、畫畫和唱歌。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does the sister like to do? 姊姊喜歡做什麼？",
-        "promptZh": "姊姊喜歡做什麼？",
+        "prompt": "What can the sister do?",
+        "promptZh": "姊姊會做什麼?",
         "options": [
           {
             "id": "a",
-            "text": "sing and dance"
+            "text": "Sing and dance"
           },
           {
             "id": "b",
-            "text": "read and draw"
+            "text": "Cook and swim"
           },
           {
             "id": "c",
-            "text": "cook"
+            "text": "Read and draw"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Who can cook? 誰會煮飯？",
+        "prompt": "Who likes to cook a lot?",
+        "promptZh": "誰很喜歡煮飯?",
         "options": [
           {
             "id": "a",
-            "text": "my sister"
+            "text": "My sister"
           },
           {
             "id": "b",
-            "text": "my mom"
+            "text": "My brother"
           },
           {
             "id": "c",
@@ -467,6 +468,26 @@
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "When do we swim?",
+        "promptZh": "我們什麼時候游泳?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the winter"
+          },
+          {
+            "id": "b",
+            "text": "At night"
+          },
+          {
+            "id": "c",
+            "text": "Every day in the summer"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

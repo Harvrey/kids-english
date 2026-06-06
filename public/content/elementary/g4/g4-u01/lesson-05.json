@@ -424,48 +424,68 @@
     }
   ],
   "input": {
-    "passage": "I like soccer. I can swim and bike too. My brother likes basketball and baseball. We like tennis a lot. Sports are very fun!",
-    "passageZh": "我喜歡足球。我也會游泳和騎車。我哥哥喜歡籃球和棒球。我們很喜歡網球。運動非常有趣！",
+    "passage": "I like sports a lot. I can swim and I can bike. My brother likes soccer and basketball too. We play soccer every day. He can play basketball very well. My sister likes tennis and baseball. She plays tennis with me. We are happy here.",
+    "passageZh": "我很喜歡運動。我會游泳，我也會騎腳踏車。我哥哥也喜歡足球和籃球。我們每天踢足球。他籃球打得很好。我姐姐喜歡網球和棒球。她和我一起打網球。我們在這裡很開心。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does the brother like?",
-        "promptZh": "哥哥喜歡什麼？",
+        "prompt": "What can I do?",
+        "promptZh": "我會做什麼?",
         "options": [
           {
             "id": "a",
-            "text": "soccer and tennis"
+            "text": "I can swim and bike."
           },
           {
             "id": "b",
-            "text": "basketball and baseball"
+            "text": "I can fly."
           },
           {
             "id": "c",
-            "text": "swim and bike"
+            "text": "I can sing."
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "What does my brother like?",
+        "promptZh": "我哥哥喜歡什麼?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He likes tennis."
+          },
+          {
+            "id": "b",
+            "text": "He likes soccer and basketball."
+          },
+          {
+            "id": "c",
+            "text": "He likes baseball."
           }
         ],
         "answerId": "b"
       },
       {
-        "id": "q2",
-        "prompt": "What can I do?",
-        "promptZh": "我會做什麼？",
+        "id": "q3",
+        "prompt": "Who likes tennis and baseball?",
+        "promptZh": "誰喜歡網球和棒球?",
         "options": [
           {
             "id": "a",
-            "text": "swim and bike"
+            "text": "My brother."
           },
           {
             "id": "b",
-            "text": "play baseball"
+            "text": "I do."
           },
           {
             "id": "c",
-            "text": "play tennis"
+            "text": "My sister."
           }
         ],
-        "answerId": "a"
+        "answerId": "c"
       }
     ]
   },

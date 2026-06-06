@@ -424,13 +424,13 @@
     }
   ],
   "input": {
-    "passage": "I am happy. My mom is happy too. My dad is tired. My cat is hungry. We are fine.",
-    "passageZh": "我很開心。我媽媽也很開心。我爸爸很累。我的貓很餓。我們都很好。",
+    "passage": "I am happy today. My mom is happy too. My dad is tired. He is very tired and a little angry. My cat is hungry. The cat is sad and angry. I give food to my cat. Now my cat is happy and fine.",
+    "passageZh": "我今天很開心。我媽媽也很開心。我爸爸很累。他很累而且有點生氣。我的貓肚子餓。貓咪又難過又生氣。我拿食物給我的貓。現在我的貓很開心又很好。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How does dad feel? 爸爸覺得怎麼樣？",
-        "promptZh": "爸爸的心情是？",
+        "prompt": "How does dad feel?",
+        "promptZh": "爸爸覺得怎麼樣?",
         "options": [
           {
             "id": "a",
@@ -438,7 +438,7 @@
           },
           {
             "id": "b",
-            "text": "tired"
+            "text": "tired and angry"
           },
           {
             "id": "c",
@@ -449,19 +449,40 @@
       },
       {
         "id": "q2",
-        "prompt": "Who is hungry? 誰餓了？",
+        "prompt": "Why is the cat sad and angry?",
+        "promptZh": "貓咪為什麼又難過又生氣?",
         "options": [
           {
             "id": "a",
-            "text": "my mom"
+            "text": "It is happy"
           },
           {
             "id": "b",
-            "text": "my dad"
+            "text": "It is fine"
           },
           {
             "id": "c",
-            "text": "my cat"
+            "text": "It is hungry"
+          }
+        ],
+        "answerId": "c"
+      },
+      {
+        "id": "q3",
+        "prompt": "How does the cat feel at the end?",
+        "promptZh": "最後貓咪覺得怎麼樣?",
+        "options": [
+          {
+            "id": "a",
+            "text": "sad"
+          },
+          {
+            "id": "b",
+            "text": "angry"
+          },
+          {
+            "id": "c",
+            "text": "happy and fine"
           }
         ],
         "answerId": "c"

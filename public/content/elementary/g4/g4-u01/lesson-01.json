@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "I am Sam. I eat and I run. I play and I jump. My cat can run too. We play a lot.",
-    "passageZh": "我是山姆。我吃飯，我也跑步。我玩耍，我也跳。我的貓也會跑。我們玩得很多。",
+    "passage": "I am Sam. Every day I eat and I study. I can run, and I can jump too. My sister can run very fast. We play and we run a lot. We jump and jump every day. At night I sleep, and my sister sleeps too.",
+    "passageZh": "我是山姆。我每天吃飯也讀書。我會跑步,也會跳。我的妹妹跑得很快。我們玩耍也跑步,玩很多。我們每天跳啊跳。晚上我睡覺,我的妹妹也睡覺。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does Sam do? Sam can ___ .",
-        "promptZh": "山姆會做什麼？",
+        "prompt": "What does Sam do every day?",
+        "promptZh": "山姆每天做什麼?",
         "options": [
           {
             "id": "a",
-            "text": "run and jump"
+            "text": "He eats and studies."
           },
           {
             "id": "b",
-            "text": "sleep and study"
+            "text": "He sleeps all day."
           },
           {
             "id": "c",
-            "text": "eat and sleep"
+            "text": "He goes to school."
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Who can run too?",
-        "promptZh": "誰也會跑？",
+        "prompt": "Who can run very fast?",
+        "promptZh": "誰跑得很快?",
         "options": [
           {
             "id": "a",
-            "text": "my dog"
+            "text": "Sam"
           },
           {
             "id": "b",
-            "text": "my cat"
+            "text": "His sister"
           },
           {
             "id": "c",
-            "text": "my mom"
+            "text": "His mom"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "When does Sam sleep?",
+        "promptZh": "山姆什麼時候睡覺?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the morning"
+          },
+          {
+            "id": "b",
+            "text": "At lunch"
+          },
+          {
+            "id": "c",
+            "text": "At night"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

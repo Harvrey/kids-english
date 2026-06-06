@@ -18,6 +18,7 @@ export async function getPoints(childId: string): Promise<PointsState> {
     badges: [],
     totalStars: 0,
     speakCount: 0,
+    booksRead: [],
     updatedAt: Date.now(),
   }
   await db.put('points', fresh)

@@ -50,6 +50,7 @@ export interface BadgeStats {
   promotionPassed: boolean
   masteredWords: number
   speakCount: number
+  booksRead?: number
 }
 
 /** 依統計頒發未擁有的徽章，回傳新狀態與新得徽章 id */
@@ -67,6 +68,7 @@ export function evaluateBadges(p: PointsState, s: BadgeStats): { points: PointsS
   add('promotion-pass', s.promotionPassed)
   add('word-collector-20', s.masteredWords >= 20)
   add('speaker', s.speakCount >= 10)
+  add('bookworm', (s.booksRead ?? 0) >= 5)
 
   const newBadges = [...earned].filter((id) => !p.badges.includes(id))
   return { points: { ...p, badges: [...earned] }, newBadges }

@@ -426,48 +426,68 @@
     }
   ],
   "input": {
-    "passage": "I go to school in the morning. I have breakfast at home. At noon I am at school too. I go home at night. I like my school a lot.",
-    "passageZh": "我早上去學校。我在家吃早餐。中午我也在學校。我晚上回家。我很喜歡我的學校。",
+    "passage": "I go to school every morning. I have breakfast at home. My breakfast is very good. I see my school and I am very happy. At noon I have lunch at school with my friends. I go home in the night. I like my home a lot. I like school and home too.",
+    "passageZh": "我每天早上去學校。我在家吃早餐。我的早餐很好吃。我看到我的學校,我很開心。中午我和朋友在學校吃午餐。晚上我回家。我非常喜歡我的家。我也喜歡學校和家。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "When does the child have breakfast?",
-        "promptZh": "這個小孩什麼時候吃早餐？",
+        "prompt": "Where do I have breakfast?",
+        "promptZh": "我在哪裡吃早餐?",
         "options": [
           {
             "id": "a",
-            "text": "in the morning"
+            "text": "At home"
           },
           {
             "id": "b",
-            "text": "at noon"
+            "text": "At school"
           },
           {
             "id": "c",
-            "text": "at night"
+            "text": "At noon"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Where is the child at noon?",
-        "promptZh": "中午時這個小孩在哪裡？",
+        "prompt": "When do I go to school?",
+        "promptZh": "我什麼時候去學校?",
         "options": [
           {
             "id": "a",
-            "text": "at home"
+            "text": "In the night"
           },
           {
             "id": "b",
-            "text": "at school"
+            "text": "Every morning"
           },
           {
             "id": "c",
-            "text": "at night"
+            "text": "At noon"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "When do I go home?",
+        "promptZh": "我什麼時候回家?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the morning"
+          },
+          {
+            "id": "b",
+            "text": "At noon"
+          },
+          {
+            "id": "c",
+            "text": "In the night"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

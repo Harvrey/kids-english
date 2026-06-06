@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "I go to school. I can see a park. I like the zoo too. My home is here, and the store is there. I like my school a lot.",
-    "passageZh": "我去學校。我可以看到一座公園。我也喜歡動物園。我的家在這裡，商店在那裡。我很喜歡我的學校。",
+    "passage": "I like my home. I can go to school and I can go to the park. My school is here. The park is there. I go to the store with my mom. We see a big store and a small store. I like the zoo too. I can see a lot of animals at the zoo. My dad is at the hospital, but he is OK. I like school, park, store, and zoo very much!",
+    "passageZh": "我喜歡我的家。我可以去學校,我也可以去公園。我的學校在這裡。公園在那裡。我和媽媽去商店。我們看到一間大商店和一間小商店。我也喜歡動物園。我可以在動物園看到很多動物。我的爸爸在醫院,但他沒事。我非常喜歡學校、公園、商店和動物園!",
     "questions": [
       {
         "id": "q1",
-        "prompt": "Where do I go?",
-        "promptZh": "我去哪裡？",
+        "prompt": "Where can the child see a lot of animals?",
+        "promptZh": "小孩在哪裡可以看到很多動物?",
         "options": [
           {
             "id": "a",
-            "text": "school"
+            "text": "At the zoo"
           },
           {
             "id": "b",
-            "text": "hospital"
+            "text": "At school"
           },
           {
             "id": "c",
-            "text": "zoo"
+            "text": "At the store"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "What can I see?",
-        "promptZh": "我可以看到什麼？",
+        "prompt": "Who does the child go to the store with?",
+        "promptZh": "小孩和誰一起去商店?",
         "options": [
           {
             "id": "a",
-            "text": "a store"
+            "text": "His dad"
           },
           {
             "id": "b",
-            "text": "a park"
+            "text": "His mom"
           },
           {
             "id": "c",
-            "text": "a home"
+            "text": "His teacher"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "Where is the child's dad?",
+        "promptZh": "小孩的爸爸在哪裡?",
+        "options": [
+          {
+            "id": "a",
+            "text": "At the park"
+          },
+          {
+            "id": "b",
+            "text": "At home"
+          },
+          {
+            "id": "c",
+            "text": "At the hospital"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

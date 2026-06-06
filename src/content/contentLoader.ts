@@ -3,7 +3,7 @@
 // 課程內容與程式分離 → 新增一課只要新增 JSON 並登錄到 manifest。
 // ============================================================================
 
-import type { ContentManifest, Lesson, QuizDef } from '../types/content'
+import type { ContentManifest, Lesson, QuizDef, ReadersManifest, Reader } from '../types/content'
 
 const BASE = import.meta.env.BASE_URL // 結尾必為 '/'
 
@@ -41,4 +41,25 @@ export async function loadQuiz(file: string): Promise<QuizDef> {
   const quiz = (await res.json()) as QuizDef
   quizCache.set(file, quiz)
   return quiz
+}
+
+let readersCache: ReadersManifest | null = null
+const readerCache = new Map<string, Reader>()
+
+export async function loadReadersManifest(): Promise<ReadersManifest> {
+  if (readersCache) return readersCache
+  const res = await fetch(contentUrl('readers.json'))
+  if (!res.ok) throw new Error('無法載入閱讀樂園清單 readers.json')
+  readersCache = (await res.json()) as ReadersManifest
+  return readersCache
+}
+
+export async function loadReader(file: string): Promise<Reader> {
+  const cached = readerCache.get(file)
+  if (cached) return cached
+  const res = await fetch(contentUrl(file))
+  if (!res.ok) throw new Error('無法載入讀本：' + file)
+  const reader = (await res.json()) as Reader
+  readerCache.set(file, reader)
+  return reader
 }

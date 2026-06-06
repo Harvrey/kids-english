@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "Today is sunny and hot. I like sunny days a lot. Look! It is windy too. It is not rainy. It is not snowy.",
-    "passageZh": "今天是晴天而且很熱。我很喜歡晴天。看！也有風。今天沒有下雨。今天沒有下雪。",
+    "passage": "I look at the sky every day. Today it is sunny and very hot. I like sunny days a lot. My sister likes rainy days, but I do not like rainy days. Look! That cloud is big, and now it is cloudy. It is windy too, and my hat can go up. In winter it is snowy here, and we like the snow very much.",
+    "passageZh": "我每天看天空。今天天氣晴朗而且很熱。我很喜歡晴天。我姊姊喜歡雨天，但我不喜歡雨天。看！那朵雲很大，現在變多雲了。風也很大，我的帽子會飛起來。冬天這裡會下雪，我們非常喜歡雪。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "How is the weather today? 今天天氣如何？",
+        "prompt": "How is the weather today?",
         "promptZh": "今天天氣如何？",
         "options": [
           {
             "id": "a",
-            "text": "sunny and hot"
+            "text": "Sunny and hot"
           },
           {
             "id": "b",
-            "text": "rainy and cold"
+            "text": "Rainy and cold"
           },
           {
             "id": "c",
-            "text": "snowy"
+            "text": "Snowy"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Is it rainy today?",
-        "promptZh": "今天有下雨嗎？",
+        "prompt": "What does my sister like?",
+        "promptZh": "我姊姊喜歡什麼？",
         "options": [
           {
             "id": "a",
-            "text": "Yes, it is rainy."
+            "text": "Sunny days"
           },
           {
             "id": "b",
-            "text": "No, it is not rainy."
+            "text": "Rainy days"
           },
           {
             "id": "c",
-            "text": "It is snowy."
+            "text": "Windy days"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What is the weather like in winter here?",
+        "promptZh": "這裡冬天天氣如何？",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hot"
+          },
+          {
+            "id": "b",
+            "text": "Cloudy"
+          },
+          {
+            "id": "c",
+            "text": "Snowy"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

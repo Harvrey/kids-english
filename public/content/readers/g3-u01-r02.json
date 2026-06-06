@@ -1,0 +1,96 @@
+{
+  "id": "g3-u01-r02",
+  "unitId": "g3-u01",
+  "stage": "S2",
+  "level": "L1",
+  "title": "How Do You Feel?",
+  "titleZh": "你的心情",
+  "cover": "😊",
+  "pages": [
+    {
+      "text": "How do you feel?",
+      "zh": "你覺得怎麼樣？"
+    },
+    {
+      "text": "I am happy.",
+      "zh": "我很開心。"
+    },
+    {
+      "text": "I am sad.",
+      "zh": "我很難過。"
+    },
+    {
+      "text": "I am tired.",
+      "zh": "我很累。"
+    },
+    {
+      "text": "I am hungry too.",
+      "zh": "我也很餓。"
+    },
+    {
+      "text": "Now I am fine.",
+      "zh": "現在我很好。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Is the child happy?",
+      "promptZh": "小孩開心嗎？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes."
+        },
+        {
+          "id": "b",
+          "text": "No."
+        },
+        {
+          "id": "c",
+          "text": "Go."
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "How does the child feel at the end?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sad."
+        },
+        {
+          "id": "b",
+          "text": "Fine."
+        },
+        {
+          "id": "c",
+          "text": "Angry."
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "Is the child hungry?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes."
+        },
+        {
+          "id": "b",
+          "text": "No."
+        },
+        {
+          "id": "c",
+          "text": "Tired."
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

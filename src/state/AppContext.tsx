@@ -12,6 +12,7 @@ export type View =
   | { name: 'lesson'; unitId: string; lessonFile: string }
   | { name: 'quiz'; unitId: string; quizFile: string; kind: 'review' | 'promotion' }
   | { name: 'srs' }
+  | { name: 'reading' }
   | { name: 'shop' }
   | { name: 'settings' }
 

@@ -1,0 +1,96 @@
+{
+  "id": "g3-u02-r01",
+  "unitId": "g3-u02",
+  "stage": "S2",
+  "level": "L1",
+  "title": "My Family",
+  "titleZh": "我的家人",
+  "cover": "👨‍👩‍👧‍👦",
+  "pages": [
+    {
+      "text": "This is my family.",
+      "zh": "這是我的家人。"
+    },
+    {
+      "text": "This is my father.",
+      "zh": "這是我的爸爸。"
+    },
+    {
+      "text": "This is my mother.",
+      "zh": "這是我的媽媽。"
+    },
+    {
+      "text": "I have a brother.",
+      "zh": "我有一個哥哥。"
+    },
+    {
+      "text": "I have a baby sister.",
+      "zh": "我有一個小嬰兒妹妹。"
+    },
+    {
+      "text": "I love my family.",
+      "zh": "我愛我的家人。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Who is in the story?",
+      "promptZh": "故事裡有誰？",
+      "options": [
+        {
+          "id": "a",
+          "text": "My family"
+        },
+        {
+          "id": "b",
+          "text": "My dog"
+        },
+        {
+          "id": "c",
+          "text": "My friend"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "What does the baby sister have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A brother"
+        },
+        {
+          "id": "b",
+          "text": "The narrator has a baby sister"
+        },
+        {
+          "id": "c",
+          "text": "A grandma"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "How does the child feel about the family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loves the family"
+        },
+        {
+          "id": "b",
+          "text": "Is sad"
+        },
+        {
+          "id": "c",
+          "text": "Is angry"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

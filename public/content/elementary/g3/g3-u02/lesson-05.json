@@ -425,47 +425,68 @@
     }
   ],
   "input": {
-    "passage": "This is my bag. I have a book and a pen. I have a pencil and a ruler too. I can see an eraser. I like my bag a lot.",
-    "passageZh": "這是我的書包。我有一本書和一支筆。我也有一支鉛筆和一把尺。我可以看到一個橡皮擦。我很喜歡我的書包。",
+    "passage": "I have a bag. My bag is here. I see a book, a pen, and a pencil in my bag. I have a ruler and an eraser too. The pen is on the book. I look at my ruler and my eraser. I like my bag and my book very much. I see my pen, my pencil, my ruler, and my eraser every day.",
+    "passageZh": "我有一個書包。我的書包在這裡。我在我的書包裡看到一本書、一支筆和一支鉛筆。我也有一把尺和一塊橡皮擦。那支筆在書上。我看著我的尺和我的橡皮擦。我非常喜歡我的書包和我的書。我每天都看到我的筆、我的鉛筆、我的尺和我的橡皮擦。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What is in the bag? 書包裡有什麼？",
-        "promptZh": "書包裡有什麼？",
+        "prompt": "What is on the book?",
+        "promptZh": "什麼東西在書上?",
         "options": [
           {
             "id": "a",
-            "text": "a book and a pen"
+            "text": "The pen"
           },
           {
             "id": "b",
-            "text": "a dog"
+            "text": "The ruler"
           },
           {
             "id": "c",
-            "text": "a cat"
+            "text": "The bag"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Does the child like the bag? 這個小孩喜歡書包嗎？",
+        "prompt": "Where are the book, pen, and pencil?",
+        "promptZh": "書、筆和鉛筆在哪裡?",
         "options": [
           {
             "id": "a",
-            "text": "No."
+            "text": "On the ruler"
           },
           {
             "id": "b",
-            "text": "Yes, a lot."
+            "text": "In the bag"
           },
           {
             "id": "c",
-            "text": "I can see a pen."
+            "text": "On the eraser"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What does the child like very much?",
+        "promptZh": "這個孩子非常喜歡什麼?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The pen and the pencil"
+          },
+          {
+            "id": "b",
+            "text": "The ruler and the eraser"
+          },
+          {
+            "id": "c",
+            "text": "The bag and the book"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

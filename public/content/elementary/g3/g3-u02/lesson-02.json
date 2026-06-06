@@ -425,13 +425,13 @@
     }
   ],
   "input": {
-    "passage": "This is my face. I have two eyes and one nose. I have one mouth and two ears. I can see with my eyes. I can look at you and I like my face very much.",
-    "passageZh": "這是我的臉。我有兩隻眼睛和一個鼻子。我有一張嘴巴和兩隻耳朵。我可以用眼睛看東西。我可以看著你，我很喜歡我的臉。",
+    "passage": "This is my body. I have two eyes and one nose. I have two ears too. I can see with my eyes. I have a mouth. I can eat with my mouth. I have two hands and two feet. I like my body very much.",
+    "passageZh": "這是我的身體。我有兩隻眼睛和一個鼻子。我也有兩隻耳朵。我可以用眼睛看。我有一張嘴巴。我可以用嘴巴吃東西。我有兩隻手和兩隻腳。我非常喜歡我的身體。",
     "questions": [
       {
         "id": "q1",
         "prompt": "How many eyes do I have?",
-        "promptZh": "我有幾隻眼睛？",
+        "promptZh": "我有幾隻眼睛?",
         "options": [
           {
             "id": "a",
@@ -451,7 +451,7 @@
       {
         "id": "q2",
         "prompt": "What can I see with?",
-        "promptZh": "我用什麼來看東西？",
+        "promptZh": "我用什麼來看?",
         "options": [
           {
             "id": "a",
@@ -463,10 +463,30 @@
           },
           {
             "id": "c",
-            "text": "My foot"
+            "text": "My feet"
           }
         ],
         "answerId": "a"
+      },
+      {
+        "id": "q3",
+        "prompt": "What can I eat with?",
+        "promptZh": "我用什麼來吃?",
+        "options": [
+          {
+            "id": "a",
+            "text": "My nose"
+          },
+          {
+            "id": "b",
+            "text": "My hand"
+          },
+          {
+            "id": "c",
+            "text": "My mouth"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

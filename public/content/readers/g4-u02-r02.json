@@ -1,0 +1,100 @@
+{
+  "id": "g4-u02-r02",
+  "unitId": "g4-u02",
+  "stage": "S2",
+  "level": "L2",
+  "title": "I Can Do It",
+  "titleZh": "我做得到",
+  "cover": "🎨",
+  "pages": [
+    {
+      "text": "I can read.",
+      "zh": "我會閱讀。"
+    },
+    {
+      "text": "I can draw, too.",
+      "zh": "我也會畫畫。"
+    },
+    {
+      "text": "I like to sing and dance.",
+      "zh": "我喜歡唱歌和跳舞。"
+    },
+    {
+      "text": "My mom can cook a lot.",
+      "zh": "我媽媽很會煮飯。"
+    },
+    {
+      "text": "She is a teacher.",
+      "zh": "她是一位老師。"
+    },
+    {
+      "text": "I can be a doctor or a farmer.",
+      "zh": "我可以當醫生或農夫。"
+    },
+    {
+      "text": "I can do it!",
+      "zh": "我做得到！"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What can the child do?",
+      "promptZh": "這個小孩會做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "Read and draw"
+        },
+        {
+          "id": "b",
+          "text": "Drive a car"
+        },
+        {
+          "id": "c",
+          "text": "Fly"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the mom?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A doctor"
+        },
+        {
+          "id": "b",
+          "text": "A teacher"
+        },
+        {
+          "id": "c",
+          "text": "A farmer"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "What can the child be?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A doctor or a farmer"
+        },
+        {
+          "id": "b",
+          "text": "A teacher"
+        },
+        {
+          "id": "c",
+          "text": "A cook"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

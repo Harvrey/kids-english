@@ -426,17 +426,17 @@
     }
   ],
   "input": {
-    "passage": "I like colors. I like red and blue. This is a red apple. That is a blue car. Green and yellow are nice too. I like pink and purple a lot.",
-    "passageZh": "我喜歡顏色。我喜歡紅色和藍色。這是一個紅蘋果。那是一輛藍色的車。綠色和黃色也很好。我很喜歡粉紅色和紫色。",
+    "passage": "I like red and blue. My sister likes pink. She has a pink hat. I have a blue hat. We see a green tree here. Look at that yellow flower! A purple bird is here too. I like every color a lot.",
+    "passageZh": "我喜歡紅色和藍色。我妹妹喜歡粉紅色。她有一頂粉紅色的帽子。我有一頂藍色的帽子。我們在這裡看到一棵綠色的樹。看那朵黃色的花!一隻紫色的鳥也在這裡。我很喜歡每一種顏色。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What color is the apple? 蘋果是什麼顏色？",
-        "promptZh": "蘋果是什麼顏色？",
+        "prompt": "What color does the sister like?",
+        "promptZh": "妹妹喜歡什麼顏色?",
         "options": [
           {
             "id": "a",
-            "text": "red"
+            "text": "pink"
           },
           {
             "id": "b",
@@ -451,12 +451,12 @@
       },
       {
         "id": "q2",
-        "prompt": "What color is the car?",
-        "promptZh": "車子是什麼顏色？",
+        "prompt": "What color is the hat I have?",
+        "promptZh": "我有的帽子是什麼顏色?",
         "options": [
           {
             "id": "a",
-            "text": "yellow"
+            "text": "red"
           },
           {
             "id": "b",
@@ -464,10 +464,30 @@
           },
           {
             "id": "c",
-            "text": "pink"
+            "text": "yellow"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What color is the bird?",
+        "promptZh": "那隻鳥是什麼顏色?",
+        "options": [
+          {
+            "id": "a",
+            "text": "yellow"
+          },
+          {
+            "id": "b",
+            "text": "green"
+          },
+          {
+            "id": "c",
+            "text": "purple"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

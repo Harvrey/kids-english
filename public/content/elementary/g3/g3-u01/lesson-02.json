@@ -425,17 +425,37 @@
     }
   ],
   "input": {
-    "passage": "I am a boy. My name is Sam. I have a friend. Her name is Mia. She is a nice girl. We like our teacher.",
-    "passageZh": "我是一個男孩。我的名字是山姆。我有一個朋友。她的名字是米雅。她是一個友善的女孩。我們喜歡我們的老師。",
+    "passage": "I am a boy. My name is Tom. I have a friend. Her name is Mia. She is a girl. We have a nice teacher, and she is nice to you and me. I like my teacher and my friend a lot. My friend and my teacher like me too.",
+    "passageZh": "我是一個男孩。我的名字叫湯姆。我有一個朋友。她的名字叫米亞。她是一個女孩。我們有一位很好的老師,她對你和我都很好。我很喜歡我的老師和我的朋友。我的朋友和我的老師也喜歡我。",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What is the boy's name?",
-        "promptZh": "這個男孩的名字是什麼？",
+        "prompt": "Is Tom a boy or a girl?",
+        "promptZh": "湯姆是男孩還是女孩?",
         "options": [
           {
             "id": "a",
-            "text": "Sam"
+            "text": "He is a boy."
+          },
+          {
+            "id": "b",
+            "text": "He is a girl."
+          },
+          {
+            "id": "c",
+            "text": "He is a teacher."
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "What is the name of Tom's friend?",
+        "promptZh": "湯姆的朋友叫什麼名字?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tom"
           },
           {
             "id": "b",
@@ -443,30 +463,30 @@
           },
           {
             "id": "c",
-            "text": "Teacher"
-          }
-        ],
-        "answerId": "a"
-      },
-      {
-        "id": "q2",
-        "prompt": "Mia is a nice ___.",
-        "promptZh": "米雅是一個友善的___。",
-        "options": [
-          {
-            "id": "a",
-            "text": "boy"
-          },
-          {
-            "id": "b",
-            "text": "girl"
-          },
-          {
-            "id": "c",
-            "text": "teacher"
+            "text": "the teacher"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "Is the teacher nice?",
+        "promptZh": "老師人好嗎?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No, she is a boy."
+          },
+          {
+            "id": "b",
+            "text": "No, she is a friend."
+          },
+          {
+            "id": "c",
+            "text": "Yes, she is nice."
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

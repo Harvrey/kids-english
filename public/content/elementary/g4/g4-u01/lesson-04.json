@@ -425,48 +425,68 @@
     }
   ],
   "input": {
-    "passage": "I have a hat and a shirt. My shirt is here. I have pants and shoes too. I like my dress. My socks are very nice.",
-    "passageZh": "我有一頂帽子和一件襯衫。我的襯衫在這裡。我也有褲子和鞋子。我喜歡我的洋裝。我的襪子很好看。",
+    "passage": "I like my new hat. It is red and very nice. I have a blue shirt and black pants too. My shoes are white. My socks are blue, and they are very soft. My sister has a pink dress. We can go to the park, and we look very nice. I like my hat a lot!",
+    "passageZh": "我喜歡我的新帽子。它是紅色的,非常好看。我也有一件藍色襯衫和黑色長褲。我的鞋子是白色的。我的襪子是藍色的,而且很柔軟。我的姐姐有一件粉紅色的洋裝。我們可以去公園,我們看起來很好看。我非常喜歡我的帽子!",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What does the speaker like? 說話的人喜歡什麼？",
-        "promptZh": "說話的人喜歡什麼？",
+        "prompt": "What color is the hat?",
+        "promptZh": "帽子是什麼顏色?",
         "options": [
           {
             "id": "a",
-            "text": "the dress 洋裝"
+            "text": "It is red."
           },
           {
             "id": "b",
-            "text": "the hat 帽子"
+            "text": "It is blue."
           },
           {
             "id": "c",
-            "text": "the shoes 鞋子"
+            "text": "It is white."
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "How are the socks? 襪子怎麼樣？",
-        "promptZh": "襪子怎麼樣？",
+        "prompt": "What does my sister have?",
+        "promptZh": "我的姐姐有什麼?",
         "options": [
           {
             "id": "a",
-            "text": "old 舊的"
+            "text": "A hat."
           },
           {
             "id": "b",
-            "text": "very nice 很好看"
+            "text": "A pink dress."
           },
           {
             "id": "c",
-            "text": "big 很大"
+            "text": "Black pants."
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "Where can we go?",
+        "promptZh": "我們可以去哪裡?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To school."
+          },
+          {
+            "id": "b",
+            "text": "To the shop."
+          },
+          {
+            "id": "c",
+            "text": "To the park."
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

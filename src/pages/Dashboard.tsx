@@ -73,7 +73,11 @@ export function Dashboard() {
     <Screen>
       <Hud child={activeChild} points={points} onProfile={exitChild} />
 
-      <div className="mb-4 grid grid-cols-3 gap-2">
+      <div className="mb-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        <Card className="p-3 text-center" onClick={() => navigate({ name: 'reading' })}>
+          <div className="text-2xl">📚</div>
+          <div className="text-xs font-semibold">閱讀樂園</div>
+        </Card>
         <Card className="p-3 text-center" onClick={() => navigate({ name: 'srs' })}>
           <div className="text-2xl">🔁</div>
           <div className="text-xs font-semibold">今日複習{dueCount > 0 && <Pill className="ml-1 bg-quasar/30 text-quasar">{dueCount}</Pill>}</div>

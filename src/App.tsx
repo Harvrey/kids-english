@@ -5,6 +5,7 @@ import { Dashboard } from './pages/Dashboard'
 import { Lesson } from './pages/Lesson'
 import { Quiz } from './pages/Quiz'
 import { SrsPage } from './pages/SrsPage'
+import { Reading } from './pages/Reading'
 import { Shop } from './pages/Shop'
 import { Settings } from './pages/Settings'
 import { setAudioEnabled, setSpeechRate } from './audio/tts'
@@ -38,6 +39,7 @@ export default function App() {
     case 'lesson': return <Lesson unitId={view.unitId} lessonFile={view.lessonFile} />
     case 'quiz': return <Quiz unitId={view.unitId} quizFile={view.quizFile} kind={view.kind} />
     case 'srs': return <SrsPage />
+    case 'reading': return <Reading />
     case 'shop': return <Shop />
     case 'settings': return <Settings />
   }

@@ -59,6 +59,8 @@ export interface PointsState {
   totalStars: number
   /** 累計完成口說錄音次數（給徽章用） */
   speakCount: number
+  /** 已讀完的閱讀樂園讀本 id */
+  booksRead: string[]
   updatedAt: number
 }
 

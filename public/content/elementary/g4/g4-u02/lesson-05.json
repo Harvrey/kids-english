@@ -426,8 +426,8 @@
     }
   ],
   "input": {
-    "passage": "I look at the sun. The sun is very big. I see a tree and a flower. The flower is on the tree. I like the river too.",
-    "passageZh": "我看著太陽。太陽很大。我看到一棵樹和一朵花。花在樹上。我也喜歡這條河。",
+    "passage": "I look at the sun. The sun is very big. I see a tree and a flower. The flower is here, and the tree is there too. I look at the river. I can see the moon and a star in the river. I like the sun, the moon, the star, the tree, the flower, and the river.",
+    "passageZh": "我看著太陽。太陽很大。我看見一棵樹和一朵花。花在這裡，樹也在那裡。我看著河。我可以在河裡看見月亮和一顆星星。我喜歡太陽、月亮、星星、樹、花和河。",
     "questions": [
       {
         "id": "q1",
@@ -444,30 +444,50 @@
           },
           {
             "id": "c",
-            "text": "The river"
+            "text": "The tree"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "Where is the flower?",
-        "promptZh": "花在哪裡？",
+        "prompt": "Where can I see the moon and a star?",
+        "promptZh": "我可以在哪裡看見月亮和星星？",
         "options": [
           {
             "id": "a",
-            "text": "In the river"
+            "text": "In the tree"
           },
           {
             "id": "b",
-            "text": "On the tree"
+            "text": "In the river"
           },
           {
             "id": "c",
-            "text": "On the moon"
+            "text": "In the flower"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What do I like?",
+        "promptZh": "我喜歡什麼？",
+        "options": [
+          {
+            "id": "a",
+            "text": "Only the sun"
+          },
+          {
+            "id": "b",
+            "text": "Only the river"
+          },
+          {
+            "id": "c",
+            "text": "The sun, moon, star, tree, flower, and river"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

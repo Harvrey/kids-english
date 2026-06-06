@@ -426,13 +426,13 @@
     }
   ],
   "input": {
-    "passage": "I can count. One, two, three. I have three cats. I see four dogs. I have ten balls. I like one, two, three, four, five, and ten.",
-    "passageZh": "我會數數。一、二、三。我有三隻貓。我看見四隻狗。我有十顆球。我喜歡一、二、三、四、五，還有十。",
+    "passage": "I have two cats and three dogs. I can see five birds in the tree. I look at the birds every day. One bird is here and four birds are there. My dog can see one cat too. I like the ten animals a lot. They like me too.",
+    "passageZh": "我有兩隻貓和三隻狗。我可以看到樹上有五隻鳥。我每天看那些鳥。一隻鳥在這裡,四隻鳥在那裡。我的狗也可以看到一隻貓。我很喜歡這十隻動物。牠們也喜歡我。",
     "questions": [
       {
         "id": "q1",
         "prompt": "How many cats do I have?",
-        "promptZh": "我有幾隻貓？",
+        "promptZh": "我有幾隻貓?",
         "options": [
           {
             "id": "a",
@@ -444,15 +444,34 @@
           },
           {
             "id": "c",
+            "text": "five"
+          }
+        ],
+        "answerId": "a"
+      },
+      {
+        "id": "q2",
+        "prompt": "How many birds can I see?",
+        "promptZh": "我可以看到幾隻鳥?",
+        "options": [
+          {
+            "id": "a",
+            "text": "one"
+          },
+          {
+            "id": "b",
+            "text": "five"
+          },
+          {
+            "id": "c",
             "text": "ten"
           }
         ],
         "answerId": "b"
       },
       {
-        "id": "q2",
-        "prompt": "How many balls do I have?",
-        "promptZh": "我有幾顆球？",
+        "id": "q3",
+        "prompt": "How many animals do I like?",
         "options": [
           {
             "id": "a",
@@ -460,7 +479,7 @@
           },
           {
             "id": "b",
-            "text": "five"
+            "text": "three"
           },
           {
             "id": "c",

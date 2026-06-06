@@ -1,0 +1,92 @@
+{
+  "id": "g3-u02-r02",
+  "unitId": "g3-u02",
+  "stage": "S2",
+  "level": "L1",
+  "title": "My Pet",
+  "titleZh": "我的寵物",
+  "cover": "🐶",
+  "pages": [
+    {
+      "text": "I have a pet.",
+      "zh": "我有一隻寵物。"
+    },
+    {
+      "text": "It is a dog.",
+      "zh": "牠是一隻狗。"
+    },
+    {
+      "text": "It is big.",
+      "zh": "牠很大。"
+    },
+    {
+      "text": "It has a small nose.",
+      "zh": "牠有一個小鼻子。"
+    },
+    {
+      "text": "I like my dog.",
+      "zh": "我喜歡我的狗。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the pet?",
+      "promptZh": "這隻寵物是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "A dog"
+        },
+        {
+          "id": "b",
+          "text": "A cat"
+        },
+        {
+          "id": "c",
+          "text": "A fish"
+        }
+      ],
+      "answerId": "a"
+    },
+    {
+      "id": "q2",
+      "prompt": "Is the dog big or small?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Small"
+        },
+        {
+          "id": "b",
+          "text": "Big"
+        },
+        {
+          "id": "c",
+          "text": "A bird"
+        }
+      ],
+      "answerId": "b"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does the dog have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A small nose"
+        },
+        {
+          "id": "b",
+          "text": "A big foot"
+        },
+        {
+          "id": "c",
+          "text": "Two eyes"
+        }
+      ],
+      "answerId": "a"
+    }
+  ],
+  "schemaVersion": 1
+}

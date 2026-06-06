@@ -402,48 +402,68 @@
     }
   ],
   "input": {
-    "passage": "Hello! I am Tom. I can say hello and goodbye. I say please and thank you. I am sorry too.",
-    "passageZh": "你好！我是湯姆。我會說你好和再見。我會說請和謝謝。我也會說對不起。",
+    "passage": "Hello! I am Tom. I see my friend Sam. \"Hello, Sam!\" I say. Sam can play with me, and I am very happy. \"Thank you, Tom,\" Sam says. \"Sorry, I have to go now.\" \"Goodbye, Sam! Please come every day!\"",
+    "passageZh": "哈囉！我是湯姆。我看到我的朋友山姆。「哈囉，山姆!」我說。山姆可以跟我玩，我很開心。「謝謝你，湯姆，」山姆說。「對不起，我現在要走了。」「再見，山姆！請每天都來!」",
     "questions": [
       {
         "id": "q1",
-        "prompt": "What is the boy's name?",
-        "promptZh": "這個男孩叫什麼名字？",
+        "prompt": "What does Tom say to Sam first?",
+        "promptZh": "湯姆先對山姆說什麼？",
         "options": [
           {
             "id": "a",
-            "text": "Tom"
+            "text": "Hello"
           },
           {
             "id": "b",
-            "text": "Sam"
+            "text": "Goodbye"
           },
           {
             "id": "c",
-            "text": "Ben"
+            "text": "Sorry"
           }
         ],
         "answerId": "a"
       },
       {
         "id": "q2",
-        "prompt": "What does Tom say? 湯姆會說什麼？",
-        "promptZh": "湯姆會說哪些話？",
+        "prompt": "How does Tom feel?",
+        "promptZh": "湯姆覺得怎麼樣？",
         "options": [
           {
             "id": "a",
-            "text": "Only hello"
+            "text": "sorry"
           },
           {
             "id": "b",
-            "text": "Hello, goodbye, please, thank you, and sorry"
+            "text": "very happy"
           },
           {
             "id": "c",
-            "text": "Nothing"
+            "text": "sad"
           }
         ],
         "answerId": "b"
+      },
+      {
+        "id": "q3",
+        "prompt": "What does Tom say at the end?",
+        "promptZh": "湯姆最後說什麼？",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thank you"
+          },
+          {
+            "id": "b",
+            "text": "Hello"
+          },
+          {
+            "id": "c",
+            "text": "Goodbye"
+          }
+        ],
+        "answerId": "c"
       }
     ]
   },

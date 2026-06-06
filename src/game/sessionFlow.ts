@@ -127,3 +127,39 @@ export async function finishQuiz(args: {
 
   return { verdict, xpGained, coins, newBadges: badged.newBadges }
 }
+
+export interface ReaderSummary {
+  xpGained: number
+  coins: number
+  newBadges: string[]
+  firstTime: boolean
+}
+
+/** 讀完一本閱讀樂園讀本 */
+export async function finishReader(args: { child: Child; readerId: string; score: number }): Promise<ReaderSummary> {
+  const { child, readerId, score } = args
+  let points = await getPoints(child.id)
+  const prevRead = points.booksRead ?? []
+  const already = prevRead.includes(readerId)
+  const xpGained = (already ? 5 : 20) + (score >= 0.8 ? 5 : 0)
+  const coins = already ? 0 : 6
+  points = addXp(points, xpGained)
+  points = addCoins(points, coins)
+  const booksRead = already ? prevRead : [...prevRead, readerId]
+  points = { ...points, booksRead }
+
+  const allProgress = await listLessonProgress(child.id)
+  const stats: BadgeStats = {
+    lessonsCompleted: allProgress.filter((p) => p.completed).length,
+    hasThreeStar: allProgress.some((p) => p.stars === 3),
+    streakDays: points.streakDays,
+    reviewPassed: points.badges.includes('review-pass'),
+    promotionPassed: points.badges.includes('promotion-pass'),
+    masteredWords: await countMastered(child.id),
+    speakCount: points.speakCount,
+    booksRead: booksRead.length,
+  }
+  const badged = evaluateBadges(points, stats)
+  await savePoints(badged.points)
+  return { xpGained, coins, newBadges: badged.newBadges, firstTime: !already }
+}
